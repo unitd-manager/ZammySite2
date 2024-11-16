@@ -495,7 +495,7 @@ p {
   line-height: var(--line-height-b2);
   font-weight: var(--p-regular);
   color: var(--color-body);
-  margin: 0 0 40px;
+  margin: 0 0 25px;
 }
 @media only screen and (max-width: 767px) {
   p {
@@ -18417,7 +18417,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 
 .service-content-style-one .title {
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   color: var(--color-service-heading);
   font-size: 40px;
   font-weight: 800;
@@ -19497,9 +19497,8 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 .our-video {
   min-height: 450px;
   background: url(../assets/images/video/video2.png) no-repeat 50% 50%, #3cb878;
-    background-size: auto, auto;
- 
-  min-width:500px;
+  background-size: auto, auto; 
+  min-width:100%;
   border-radius: 16px;
 }
 .our-video .video-control {
@@ -19517,6 +19516,15 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
   background-repeat: no-repeat;
   border-radius: 16px;
   background-attachment: fixed;
+}
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #61bb76;
+  border-color: #dee2e6 #dee2e6 #fff;
+  border-radius: 10px 10px 0 0;
+}
+ul#seoTab li{
+  margin-bottom: 0 !important;
 }
 @media only screen and (max-width: 575px) {
   .about-large-image-bg {
@@ -21019,7 +21027,9 @@ form i {
 }
 
 .custom-nav-link:hover {
-  background-color: rgba(39, 198, 204, 0.8); /* Optional: a lighter shade for hover */
+  background-color: #7cd295; /* Optional: a lighter shade for hover */
+  border-radius: 10px 10px 0 0;
+  color: #000;
 }
 
 .custom-nav-link i {

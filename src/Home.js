@@ -7,7 +7,7 @@ import React from "react";
 // index.js or App.js
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/assets/main.css'
- import logo1 from '../src/assets/images/logo/logo-1.svg';
+ import logo1 from '../src/assets/images/logo/it2-logo.svg';
  import logo2 from '../src/assets/images/logo/logo-2.svg';
  import logo3 from '../src/assets/images/logo/logo-one-dark.svg';
  import bannerImage1 from '../src/assets/images/banner/01.png';
@@ -97,11 +97,6 @@ const Home = () => {
                 <img
                   className="light"
                   src={logo1}
-                  alt="logo"
-                />
-                <img
-                  className="dark"
-                  src={logo2}
                   alt="logo"
                 />
               </a>
@@ -644,18 +639,10 @@ const Home = () => {
           <div className="single-pricing-area-start">
             {/* pricing -top artea start */}
             <div className="pricing-top-area">
-              <div className="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={41}
-                  height={40}
-                  viewBox="0 0 41 40"
-                  fill="none"
-                >
-                  <path
-                    d="M29.25 5L23 9.6875V17.8125L19.25 15L13 19.6875V27.8125L9.25 25L3 29.6875V37.5H5.5V30.9375L9.25 28.125L13 30.9375V37.5H15.5V20.9375L19.25 18.125L23 20.9375V37.5H25.5V10.9375L29.25 8.125L33 10.9375V37.5H35.5V9.6875L29.25 5Z"
-                    fill="#614CE1"
-                  />
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="32" viewBox="0 0 37 32" fill="none">
+                  <path d="M2 22.5V30H9.5L27.1 12.4L19.6 4.9L2 22.5Z" fill="#614CE1"/>
+                  <path d="M30.7 8.8C31.1 8.4 31.1 7.8 30.7 7.4L26.6 3.3C26.2 2.9 25.6 2.9 25.2 3.3L22.6 5.9L30.1 13.4L30.7 8.8Z" fill="#614CE1"/>
                 </svg>
               </div>
               <h6 className="title">Content Writer</h6>
@@ -844,28 +831,15 @@ const Home = () => {
   {/* providing service area start */}
   
   <div className="providing-service-area-start-one rts-section-gap">
-    <div className="container-1">
+    <div className="container-2">
       <div className="row g-5 align-items-center single-service-row-1">
-        <div className="col-lg-6 pl--120 pl_md--15 pl_sm--15">
-          <div className="image-area-service-1">
-            <div className="thumbnail-service-1">
-              <img src={service01jpg} alt="service-area" />
-            </div>
-            {/* <img
-              src={service03png}
-              alt="service"
-              className="images-2 small"
-              width={286}
-            /> */}
-          </div>
-        </div>
-        <div className="col-lg-6 pl--120 pl_md--15 pl_sm--15">
+        <div className="col-lg-6">
           {/* service contant wrapper main one */}
           <div className="service-content-style-one">
             <h4 className="title split-collab">
             Google Ranking Services
             </h4>
-            <p className="disc">
+            <p className="">
             For over a decade, Zammy Zaif has been consistently providing first-ranking SEO services. 
             Zammy's content is valuable and informative, directly related to Google's search engine ranking algorithms. 
             The content is structured and optimized to be easily indexed and crawled by search engines. 
@@ -880,27 +854,36 @@ const Home = () => {
           </div>
           {/* service contant wrapper main one end */}
         </div>
-      </div>
-      <div className="row g-5 align-items-center mt--50" style={{ marginTop: 150 }}>
-      <div className="col-lg-6 pl--120 pl_md--15 pl_sm--15">
-      <div className="image-area-service-1 bottom-1 d-flex justify-content-center align-items-center">
-  <div className="our-video position-relative">
-    <a
-      href="https://www.youtube.com/watch?v=F1dRUHlZoLg"
-      className="video-control js-popup-iframe"
-    >
-      <img
-        src={service03png}
-        alt="service"
-        className="service-image img-fluid"
-        width={150} // Adjust width as needed
-      />
-    </a>
-  </div>
-</div>
-
+        <div className="col-lg-6">
+          <div className="image-area-service-1">
+            <div className="thumbnail-service-1">
+              <img src={service01jpg} alt="service-area" />
+            </div>
+            {/* <img
+              src={service03png}
+              alt="service"
+              className="images-2 small"
+              width={286}
+            /> */}
+          </div>
         </div>
-        <div className="col-lg-6 pl--120 pl_md--15 pl_sm--15" >
+      </div>
+      <div className="row g-5 align-items-center mt--100 mt_sm--20">
+        <div className="col-lg-6">
+          <div className="image-area-service-1 bottom-1 d-flex justify-content-center align-items-center">
+            <div className="our-video position-relative">
+              <a href="https://www.youtube.com/watch?v=F1dRUHlZoLg" target="_blank" className="video-control js-popup-iframe">
+                <img
+                  src={service03png}
+                  alt="service"
+                  className="service-image img-fluid"
+                  width={150} // Adjust width as needed
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-6 pl--30 pl_md--15 pl_sm--15" >
           {/* service contant wrapper main one */}
           <div className="service-content-style-one">
             <h4 className="title split-collab">
@@ -1384,7 +1367,7 @@ const Home = () => {
         </section>
   {/* rts about area end */}
   {/* rts counter up area start */}
-  <div className="rts-counterup-area rts-section-gap">
+  <div className="rts-counterup-area">
     <div className="container">
       <div className="row pb--80">
         <div className="col-lg-12">
