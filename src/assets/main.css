@@ -1,0 +1,103 @@
+.heading-icon {
+  display: inline-block;
+  margin-left: 8px; /* Space between text and icon */
+  vertical-align: middle; /* Align icon with text */
+}
+
+.heading-icon svg {
+  width: 16px; /* Adjust the icon size */
+  height: 16px;
+  fill: #614ce1; /* Color of the icon */
+  transition: transform 0.3s ease;
+}
+
+.heading-icon svg:hover {
+  transform: scale(1.1); /* Add a hover effect */
+}
+
+h1{
+  font-size: 3px;
+}
+
+.our-video {
+  overflow: hidden;
+}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.our-video .video {
+  min-height: 500px;
+  background: url("../assets/images/video/video2.png") no-repeat 50% 50%, #3cb878;
+    background-size: auto, auto;
+  background-size: contain;
+}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.our-video .content {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.our-video .video .video-control {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.rts-subscribe-area-one {
+  padding: 50px 0;
+  background: #f7f8fa;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.title-style-one-center .title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.title-style-one-center .disc {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+form input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 10px;
+}
+
+form .rts-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mySwiper {
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+}
+
+.slider-img {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mySwiper .swiper-pagination-bullet {
+  background: #333;
+}
+
+
