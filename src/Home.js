@@ -362,7 +362,7 @@ const Home = () => {
               collaboration that will help you optimize on-page and off-page
               SEO.
             </p>
-            <div className="button-banner-one-wrapper">
+            {/* <div className="button-banner-one-wrapper">
               <a href="book-a-demo.html" className="rts-btn btn-primary">
                 Start 14-day Free Trial
               </a>
@@ -391,7 +391,7 @@ const Home = () => {
                 </div>
                 <p className="desc">Based on 40M reviews</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-lg-7 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
@@ -437,7 +437,7 @@ const Home = () => {
         alt="banner_image"
       />
     </div>
-    <div className="container rts-section-gapTop">
+    {/* <div className="container rts-section-gapTop">
       <div className="row pt--120 pt_md--40 pt_sm--30">
         <div className="col-lg-3 col-md-3 col-sm-12 col-12">
           <div className="brand-left-short-title-one">
@@ -510,7 +510,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
   {/* rts banner area end */}
   {/* pricing area start */}
@@ -785,9 +785,14 @@ const Home = () => {
                             <input type="text" id="name" placeholder="Your Name"/>
                             <i class="fa-regular fa-user"></i>
                         </div> */}
+                         <div class="signle-input">
+                            <label for="website">Website</label>
+                            <input type="url" id="website" placeholder="yourwebsite.com"/>
+                            <i class="fa-light fa-globe"></i>
+                        </div>
                         <div class="signle-input">
-                            <label for="email">Full name</label>
-                            <input type="email" id="email" placeholder="Your Name"/>
+                            <label for="phone">Phone</label>
+                            <input type="phone" id="phone" placeholder="Your phone"/>
                             <i class="fa-regular fa-user"></i>
                         </div>
                         <div class="signle-input">
@@ -796,11 +801,11 @@ const Home = () => {
                             <i class="fa-light fa-envelope"></i>
                         </div>
                         <div class="signle-input">
-                            <label for="website">Email address</label>
-                            <input type="url" id="website" placeholder="yourwebsite.com"/>
-                            <i class="fa-light fa-globe"></i>
+                            <label for="name">Subject</label>
+                            <input type="textarea" id="name" placeholder=" Type in your subject"/>
+                            <i class="fa-regular fa-user"></i>
                         </div>
-                        <button class="rts-btn btn-primary-2">Start a free audit</button>
+                        <button class="rts-btn btn-primary-2">Enquiry Now</button>
                     </form>
                 </div>
             </div>
