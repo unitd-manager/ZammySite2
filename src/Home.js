@@ -854,39 +854,39 @@ const Home = () => {
         </section>
   {/* rts about area end */}
   {/* rts counter up area start */}
-  <div className="rts-counterup-area" style={{paddingTop: 100,}}>
+  <div className="rts-counterup-area mb--40">
     <div className="container">
-      <div className="row pb--80">
+      <div className="row">
         <div className="col-lg-12">
-          <div className="counter-upmain-wrapper-style-one">
+          <div className="counter-upmain-wrapper-style-one service-single">
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title">
-                <span className="counter">170</span>+
+              <h3 className="title animated fadeIn">
+                <span className="counter animated fadeInDownBig">170</span>+
               </h3>
               <p>Customers</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title">
-                <span className="counter">12</span>+
+              <h3 className="title animated fadeIn">
+                <span className="counter animated fadeInDownBig">12</span>+
               </h3>
               <p>Year of service</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title">
-                <span className="counter">2</span>k
+              <h3 className="title animated fadeIn">
+                <span className="counter animated fadeInDownBig">2</span>K+
               </h3>
               <p>Results</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title">
-                <span className="counter">99</span>%
+              <h3 className="title animated fadeIn">
+                <span className="counter animated fadeInDownBig">99</span>%
               </h3>
               <p>Staisfied Clients</p>
             </div>
