@@ -1328,17 +1328,17 @@ const Home = () => {
                         <div class="accordion" id="accordionExamples">
                             <div class="accordion-item show">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         01. What is SEO?
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExamples">
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExamples">
                                     <div class="accordion-body">
                                     The process of getting the stuff we can look for to the top of the search engine results page is known as search engine optimization.
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item show">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         02. Why does every business require SEO?
@@ -1350,7 +1350,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item show">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         03. Why are website need audits?
@@ -1362,7 +1362,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item show">
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         04. Why your website structure is important?
