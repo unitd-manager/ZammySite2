@@ -1,15 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import '../assets/css/style.css'
-// import '../assets/css/fontawesome.min.css'
-// import '../assets/css/slick.min.css'
-// import '../assets/css/magnific-popup.min.css'
-// index.js or App.js
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/assets/main.css'
- import logo1 from '../src/assets/images/logo/it2-logo.svg';
- import logo2 from '../src/assets/images/logo/logo-2.svg';
- import logo3 from '../src/assets/images/logo/logo-one-dark.svg';
  import bannerImage1 from '../src/assets/images/banner/01.png';
  import bannerShortImage03 from '../src/assets/images/banner/short/03.png';
  import bannerShortImage05 from '../src/assets/images/banner/short/05.png';
@@ -17,57 +8,24 @@ import '../src/assets/main.css'
  import bannerShortImage06 from '../src/assets/images/banner/short/06.png';
  import bannershortshortimage01 from '../src/assets/images/banner/short/01.png';
  import bannershortshortimage02 from '../src/assets/images/banner/short/02.png';
-import avatars1 from '../src/assets/images/testimonials/avatars/01.png'
-import avatars2 from '../src/assets/images/testimonials/avatars/02.png'
-import avatars3 from '../src/assets/images/testimonials/avatars/03.png'
-import avatars4 from '../src/assets/images/testimonials/avatars/04.png'
-import brand1 from '../src/assets/images/brand/01.svg'
-import brand2 from '../src/assets/images/brand/02.svg'
-import brand3 from '../src/assets/images/brand/03.svg'
-import brand4 from '../src/assets/images/brand/04.svg'
-import brand5 from '../src/assets/images/brand/05.svg'
-import brand21 from '../src/assets/images/brand/21.svg'
-import brand22 from '../src/assets/images/brand/22.svg'
-import brand23 from '../src/assets/images/brand/23.svg'
-import brand24 from '../src/assets/images/brand/24.svg'
 import pricingImage1 from '../src/assets/images/pricing/01.png'
 import pricingImage2 from '../src/assets/images/pricing/02.png'
 import service03png from '../src/assets/images/video/video-control.svg'
 import service01jpg from '../src/assets/images/service/google-ranking-services.webp'
-import serviceimageo2jpg from   "../src/assets/images/service/02.jpg"
-import serviceimageo7png  from  "../src/assets/images/service/07.png"
 import serviceShape01png   from '../src/assets/images/service/shape/01.png'
 import serviceShape02png   from '../src/assets/images/service/shape/02.png'
 import serviceShape03png   from '../src/assets/images/service/shape/03.png'
 import serviceShape04png   from '../src/assets/images/service/shape/04.png'
 import serviceShape05png   from '../src/assets/images/service/shape/05.png'
 import serviceShape06png   from '../src/assets/images/service/shape/06.png'
-import aboutShape01png from "../src/assets/images/about/shape/01.png"
-import aboutShape02png from "../src/assets/images/about/shape/02.png"
-import aboutShape03png from "../src/assets/images/about/shape/03.png"
-import aboutShape04png from "../src/assets/images/about/shape/04.png"
-import testimonialsshape01png from "../src/assets/images/testimonials/shape/01.png"
-import testimonialsshape02png from "../src/assets/images/testimonials/shape/02.png"
 import blogshape01png from "../src/assets/images/blog/shape/01.png"
 import blogshape02png from "../src/assets/images/blog/shape/02.png"
 import blogshape03png from "../src/assets/images/blog/shape/03.png"
-import subscribtionshape01png from  "../src/assets/images/subscribtion/shape/01.png"
-import subscribtionshape02png from  "../src/assets/images/subscribtion/shape/02.png"
 import subscribtionshape03png from  "../src/assets/images/subscribtion/shape/03.png"
 import subscribtionshape04png from  "../src/assets/images/subscribtion/shape/04.png"
 import blogimage1 from  "../src/assets/images/service/nabtaker.webp"
 import blogimage2 from  "../src/assets/images/service/hydralic-oman.webp"
 import blogimage3 from  "../src/assets/images/service/venture-partner.webp"
-import logotestimonialquotepng from "../src/assets/images/testimonials/logo/quote.png"
-import logotestimonials01svg from "../src/assets/images/testimonials/logo/01.svg"
-import logotestimonials21svg from "../src/assets/images/testimonials/logo/21.svg"
-import logotestimonial02svg from "../src/assets/images/testimonials/logo/02.svg"
-import logotestimonial22svg from "../src/assets/images/testimonials/logo/22.svg"
-import testimonialsavatars01png from "../src/assets/images/testimonials/avatars/01.png"
-import testimonialsavatars02png from "../src/assets/images/testimonials/avatars/02.png"
-import testimonialsavatars03png from "../src/assets/images/testimonials/avatars/03.png"
-import logotestimonials03svg from "../src/assets/images/testimonials/logo/03.svg"
-import logotestimonials23svg from "../src/assets/images/testimonials/logo/23.svg"
 import bestSeoExpert from "../src/assets/images/service/best-seo-expert.webp";
 import contentWritter from "../src/assets/images/service/content-writter.webp";
 import digitalMarketing from "../src/assets/images/service/digital-marketing.webp";
@@ -95,7 +53,7 @@ const Home = () => {
         <div className="col-lg-5 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
           <div className="banner-one-content-left">
             <h1 className="title split-collab">
-              Make your <br /> <span>SEO Comaign </span>
+              Make your <br /> <span>SEO Compaign </span>
               <br />
               Successful.
             </h1>
@@ -104,36 +62,6 @@ const Home = () => {
               collaboration that will help you optimize on-page and off-page
               SEO.
             </p>
-            {/* <div className="button-banner-one-wrapper">
-              <a href="book-a-demo.html" className="rts-btn btn-primary">
-                Start 14-day Free Trial
-              </a>
-              <div className="customer-review-area">
-                <div className="client-img">
-                  <img
-                    className="one"
-                    src={avatars1}
-                    alt="png-img"
-                  />
-                  <img
-                    className="two"
-                    src={avatars2}
-                    alt="png-img"
-                  />
-                  <img
-                    className="three"
-                    src={avatars3}
-                    alt="png-img"
-                  />
-                  <img
-                    className="four"
-                    src={avatars4}
-                    alt="png-img"
-                  />
-                </div>
-                <p className="desc">Based on 40M reviews</p>
-              </div>
-            </div> */}
           </div>
         </div>
         <div className="col-lg-7 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
@@ -179,80 +107,7 @@ const Home = () => {
         alt="banner_image"
       />
     </div>
-    {/* <div className="container rts-section-gapTop">
-      <div className="row pt--120 pt_md--40 pt_sm--30">
-        <div className="col-lg-3 col-md-3 col-sm-12 col-12">
-          <div className="brand-left-short-title-one">
-            <p className="disc">
-              Trusted by <br />
-              Top Companies
-            </p>
-          </div>
-        </div>
-        <div className="col-lg-9 col-md-9 col-sm-12 col-12 mt_sm--30">
-          <div className="brand-area-wrapper-one">
-            <div className="light swiper mySwiper-brand-1">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand1} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand2} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand3} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand4} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand5} alt="brand" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="dark swiper mySwiper-brand-1">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand21} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand22} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand23} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand24} alt="brand" />
-                  </a>
-                </div>
-                <div className="swiper-slide">
-                  <a href="#">
-                    <img src={brand21} alt="brand" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> */}
+   
   </div>
   {/* rts banner area end */}
   {/* pricing area start */}
@@ -407,71 +262,7 @@ const Home = () => {
       </div>
     </div>
 
-    {/* <div className="rts-subscribe-area-one rts-section-gapBottom" style={{ marginTop: 150 }}>
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-12">
-        <div className="subscribe-main-wrapper-one">
-          <div className="title-style-one-center">
-            <h4 className="title split-collab">
-              Looking for More 
-              Traffic & Leads?
-            </h4>
-            <p className="disc">
-              We have helped 38 top brands in the world and 250+ local brands for the last 14 years.
-            </p>
-            <form action="#" >
-              <div className="input-group form-group">
-                <input
-                  type="text"
-                  placeholder="yourwebsite.com"
-                  required
-                  className="input-box"
-                />
-                <i className="fa-light fa-globe" />
-              </div>
-
-            </form>
-            <form action="#">
-
-              <div className="input-group form-group">
-                <input
-                  type="tel"
-                  placeholder="Your Phone Number"
-                  required
-                  className="input-box"
-                />
-                <i className="fa-light fa-phone" />
-              </div>
-            </form>
-            <form action="#">
-               <div className="input-group ">
-                <input
-              type="email"
-                placeholder="Your Email Address"
-                required
-               className="input-box"
-               />
-              <i className="fa-light fa-envelope" />
-               </div>
-
-             <button className="rts-btn btn-primary">
-              Start a SEO Audit
-            </button>
-             </form>
-
-          </div>
-          <div className="shape-area">
-            <img className="one" src={subscribtionshape01png} alt="subscribtion" />
-            <img className="two" src={subscribtionshape02png} alt="subscribtion" />
-            <img className="three" src={subscribtionshape03png} alt="subscribtion" />
-            <img className="four" src={subscribtionshape04png} alt="subscribtion" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> */}
+    
 <div class="rts-appoinment-area rts-section-gap bg-dark-border-radious-2" style={{ marginTop: 150 }}>
         <div class="container">
             <div class="row align-items-center justify-content-md-center">
@@ -747,40 +538,7 @@ const Home = () => {
           {/* single working -process area end */}
         </div>
       </div>
-      <div className="row plr--60 mt--80  plr_sm--15">
-        <div className="col-lg-12 plr--50 plr_sm--15">
-          <div className="step-down-text-process">
-            <p className="disc">
-              Our Company on helping you to make useful content more accessible
-              with an utlimate goal for a good sharing profit as a content
-              creator. We see more and more ads in search results and not enough
-              care for the people who are actually creating content.
-            </p>
-            <div className="shape-area-img">
-              <img
-                className="one"
-                src={aboutShape01png}
-                alt="shape"
-              />
-              <img
-                className="two"
-                src={aboutShape02png}
-                alt="shape"
-              />
-              <img
-                className="three"
-                src={aboutShape03png}
-                alt="shape"
-              />
-              <img
-                className="four"
-                src={aboutShape04png}
-                alt="shape"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   </div>
   <section style={{ paddingTop: 50, marginBottom :100 }} className="section">
@@ -913,11 +671,8 @@ const Home = () => {
                               <img src={bestSeoExpert} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" /> */}
-            {/* <img className="two" src={subscribtionshape02png} alt="subscribtion" /> */}
-          {/* <img className="three" src={subscribtionshape03png} alt="subscribtion" /> */}
-             <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
-          </div>
+                            <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -959,11 +714,8 @@ const Home = () => {
                               <img src={contentWritter} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" /> */}
-            {/* <img className="two" src={subscribtionshape02png} alt="subscribtion" /> */}
-          <img className="three" src={subscribtionshape03png} alt="subscribtion" />
-            {/* // <img className="four" src={subscribtionshape04png} alt="subscribtion" />  */}
-          </div>
+                          <img className="three" src={subscribtionshape03png} alt="subscribtion" />
+                         </div>
                           </div>
                         </div>
                       </div>
@@ -992,11 +744,8 @@ const Home = () => {
                               <img src={digitalMarketing} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" /> */}
-            {/* <img className="two" src={subscribtionshape02png} alt="subscribtion" /> */}
-          {/* <img className="three" src={subscribtionshape03png} alt="subscribtion" /> */}
-            // <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
-          </div>
+                           <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
+                           </div>
                           </div>
                         </div>
                       </div>
@@ -1028,11 +777,8 @@ const Home = () => {
                               <img src={seoAudit} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" /> */}
-            {/* <img className="two" src={subscribtionshape02png} alt="subscribtion" /> */}
-          {/* <img className="three" src={subscribtionshape03png} alt="subscribtion" /> */}
-             <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
-          </div>
+                           <img className="four" src={subscribtionshape04png} alt="subscribtion" /> 
+                          </div>
                           </div>
                         </div>
                       </div>
@@ -1064,11 +810,8 @@ const Home = () => {
                               <img src={whoIsZammyZaif} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" /> */}
-            {/* <img className="two" src={subscribtionshape02png} alt="subscribtion" /> */}
-          <img className="three" src={subscribtionshape03png} alt="subscribtion" />
-            {/* // <img className="four" src={subscribtionshape04png} alt="subscribtion" />  */}
-          </div>
+                           <img className="three" src={subscribtionshape03png} alt="subscribtion" />
+                         </div>
                           </div>
                         </div>
                       </div>
@@ -1096,11 +839,8 @@ const Home = () => {
                               <img src={socialMediaMarketing} alt="service-area" />
                             </div>
                             <div className="shape-area">
-            {/* <img className="one" src={subscribtionshape01png} alt="subscribtion" />
-            <img className="two" src={subscribtionshape02png} alt="subscribtion" />
-            <img className="three" src={subscribtionshape03png} alt="subscribtion" /> */}
-            <img className="four" src={subscribtionshape04png} alt="subscribtion" />
-          </div>
+                    <img className="four" src={subscribtionshape04png} alt="subscribtion" />
+                          </div>
                           </div>
                     
                         </div>
@@ -1114,7 +854,7 @@ const Home = () => {
         </section>
   {/* rts about area end */}
   {/* rts counter up area start */}
-  <div className="rts-counterup-area">
+  <div className="rts-counterup-area" style={{paddingTop: 100,}}>
     <div className="container">
       <div className="row pb--80">
         <div className="col-lg-12">
@@ -1122,33 +862,33 @@ const Home = () => {
             {/* single counter up area start */}
             <div className="single-counter-up">
               <h3 className="title">
-                <span className="counter">2.5</span>B
+                <span className="counter">170</span>+
               </h3>
-              <p>Related keywords</p>
+              <p>Customers</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
               <h3 className="title">
-                <span className="counter">100</span>M
+                <span className="counter">12</span>+
               </h3>
-              <p>Competitors keywords</p>
+              <p>Year of service</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
               <h3 className="title">
-                <span className="counter">48</span>k
+                <span className="counter">2</span>k
               </h3>
-              <p>Supported locations</p>
+              <p>Results</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
               <h3 className="title">
-                <span className="counter">2004</span>
+                <span className="counter">99</span>%
               </h3>
-              <p>Year founded</p>
+              <p>Staisfied Clients</p>
             </div>
             {/* single counter up area end */}
           </div>
@@ -1251,58 +991,8 @@ const Home = () => {
       />
     </div>
   </div>
-  {/* blog area end */}
-  {/* rts subs cribe section start */}
-  <div className="rts-subscribe-area-one rts-section-gapBottom">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="subscribe-main-wrapper-one">
-            <div className="title-style-one-center">
-              <h2 className="title split-collab">
-                It's time to tell the <br />
-                world about it
-              </h2>
-              <p className="disc">
-                We will shows you exactly what content you should write to make
-                it <br /> to the top of search engine results and drive the
-                traffic you want.
-              </p>
-              <form action="#">
-                <input type="text" placeholder="yourwebsite.com" required="" />
-                <i className="fa-light fa-globe" />
-                <button className="rts-btn btn-primary">
-                  Start a SEO Audit
-                </button>
-              </form>
-            </div>
-            <div className="shape-area">
-              <img
-                className="one"
-                src={subscribtionshape01png}
-                alt="subscribtion"
-              />
-              <img
-                className="two"
-                src={subscribtionshape02png}
-                alt="subscribtion"
-              />
-              <img
-                className="three"
-                src={subscribtionshape03png}
-                alt="subscribtion"
-              />
-              <img
-                className="four"
-                src={subscribtionshape04png}
-                alt="subscribtion"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+ 
 
   <div class="rts-working-porcess-area-two ptb--160 bg-dark-border-radious-sd">
         <div class="container-1058">
