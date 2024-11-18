@@ -1,9 +1,7 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
- import logo1 from '../assets/images/logo/it2-logo.svg'
+import logo1 from '../assets/images/logo/it2-logo.svg'
 
 
 
@@ -30,63 +28,24 @@ const Header = () => {
             <nav className="main-nav-area">
               <ul className="list-unstyled fluxi-desktop-menu">
                 <li className="menu-item fluxi-has-dropdown">
-                  <a href="#" className="fluxi-dropdown-main-element">
-                    Home
-                  </a>
-                
+                <Link to="/" className="fluxi-dropdown-main-element">
+                   Home
+                </Link>
                 
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
-                  <a href="#" className="fluxi-dropdown-main-element">
-                    Pages
-                  </a>
-                  {/* Start Dropdown Menu */}
-                  <ul className="fluxi-submenu list-unstyled menu-home">
-                    <li className="nav-item">
-                      <a className="nav-link page" href="about.html">
-                        About
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link page" href="team.html">
-                        Our Team
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link page" href="faq.html">
-                        FAQ's
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="book-a-demo.html">
-                        Book a Demo
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="free-audit.html">
-                        Free Audit
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="pricing.html">
-                        Pricing Plans
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="404.html">
-                        404 Page
-                      </a>
-                    </li>
-                  </ul>
+                <Link to="/About" className="fluxi-dropdown-main-element">
+                   About
+                </Link>
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
                   <a href="#" className="fluxi-dropdown-main-element">
-                    Services
+                   Optimization
                   </a>
                   {/* Start Dropdown Menu */}
-                  <ul className="fluxi-submenu list-unstyled menu-home">
+                  {/* <ul className="fluxi-submenu list-unstyled menu-home">
                     <li className="nav-item">
                       <a className="nav-link page" href="service.html">
                         Service
@@ -131,15 +90,15 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> */}
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
                   <a href="#" className="fluxi-dropdown-main-element">
-                    Work
+                    Services
                   </a>
                   {/* Start Dropdown Menu */}
-                  <ul className="fluxi-submenu list-unstyled menu-home">
+                  {/* <ul className="fluxi-submenu list-unstyled menu-home">
                     <li className="nav-item">
                       <a className="nav-link page" href="case-studies.html">
                         Case Studies
@@ -150,47 +109,14 @@ const Header = () => {
                         Case Studies Details
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
                   <a href="#" className="fluxi-dropdown-main-element">
-                    Blog
+                    Updates
                   </a>
-                  {/* Start Dropdown Menu */}
-                  <ul className="fluxi-submenu list-unstyled menu-home">
-                    <li className="nav-item">
-                      <a className="nav-link page" href="blog.html">
-                        Blog
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog-left-sidebar.html">
-                        Blog Left Sidebar
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog-grid.html">
-                        Blog Grid
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog-grid-2.html">
-                        Blog Grid Right Sidebar
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog-grid-3.html">
-                        Blog Grid Left Sidebar
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="blog-details.html">
-                        Blog Details
-                      </a>
-                    </li>
-                  </ul>
-                  {/* End Dropdown Menu */}
+                
                 </li>
                 <li className="menu-item">
                   <a
@@ -203,12 +129,12 @@ const Header = () => {
               </ul>
             </nav>
             <div className="button-area-start">
-              <a className="call-us" href="tel:123-456-7890">
-                Call Us :+91 9344 618 144
+              {/* <a className="call-us" href="tel:+91 9344 618 144">
+                Call Us:+91 9344 618 144
 
-              </a>
+              </a> */}
               <a href="free-audit.html" className="rts-btn btn-primary">
-                Free Audit
+               Get in Touch
               </a>
               <div className="menu-btn" id="menu-btn">
                 <svg
