@@ -3,6 +3,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
+import Header from "./Header/Header.js";
+import Footer from  "./Header/Footer.js"
 
 import './App.css';
 import '../src/assets/css/plugins/fontawesome.min.css';
@@ -40,7 +42,7 @@ function App() {
         
         
       <HashRouter>
-        {/* <Header /> */}
+        <Header />
         
      
         <Routes>
@@ -50,7 +52,7 @@ function App() {
          
           
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </HashRouter>
     </>
   );
