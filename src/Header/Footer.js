@@ -27,16 +27,15 @@ const Home = () => {
                   src={logo1}
                   alt="logo"
                 />
-                <img
+                {/* <img
                   className="dark"
                   src={logo3}
                   alt="logo"
-                />
+                /> */}
               </a>
            
 
             </div>
-            
             <ul className="social-area-one">
               
               <li>
@@ -59,73 +58,42 @@ const Home = () => {
                   <i className="fa-brands fa-facebook-f" />
                 </a>
               </li>
-            </ul>
+            </ul> 
+        
           </div>
-          {/* footer top area end */}
+       
         </div>
-        <div class="footer-input-main-wrapper-one">
-              <h6 className="title">Zammy Zaif</h6>
-                            <p class="disc">Zammy Zaif featured by Google as a Google Ranking Expert Globally, is dedicated to helping every client achieve first rank, with a focus that extends beyond traditional first-page SEO services.</p>
-                            <div class="button-area">
-                                <a href="contact.html" class="rts-btn btn-primary"><i class="fa-light fa-paper-plane"></i>More about us</a>
-                                
-                            </div>
-                        </div>
+    
       </div>
       <div className="row g-48 g-lg-0 pt--40">
-        <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+        <div className="col-lg-4 col-md-4 col-sm-6 col-12">
           <div className="single-footer-wized-one">
-            <h6 className="title">Solutions</h6>
-            <ul>
-              <li>
-                <a href="#">Content Marketing</a>
-              </li>
-              <li>
-                <a href="#">Consumer Insights</a>
-              </li>
-              <li>
-                <a href="#">SEO Content Strategy</a>
-              </li>
-              <li>
-                <a href="#">Keyword Research</a>
-              </li>
-            </ul>
+          <h6 className="title">About Zammy!</h6>
+                            <p class="disc">Zammy Zaif featured by Google as a Google Ranking Expert Globally, is dedicated to helping every client achieve first rank, with a focus that extends beyond traditional first-page SEO services.</p>
+              
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
           <div className="single-footer-wized-one">
-            <h6 className="title">Resources</h6>
+            <h6 className="title">Other links</h6>
             <ul>
               <li>
-                <a href="#">Insights</a>
+                <a href="#">Google Ranking Expert</a>
               </li>
               <li>
-                <a href="#">Keyword Generator</a>
+                <a href="#">GMB Ranking Specialist</a>
               </li>
               <li>
-                <a href="#">Research Tool</a>
+                <a href="#">Best SEO Expert</a>
               </li>
               <li>
-                <a href="#">News &amp; Events</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-          <div className="single-footer-wized-one">
-            <h6 className="title">Company</h6>
-            <ul>
-              <li>
-                <a href="#">About us</a>
+                <a href="#">Internet Influencer</a>
               </li>
               <li>
-                <a href="#">Careers</a>
+                <a href="#">Google Influencer</a>
               </li>
               <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="#">Best Local SEO Expert</a>
               </li>
             </ul>
           </div>
@@ -134,22 +102,26 @@ const Home = () => {
           <div className="single-footer-wized-one">
             <h6 className="title">Other links</h6>
             <ul>
+            
               <li>
-                <a href="#">Content Marketing</a>
+                <a href="#">Course Verification</a>
               </li>
               <li>
-                <a href="#">Consumer Insights</a>
+                <a href="#">Google SEO Training</a>
               </li>
               <li>
-                <a href="#">SEO Content Strategy</a>
+                <a href="#">Privacy Policy</a>
               </li>
               <li>
-                <a href="#">Keyword Research</a>
+                <a href="#">Cookie Policy</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
           {/* footer input wrapper inbner-main area */}
           <div className="footer-input-main-wrapper-one">
             <div className="single-footer-wized-one">
@@ -164,21 +136,29 @@ const Home = () => {
           {/* footer input wrapper inbner-main area end */}
         </div>
       </div>
+      <div class="footer-input-main-wrapper-one">
+        <div className="row">
+        <div className="copyright-area-start">
+        <div className="col-lg-9">
+          
+              <h6 className="title">+91-9344 618 144</h6>
+                            <p class="disc">Mon-Fri 10am-6pm</p>
+                        </div>
+                        <div className="col-lg-3">
+              <h6 className="title">info@bamstechnologies.org</h6>
+                            <p class="disc">online support</p>
+                            
+                        </div>
+                        </div>
+            </div>
+        </div>
+     
       <div className="row">
-        <div className="col-lg-12">
-          {/* copyright area start */}
-          <div className="copyright-area-start">
+        <div className="col-lg-12 title-style-one-center mt_sm--20" >
+        
             <p>Copyright ©2024 All Rights Reserved by Bams Technologies Pvt Ltd.</p>
-            <ul>
-              <li>
-                <a href="privacy-policy.html">Privacy Policy</a>
-              </li>
-              <li>
-                <a href="terms.html">Terms of service</a>
-              </li>
-            </ul>
-          </div>
-          {/* copyright area end */}
+         
+        
         </div>
       </div>
     </div>

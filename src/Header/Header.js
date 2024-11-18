@@ -204,7 +204,8 @@ const Header = () => {
             </nav>
             <div className="button-area-start">
               <a className="call-us" href="tel:123-456-7890">
-                Call Us : +134 (99) 865
+                Call Us :+91 9344 618 144
+
               </a>
               <a href="free-audit.html" className="rts-btn btn-primary">
                 Free Audit
