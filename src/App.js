@@ -2,6 +2,8 @@ import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
+import About from "./About";
+
 import './App.css';
 import '../src/assets/css/plugins/fontawesome.min.css';
 import '../src/assets/css/plugins/magnific-popup.css';
@@ -43,7 +45,8 @@ function App() {
      
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
          
           
         </Routes>
