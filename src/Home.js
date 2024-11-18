@@ -53,7 +53,7 @@ const Home = () => {
         <div className="col-lg-5 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
           <div className="banner-one-content-left">
             <h1 className="title split-collab">
-              Make your <br /> <span>SEO Compaign </span>
+              Make your <br /> <span>SEO Campaign </span>
               <br />
               Successful.
             </h1>

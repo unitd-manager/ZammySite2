@@ -119,117 +119,9 @@ const Home = () => {
                   visibility: "inherit"
                 }}
               >
-                A
+                About
               </div>
             </div>
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                b
-              </div>
-            </div>
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                o
-              </div>
-            </div>
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                u
-              </div>
-            </div>
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                t
-              </div>
-            </div>{" "}
             <br />
             <span>
               <div
@@ -256,223 +148,7 @@ const Home = () => {
                     visibility: "inherit"
                   }}
                 >
-                  Z
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  a
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  m
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  m
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  y
-                </div>
-              </div>{" "}
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  Z
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  a
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  i
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
-                <div
-                  style={{
-                    position: "relative",
-                    display: "inline-block",
-                    translate: "none",
-                    rotate: "none",
-                    scale: "none",
-                    transform: "translate(0px)",
-                    opacity: 1,
-                    visibility: "inherit"
-                  }}
-                >
-                  f
+                  Zammy Zaif
                 </div>
               </div>
             </span>
@@ -530,7 +206,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="row align-items-center mt--50">
+    <div className="row mt--50">
       <div className="col-lg-6 pr--100 pr_md--0 pr_sm--0">
         <div className="accordion-area-4">
           <div className="accordion" id="accordionExample">
@@ -777,11 +453,10 @@ const Home = () => {
         </div>
       </div>
       <div className="col-lg-6">
-        <div className="thumbnail-left">
-          <img
-            src="assets/images/working-process/04.png"
-            alt="working-process"
-          />
+        <div className="">
+          <p className="">Zammy Zaif is an best google SEO Expert from India residing in <a className="zama" href="https://g.page/r/CXeRrxmikuPtEBM/review" target="_blank">Tirunelveli</a>, Tamilnadu who has had phenomenal success with SEO, especially placing first on Google for a competitive term like <b>"Google Ranking Expert."</b></p>
+          <p className="">He achieved this world-class position in a short period of time since he is a dedicated SEO specialist and also because of his amazing hard work and smart work. When Google PageRank first appeared on the scene, Zammy Zaif began his profession in SEO around the same time. He rapidly understood that Search Engine Optimization will play a significant role in his professional future.</p>
+          <p className="">His huge achievement came only after experiencing a lot of suffering and hardship. People used to call Zammy a "<b>Computer Genius</b>" when he was a kid. He had about 15 cousins in his house because he belonged to a joint family. When all of his cousins just learned how to play games on the computer, little Zammy performed more than that. He used to modify the computer password that his uncle had set in order to prevent the youngsters from using it. He was the naughty one in his family, changing the password every time his uncle uncovered it.</p>
         </div>
       </div>
     </div>
