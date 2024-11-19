@@ -17,7 +17,7 @@ const Header = () => {
         <div className="col-lg-12">
           <div className="header-style-one-wrapper">
             <div className="logo-area">
-              <a href="index.html" className="logo">
+              <a href="/" className="logo">
                 <img
                   className="light"
                   src={logo1}
