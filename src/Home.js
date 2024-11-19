@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/assets/main.css'
  import bannerImage1 from '../src/assets/images/banner/01.png';
@@ -37,9 +37,42 @@ import ball2 from "../src/assets/images/service/shape/02.png"
 import ball3 from "../src/assets/images/service/shape/03.png"
 import ball4 from "../src/assets/images/service/shape/04.png"
 import workingProcess from "../src/assets/images/service/digital-influencer-faq.webp"
-
+// import emailjs from "emailjs-com";
 
 const Home = () => {
+  const [formData, setFormData] = useState({
+
+    email: "",
+    contactNumber: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // const sendMail = () => {
+    
+  //   emailjs.send(
+  //     'service_yegrj7t',    
+  //     'template_ld45k49',   
+  //     formData,
+  //     'EPiO8dC8xRYmdvDsz'       
+  //   )
+  //   .then((response) => {
+  //       console.log("SUCCESS!", response.status, response.text);
+  //       alert("Email sent successfully!");
+  //     })
+  //     .catch((err) => {
+  //       console.error("FAILED...", err);
+  //       alert("Failed to send email.");
+  //     });
+  // };
+
+
+
+
+
     return (
       
         <>
@@ -48,7 +81,7 @@ const Home = () => {
   <div className="rts-banner-area-one home-five rts-section-gap">
     <div className="box-one-top" />
     <div className="box-one-bottom" />
-    <div className="container pt--120 pt_sm--80">
+    <div className="container pt--85 pt_sm--80">
       <div className="row align-items-center">
         <div className="col-lg-5 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
           <div className="banner-one-content-left">
@@ -72,13 +105,13 @@ const Home = () => {
                 src={bannershortshortimage01}
                 alt="banner"
                 className="img-1"
-                width={200}
+                width={180}
               />
               <img
                 src={bannershortshortimage02}
                 alt="banner"
                 className="img-2"
-                width={286}
+                width={256}
               />
             </div>
           </div>
@@ -117,10 +150,10 @@ const Home = () => {
         <div className="col-lg-12">
           <div className="title-style-one-center">
             <span className="pre">Our main services</span>
-            <h4 className="title skew-up">
-              Our solutions that help <br />
+            <h3 className="title skew-up">
+              Our solutions that help 
               you grow up
-            </h4>
+            </h3>
           </div>
         </div>
       </div>
@@ -320,25 +353,31 @@ const Home = () => {
                         </div> */}
                          <div class="signle-input">
                             <label for="website">Website</label>
-                            <input type="url" id="website" placeholder="yourwebsite.com"/>
+                            <input type="url" id="website" 
+                            placeholder="yourwebsite.com" value={formData.email} onChange={handleInputChange} />
                             <i class="fa-light fa-globe"></i>
                         </div>
                         <div class="signle-input">
                             <label for="phone">Phone</label>
-                            <input type="phone" id="phone" placeholder="Your phone"/>
+                            <input type="phone" id="phone" placeholder="Your phone" value={formData.contactNumber} onChange={handleInputChange} />
                             <i class="fa-regular fa-user"></i>
                         </div>
                         <div class="signle-input">
                             <label for="email">Email address</label>
-                            <input type="email" id="email" placeholder="Your email"/>
+                            <input type="email" id="email" placeholder="Your email" value={formData.email} onChange={handleInputChange} />
                             <i class="fa-light fa-envelope"></i>
                         </div>
                         <div class="signle-input">
                             <label for="name">Subject</label>
-                            <input type="textarea" id="name" placeholder=" Type in your subject"/>
+                            <input type="textarea" id="name" 
+                            placeholder=" Type in your subject" 
+                             value={formData.message} 
+                             onChange={handleInputChange}
+                             />
                             <i class="fa-regular fa-user"></i>
                         </div>
-                        <button class="rts-btn btn-primary-2">Enquiry Now</button>
+                        
+                        <button class="rts-btn btn-primary-2"  >Enquiry Now</button>
                     </form>
                 </div>
             </div>
