@@ -9445,6 +9445,10 @@ img {
   height: auto;
 }
 
+.rts-banner-area-one img{
+  max-width: 80%;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -16350,7 +16354,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .banner-one-right-content-with-img .img-2 {
   position: absolute;
-  bottom: -12%;
+  bottom: -4%;
   left: 13%;
   animation: jump-1 15s linear infinite;
 }
@@ -16396,7 +16400,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 .rts-banner-area-one .radious-shape .right-top {
   position: absolute;
   right: -26px;
-  top: 10%;
+  top: 15%;
   animation: jump-2 15s linear infinite;
 }
 .rts-banner-area-one .radious-shape .right-bottom {
@@ -16407,7 +16411,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .rts-banner-area-one .radious-shape .mid-top {
   position: absolute;
-  top: 13%;
+  top: 16%;
   left: 40%;
   animation: jump-1 18s linear infinite;
 }
