@@ -296,14 +296,14 @@ const Home = () => {
     </div>
 
     
-<div class="rts-appoinment-area rts-section-gap bg-dark-border-radious-2" style={{ marginTop: 150 }}>
+<div class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
         <div class="container">
             <div class="row align-items-center justify-content-md-center">
                 <div class="col-lg-6 col-md-10">
                 
                     <div class="appoinment-wrapper-one-left">
-                        <h2 class="title split-collab"> Looking for More  <br/>
-                        Traffic & Leads?</h2>
+                        <div style={{color:'white', fontSize:35,fontWeight:'bold',marginBottom:20}}> Looking for More
+                        Traffic & Leads?</div>
                         <p class="disc"> We have helped 38 top brands in the world and 250+ local brands for the last 14 years.</p>
                         <div class="feature-area-wrapper">
                             <div class="single-feature">
@@ -413,9 +413,9 @@ const Home = () => {
         <div className="col-lg-6">
           {/* service contant wrapper main one */}
           <div className="service-content-style-one">
-            <h4 className="title split-collab">
+            <h2 className="title split-collab">
             Google Ranking Services
-            </h4>
+            </h2>
             <p className="">
             For over a decade, Zammy Zaif has been consistently providing first-ranking SEO services. 
             Zammy's content is valuable and informative, directly related to Google's search engine ranking algorithms. 
@@ -463,9 +463,9 @@ const Home = () => {
         <div className="col-lg-6 pl--30 pl_md--15 pl_sm--15" >
           {/* service contant wrapper main one */}
           <div className="service-content-style-one">
-            <h4 className="title split-collab">
+            <h2 className="title split-collab">
             Bams Technologies inc
-            </h4>
+            </h2>
             <p className="disc">
             Since 2008, Bams Technologies has been providing exceptional 
             SEO services to companies worldwide. As a premier Google SEO service
@@ -528,9 +528,9 @@ const Home = () => {
         <div className="col-lg-12">
           <div className="title-style-one-center">
             <span className="pre">A little about us</span>
-            <h4 className="title skew-up">
-              Unleashing the power of <br /> SEO tactics
-            </h4>
+            <h2 className="title skew-up">
+              Unleashing the power of SEO tactics
+            </h2>
           </div>
         </div>
       </div>
@@ -544,7 +544,7 @@ const Home = () => {
           {/* single working -process area start */}
           <div className="single-working-process">
             <h5 className="number">01</h5>
-            <h3 className="title">Creating a strategy</h3>
+            <h4 className="title">Creating a strategy</h4>
             <p className="disc">
               Optimizing your website for each of the main components to put a
               good and fit in house strategy in place.
@@ -556,7 +556,7 @@ const Home = () => {
           {/* single working -process area start */}
           <div className="single-working-process">
             <h5 className="number">02</h5>
-            <h3 className="title">Building your site</h3>
+            <h4 className="title">Building your site</h4>
             <p className="disc">
               Optimizing your website for each of the main components to put a
               good and fit in house strategy in place.
@@ -568,7 +568,7 @@ const Home = () => {
           {/* single working -process area start */}
           <div className="single-working-process">
             <h5 className="number">03</h5>
-            <h3 className="title">Promoting your site</h3>
+            <h4 className="title">Promoting your site</h4>
             <p className="disc">
               Optimizing your website for each of the main components to put a
               good and fit in house strategy in place.
@@ -900,33 +900,33 @@ const Home = () => {
           <div className="counter-upmain-wrapper-style-one service-single">
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title animated fadeIn">
+              <h4 className="title animated fadeIn">
                 <span className="counter animated fadeInDownBig">170</span>+
-              </h3>
+              </h4>
               <p>Customers</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title animated fadeIn">
+              <h4 className="title animated fadeIn">
                 <span className="counter animated fadeInDownBig">12</span>+
-              </h3>
+              </h4>
               <p>Year of service</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title animated fadeIn">
+              <h4 className="title animated fadeIn">
                 <span className="counter animated fadeInDownBig">2</span>K+
-              </h3>
+              </h4>
               <p>Results</p>
             </div>
             {/* single counter up area end */}
             {/* single counter up area start */}
             <div className="single-counter-up">
-              <h3 className="title animated fadeIn">
+              <h4 className="title animated fadeIn">
                 <span className="counter animated fadeInDownBig">99</span>%
-              </h3>
+              </h4>
               <p>Staisfied Clients</p>
             </div>
             {/* single counter up area end */}
@@ -1033,7 +1033,7 @@ const Home = () => {
 
  
 
-  <div class="rts-working-porcess-area-two ptb--160 bg-dark-border-radious-sd">
+  <div class="rts-working-porcess-area-two ptb--45 bg-dark-border-radious-sd">
         <div class="container-1058">
             <div class="row">
                 <div class="col-lg-12">
@@ -1056,11 +1056,11 @@ const Home = () => {
                     <div class="working-process-accordion-one">
                         <div class="accordion" id="accordionExamples">
                             <div class="accordion-item show">
-                                <h2 class="accordion-header" id="headingOne">
+                                <div class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         01. What is SEO?
                                     </button>
-                                </h2>
+                                </div>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExamples">
                                     <div class="accordion-body">
                                     The process of getting the stuff we can look for to the top of the search engine results page is known as search engine optimization.
@@ -1068,11 +1068,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="accordion-item show">
-                                <h2 class="accordion-header" id="headingTwo">
+                                <div class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         02. Why does every business require SEO?
                                     </button>
-                                </h2>
+                                </div>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExamples">
                                     <div class="accordion-body">
                                     Today we are all seeking a product or service from Google that we need. As our customers also seek their products or services from Google. Having our website appear as the top result in a search engine will improve our income.
@@ -1080,11 +1080,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="accordion-item show">
-                                <h2 class="accordion-header" id="headingThree">
+                                <div class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         03. Why are website need audits?
                                     </button>
-                                </h2>
+                                </div>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExamples">
                                     <div class="accordion-body">
                                     Website audits are an important step in improving a website's efficiency and exposure. Audits increase site traffic and performance while improving Google search ranking. A website audit provides a company with an outstanding potential for online growth.
@@ -1092,11 +1092,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div class="accordion-item show">
-                                <h2 class="accordion-header" id="headingFour">
+                                <div class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         04. Why your website structure is important?
                                     </button>
-                                </h2>
+                                </div>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExamples">
                                     <div class="accordion-body">
                                     An uniform website structure that makes it easy for all audiences to access the website by delivering a memorable experience to the users. We examine the structure of the website in relation to the services it provides. A well-planned website structure ensures that your page receives the greatest possible rating from SEO services.
