@@ -1033,7 +1033,7 @@ const Home = () => {
 
  
 
-  <div class="rts-working-porcess-area-two ptb--160 bg-dark-border-radious-sd">
+  <div class="rts-working-porcess-area-two ptb--45 bg-dark-border-radious-sd">
         <div class="container-1058">
             <div class="row">
                 <div class="col-lg-12">
