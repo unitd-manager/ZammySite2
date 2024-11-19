@@ -47,6 +47,15 @@ import aboutShape02png from "../src/assets/images/about/shape/02.png"
 import aboutShape03png from "../src/assets/images/about/shape/03.png"
 import aboutShape04png from "../src/assets/images/about/shape/04.png"
 import aboutChildZammypng from "../src/assets/images/about/childhood-zammy.png"
+import aboutDubaiZammypng from "../src/assets/images/about/zammy-in-dubai.png"
+import aboutZammy1png from "../src/assets/images/about/zammy-1.png"
+import aboutGoggleRankExpertpng from "../src/assets/images/about/google-ranking-expert.png"
+import aboutArtOfmoneypng from "../src/assets/images/about/art-of-attracting-money.png"
+import aboutGoggleRecognitionpng from "../src/assets/images/about/zammy-zaif-google-ranking-expert.png"
+import aboutBusinessMentorpng from "../src/assets/images/about/zammy-business-mentor.jpg"
+import aboutGreatPublicSpeakerpng from "../src/assets/images/about/zammy-zaif-public-speaker.jpg"
+import aboutOnlinePresencepng from "../src/assets/images/about/zammy-online-presence.png"
+import aboutSeoStrategypng from "../src/assets/images/about/seo-strategy.png"
 import testimonialsshape01png from "../src/assets/images/testimonials/shape/01.png"
 import testimonialsshape02png from "../src/assets/images/testimonials/shape/02.png"
 import blogshape01png from "../src/assets/images/blog/shape/01.png"
@@ -103,6 +112,18 @@ const Home = () => {
           </h1>
         </div>
         {/* banner main inner contact areas end */}
+        <div className="service--shape">
+        <img
+          src={serviceShape01png}
+          alt="service"
+          className="five"
+        />
+        <img
+          src={serviceShape03png}
+          alt="service"
+          className="two"
+        />
+      </div>
       </div>
     </div>
   </div>
@@ -110,27 +131,11 @@ const Home = () => {
 
 <div className="rts-working-process-area rts-section-gap ">
   <div className="container">
-    <div className="row">
+    <div className="row service-relative">
       <div className="col-lg-12">
         <div className="title-style-one-center">
           <span className="pre skew-up" style={{ opacity: 1 }}>
-            <div
-              className="word-line"
-              style={{ display: "block", textAlign: "center", width: "100%" }}
-            >
-              <div
-                className="word"
-                style={{
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px, 0%)"
-                }}
-              >
                 About Zammy Zaif
-              </div>
-            </div>
           </span>
           <h2 className="title skew-up" style={{ opacity: 1 }}>
             <div
@@ -152,6 +157,13 @@ const Home = () => {
             </div>
           </h2>
         </div>
+        <div className="service--shape">
+        <img
+          src={serviceShape02png}
+          alt="service"
+          className="one"
+        />
+      </div>
       </div>
     </div>
     <div className="row mt--50">
@@ -159,7 +171,7 @@ const Home = () => {
         <div className="accordion-area-4">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -184,10 +196,10 @@ const Home = () => {
                   </svg>
                   Best SEO Expert in India
                 </button>
-              </h2>
+              </h4>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -219,10 +231,10 @@ const Home = () => {
                   </svg>
                   Google Ranking Expert
                 </button>
-              </h2>
+              </h4>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingThree">
+              <h4 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -247,10 +259,10 @@ const Home = () => {
                   </svg>
                   GMB Ranking Specialist
                 </button>
-              </h2>
+              </h4>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -275,10 +287,10 @@ const Home = () => {
                   </svg>
                   Internet Influencer
                 </button>
-              </h2>
+              </h4>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -303,10 +315,10 @@ const Home = () => {
                   </svg>
                   Google Influencer
                 </button>
-              </h2>
+              </h4>
             </div>          
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -338,11 +350,11 @@ const Home = () => {
                   </svg>
                   Best Local SEO Expert
                 </button>
-              </h2>
+              </h4>
             </div>          
 
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -367,10 +379,10 @@ const Home = () => {
                   </svg>
                   Google Ranking Specialist
                 </button>
-              </h2>
+              </h4>
             </div>          
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -395,7 +407,7 @@ const Home = () => {
                   </svg>
                   Google SEO Expert
                 </button>
-              </h2>
+              </h4>
             </div>          
           </div>
         </div>
@@ -406,6 +418,13 @@ const Home = () => {
           <p className="">He achieved this world-class position in a short period of time since he is a dedicated SEO specialist and also because of his amazing hard work and smart work. When Google PageRank first appeared on the scene, Zammy Zaif began his profession in SEO around the same time. He rapidly understood that Search Engine Optimization will play a significant role in his professional future.</p>
           <p className="">His huge achievement came only after experiencing a lot of suffering and hardship. People used to call Zammy a "<b>Computer Genius</b>" when he was a kid. He had about 15 cousins in his house because he belonged to a joint family. When all of his cousins just learned how to play games on the computer, little Zammy performed more than that. He used to modify the computer password that his uncle had set in order to prevent the youngsters from using it. He was the naughty one in his family, changing the password every time his uncle uncovered it.</p>
         </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape03png}
+          alt="service"
+          className="two"
+        />
       </div>
     </div>
   </div>
@@ -425,9 +444,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6 col-md-6 offset-lg-1">
+      <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
-          <h2 className="title split-collab" style={{ opacity: 1 }}>
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
             {" "}
             <div
               style={{
@@ -456,7 +475,7 @@ const Home = () => {
                 Zammy Zaif in his Early Childhood
               </div>
             </div>
-          </h2>
+          </h3>
           <p className="disc">
           He started using a computer at the age of nine and it was then that he aspired to become a computer engineer. Young Zammy reasoned that because a computer is an electronic machine, obtaining a Diploma in Electronics and Communication Engineering would help him reach his goal and he enrolled in a college for the same.
           </p>
@@ -485,9 +504,9 @@ const Home = () => {
 <div className="rts-product-area">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-      <div className="col-lg-6 col-md-6">
+      <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
-          <h2 className="title split-collab" style={{ opacity: 1 }}>
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
             {" "}
             <div
               style={{
@@ -513,24 +532,22 @@ const Home = () => {
                   visibility: "inherit"
                 }}
               >
-                Zammy Zaif in his Early Childhood
+                Overseas Life of Zammy
               </div>
             </div>
-          </h2>
+          </h3>
           <p className="disc">
-          He started using a computer at the age of nine and it was then that he aspired to become a computer engineer. Young Zammy reasoned that because a computer is an electronic machine, obtaining a Diploma in Electronics and Communication Engineering would help him reach his goal and he enrolled in a college for the same.
+          In the year 2008, Zammy, a fresher, launched Hopes Infosys to provide hardware and networking services. Later, he started blogging and learned the concepts of web design and SEO. Due to his financial difficulties and family condition, he began to work for other companies in foreign countries. At first, he relocated to Dubai for a company and began his overseas life there. Meanwhile, he learned more about search engine optimization, blogging, content writing, email marketing and internet marketing over time.
           </p>
           <p className="disc">
-          Later on, he discovered that he needed to major in Information Technology or Computer Science Engineering in order to get the position he had always aspired to. But it was too late for him to change his major and he had to drop out in the third year influenced by financial difficulties.</p>
-          <p className="disc">
-          Following that, he enrolled in a three-month hardware and networking certification course. Over time, he developed into an expert in his area and he attracted consumers from all over the world. He used his hard-earned money to re-enrol in the same engineering course, which he finished successfully the following year with a different batch.</p>
+          Following the contract from Dubai, he returned to India and formally established his own company, Bams Technologies. With a handful of employees in Tirunelveli in January 2015, began to work for many companies and did several independent projects in different countries, including web designing, web development and SEO. In Oman, he assisted a prominent firm in ranking #1 for the term "Hydraulic Spare - OMAN," which is still the case. He completed multiple projects in Myanmar and several other projects in the United States, including Customer Relationship Management (CRM) and Content Management System (CMS) software services.</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5  offset-lg-1">
+      <div className="col-lg-5 col-md-5">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
-              src={aboutChildZammypng}
+              src={aboutDubaiZammypng}
               width={450}
               alt="product"
             />
@@ -547,6 +564,380 @@ const Home = () => {
           src={serviceShape06png}
           alt="service"
           className="three"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area section-bg">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutZammy1png}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <span className="pre skew-up" style={{ opacity: 1 }}>
+            Google Ranking Expert
+          </span>
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+              Corporate Entity
+          </h3>
+          <p className="disc">
+          In 2016, as he was struggling due to some family issues, he once again had to set about his overseas voyage and this time he flew to Bahrain. In Bahrain, he designed a website for an advertising firm that ranked first on Google in the nation. In Qatar, he has also worked for firms such as Milano Trading and Venture Partner. While overseas, he never abandoned his own firm, Bams Technologies and worked on various projects in Germany and the United Kingdom under the name of his own organisation.
+          </p>
+          <p className="disc">
+          Regardless of the fact that his clients and other employers thought of him as a successful and effective SEO expert, he had always desired to establish his own corporate firm.</p>
+          <p className="disc">
+          Zammy Zaif's company eventually struck gold in 2019. On May 1, Labour Day, he started Bams Technologies Private Limited in Erode and Trivandrum alongside Suresh Kumar as a co-founder.</p>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="one"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="two"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            {" "}
+            <div
+              style={{
+                position: "relative",
+                display: "inline-block",
+                translate: "none",
+                rotate: "none",
+                scale: "none",
+                transform: "translate(0px)",
+                opacity: 1,
+                visibility: "inherit"
+              }}
+            >
+              <div
+                style={{
+                  position: "relative",
+                  display: "inline-block",
+                  translate: "none",
+                  rotate: "none",
+                  scale: "none",
+                  transform: "translate(0px)",
+                  opacity: 1,
+                  visibility: "inherit"
+                }}
+              >
+                Dream, Struggle, Perseverance
+              </div>
+            </div>
+          </h3>
+          <p className="disc">
+          BAMS stands for "Business Administration and Management Services," respectively.
+          </p>
+          <p className="disc">
+          He founded this company to pursue his dream project, a "Next Generation Social Media App," while also doing tasks such as web designing, web development, app development, digital marketing and other IT services. He spent almost 2 million Indian rupees on his dream project and ultimately, the great Bio War arrived in his life with the name Covid-19 as Corona; the pandemic convulsed the globe and the firm was forced to cease down. Zammy is a committed person who never quits. He will stop at nothing to achieve a goal or a purpose. His long-term goal of creating a next-generation social media app is served by his short-term goal of acquiring the sufficient amount of funds required for the same. And for which, he is utilizing the SEO platform as an economic resource.</p>
+          <p className="disc">
+          No one has ever achieved success in a single go, they must have had many failed attempts before actually reaching their goals. Zammy’s case is just the same. He is a true inspiration for people who have failed in their lives.</p>
+        </div>
+      </div>
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutGoggleRankExpertpng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="five"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="three"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area section-bg">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutArtOfmoneypng}
+              width={350}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            Mind Map – A Success Prototype
+          </h3>
+          <p className="disc">
+          Even though he is a person who has achieved many things in his life at a very young age, he considers himself as just an entrepreneur who is in the initial stage of building teams. His dream is to build a territory of his own where he has complete authority, also he has to bring his business to a supreme level in which it remains unaffected and continues to run successfully even if he makes himself unavailable for some duration of time.
+          </p>
+          <p className="disc">
+          He believes that a successful businessman is someone who has achieved immense success also at the same time enormous wealth through many years of expertise and extreme passionate effort. He wants to become wealthy as well as a powerful person in his particular business or industry. He aims to attain more leads, revenue and reputation in the long run and he knows exactly what goes into it. In order to achieve this ultimate goal and be more successful in his terms, Zammy has created a Mind Map that helps in analysing himself to see where he stands in the journey of being a successful businessman.</p>
+          <p className="disc">
+          He has modelled this mind map as a "success prototype" and observes the analysis process as an Art of Attracting Money towards us.</p>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape03png}
+          alt="service"
+          className="one"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="three"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+              Zammy's Global Recognition
+          </h3>
+          <p className="disc">
+          Since implementing this in his own life, he achieved the world level Google ranking for the keyword "Google Ranking Expert" and has rapidly made a brand name for himself. He has come a long way and gained many recognitions from all over the world. He is a key person in the Malaysia South India Chamber of Commerce and they designated him as the co-ordinator. He achieved a lifelong membership in a Canadian Community called "Landed for Success". Zammy Zaif is the first and the only member from India who has attained this privilege.
+          </p>
+          <p className="disc">
+          Zammy finds this mind map very beneficial and has not only applied this strategy personally but has also helped many other people from small, mid-sized to large businessmen. He pitched his unique success mantra to all the ones who were failing in their businesses and has helped many businessmen who were on the verge of closing down.</p>
+        </div>
+      </div>
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutGoggleRecognitionpng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={aboutShape01png}
+          alt="service"
+          className="seven"
+        />
+        <img
+          src={aboutShape02png}
+          alt="service"
+          className="one"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area section-bg">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutBusinessMentorpng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            Zammy - Business Mentor
+          </h3>
+          <p className="disc">
+          He has also been a mentor to entrepreneurs who had just started a company and later found that things weren't working out the way they thought it would be. He has been a great help in empowering several businesspersons who were in business for more than 20 years and still seemed struggling. Many business tycoons who were already in a good position in their industry, hoping to take it to the next level had approached Zammy to gain valuable advice from him.
+          </p>
+          <p className="disc">
+          When he first started hosting webinars, a minimum of 70 people would show up for each session. Following that, when he began professionally delivering sessions twice a month, exclusively for businesspeople, a minimum of 15 individuals showed up for each session.</p>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="one"
+        />
+        <img
+          src={serviceShape01png}
+          alt="service"
+          className="three"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            A Great Public Speaker
+          </h3>
+          <p className="disc">
+          His workshops are mainly based on topics “Money Making, Business Growth, Secret of Success and The Art of Attracting Money.” Whether if you are a person who is taking baby steps in your business or a person who is planning to take a big leap in your business, Zammy can guide you through, to reach great success. You can have a look at the testimonial videos from the benefitted businesspersons on his Instagram, go search him: googlerankingexpert.
+          </p>
+          <p className="disc">
+          He has also been taking SEO lessons that he learned along the way. Many enthusiasts who seek opportunities and aspirants who wish to start a career in SEO have joined the course to learn from Zammyand they all call him “Master in SEO.”</p>
+        </div>
+      </div>
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutGreatPublicSpeakerpng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="five"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="seven"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area section-bg">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutOnlinePresencepng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            Zammy's Online Presence
+          </h3>
+          <p className="disc">
+          Zammy has always tried to impart his knowledge to people in different ways and he has always been such a great public speaker. For this, he makes use of many digital platforms to reach a large audience. He has made his online presence felt in MSN Messenger, Yahoo Messenger, Tamil Flash Chatrooms, Nimbus Chat, Mig33 Chat, Qeep Chat (he has been a qeeper for nearly 8 years), Bigo Live (he has nearly 10k followers), MICO and Hago, from its very beginning itself.
+          </p>
+          <p className="disc">
+          He is also a Telegram Dominator with 40+ job groups each with 40,000 members, where he spends his own money to disseminate information about job openings. He has also made it into the clubhouse, where he's the administrator of two clubs: "Tamil Global Business," which has 5,000 members and "Tamil Business Coaching," which has 1000 members. He is also the leader of "Vere Level Business" (VLB) group, which has 12,500 members. He has a tremendous fan base in clubhouse, with 1.5k followers and anytime he gives a talk there, at least 500 people show up to listen to him.</p>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="one"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="three"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="rts-product-area">
+  <div className="container">
+    <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+      <div className="col-lg-7 col-md-6">
+        <div className="portfolio-content-wrapper-list">
+          <h3 className="title split-collab" style={{ opacity: 1 }}>
+            SEO Strategy of Zammy Zaif
+          </h3>
+          <p className="disc">
+          Without having very deep pockets and spending a lot of money, every firm can increase its sales and profits. Zammy demonstrates how to leverage SEO to enhance organic traffic, lead generation and conversion. He is the most trusted Google Ranking SEO Expert as recognised by Google itself who is capable of ranking your business on the first page first rank of Google search results. He is a devoted SEO professional with more than a decade of vast knowledge in this sector.
+          </p>
+          <p className="disc">
+          He begins by learning about his clients’ targeted audience, potential customers, competitors and most importantly, their business culture. He then creates a customised SEO strategy that focuses on meeting his clients' needs in order to generate income for them. His unique approach puts them miles ahead of the competition, allowing them to establish trust and credibility among the public while also establishing their company as a leader in that particular field.</p>
+          <p className="disc">
+          Zammy Zaif keeps a keen eye on every little detail and tiny aspect of search engine optimization with his extensive learning expertise. He is always up to date with the latest Google ranking factors and algorithms. He will go to any extent to achieve the desired organic result. Zammy Zaif is unquestionably a man of action, as evidenced by the end outcome. So Everyone expects that in this 2022 Zammy will be the world's leading seo Expert.</p>
+        </div>
+      </div>
+      <div className="col-lg-5 col-md-5">
+        <div className="large-thumbnail">
+          <div className="thumbnail">
+            <img
+              src={aboutSeoStrategypng}
+              width={450}
+              alt="product"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="service--shape">
+        <img
+          src={serviceShape04png}
+          alt="service"
+          className="five"
+        />
+        <img
+          src={serviceShape06png}
+          alt="service"
+          className="two"
         />
       </div>
     </div>

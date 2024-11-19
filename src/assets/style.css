@@ -24959,7 +24959,15 @@ form i {
   top: 81%;
   z-index: 2;
 }
-
+.portfolio-content-wrapper-list span {
+  color: var(--color-primary);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+}
 .rts-cta-area-start {
   padding-top: 3px;
   position: relative;
