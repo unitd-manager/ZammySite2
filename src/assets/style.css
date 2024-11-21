@@ -9445,6 +9445,10 @@ img {
   height: auto;
 }
 
+.rts-banner-area-one img{
+  max-width: 80%;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -16350,7 +16354,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .banner-one-right-content-with-img .img-2 {
   position: absolute;
-  bottom: -12%;
+  bottom: -4%;
   left: 13%;
   animation: jump-1 15s linear infinite;
 }
@@ -16396,7 +16400,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 .rts-banner-area-one .radious-shape .right-top {
   position: absolute;
   right: -26px;
-  top: 10%;
+  top: 15%;
   animation: jump-2 15s linear infinite;
 }
 .rts-banner-area-one .radious-shape .right-bottom {
@@ -16407,7 +16411,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .rts-banner-area-one .radious-shape .mid-top {
   position: absolute;
-  top: 13%;
+  top: 16%;
   left: 40%;
   animation: jump-1 18s linear infinite;
 }
@@ -18119,13 +18123,13 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .rts-pricing-area-one .shape-radious-image .img-1 {
   position: absolute;
-  top: 7%;
-  right: 25%;
+  top: 5%;
+  right: 18%;
 }
 .rts-pricing-area-one .shape-radious-image .img-2 {
   position: absolute;
-  top: 18%;
-  left: 25%;
+  top: 9%;
+  left: 16%;
 }
 
 .single-pricing-area-two {
@@ -19798,7 +19802,7 @@ form i {
   color: var(--color-title);
   font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 120%;
   letter-spacing: -0.4px;
   padding: 32px 32px 32px 35px;
@@ -19859,15 +19863,15 @@ form i {
   background: transparent;
   background-color: transparent;
   border: none;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
   border-bottom: 1px solid var(--color-border);
 }
 .accordion-area-4 .accordion-item:last-child {
   border: none;
 }
 .accordion-area-4 .accordion-item button {
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 800;
   line-height: 120%;
@@ -23047,14 +23051,14 @@ form i {
   border: 1px solid var(--color-border);
 }
 .appoinment_form-1 input {
-  height: 56px;
+  height: 45px;
   border-radius: 12px;
   border: 1px solid var(--color-border);
   background: var(--input-bg);
   color: var(--color-body);
 }
 .appoinment_form-1 .signle-input {
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   position: relative;
 }
 .appoinment_form-1 .signle-input i {
@@ -24955,7 +24959,21 @@ form i {
   top: 81%;
   z-index: 2;
 }
-
+.portfolio-content-wrapper-list span {
+  color: var(--color-primary);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+}
+.white-text h3{
+  color: #fff;
+}
+.white-text p.disc {
+  color: #c7c7c7;
+}
 .rts-cta-area-start {
   padding-top: 3px;
   position: relative;
