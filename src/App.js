@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Header from "./Header/Header.js";
 import Footer from  "./Header/Footer.js"
+import Contact from "./Contact";
 
 import './App.css';
 import '../src/assets/css/plugins/fontawesome.min.css';
@@ -49,6 +50,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+
          
           
         </Routes>

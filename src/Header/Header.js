@@ -118,13 +118,10 @@ const Header = () => {
                   </a>
                 
                 </li>
-                <li className="menu-item">
-                  <a
-                    className="main-element fluxi-dropdown-main-element"
-                    href="contact.html"
-                  >
-                    Contact
-                  </a>
+                <li className="menu-item fluxi-has-dropdown">
+                <Link to="/Contact" className="fluxi-dropdown-main-element">
+                  Contact
+                </Link>
                 </li>
               </ul>
             </nav>
