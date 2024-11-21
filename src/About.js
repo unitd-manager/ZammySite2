@@ -589,9 +589,9 @@ const Home = () => {
           <span className="pre skew-up" style={{ opacity: 1 }}>
             Google Ranking Expert
           </span>
-          <h3 className="title split-collab" style={{ opacity: 1 }}>
+          <h2 className="title split-collab" style={{ opacity: 1 }}>
               Corporate Entity
-          </h3>
+          </h2>
           <p className="disc">
           In 2016, as he was struggling due to some family issues, he once again had to set about his overseas voyage and this time he flew to Bahrain. In Bahrain, he designed a website for an advertising firm that ranked first on Google in the nation. In Qatar, he has also worked for firms such as Milano Trading and Venture Partner. While overseas, he never abandoned his own firm, Bams Technologies and worked on various projects in Germany and the United Kingdom under the name of his own organisation.
           </p>
@@ -732,11 +732,11 @@ const Home = () => {
   </div>
 </div>
 
-<div className="rts-product-area">
+<div className="rts-product-area bg-dark-border-radious-2">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
       <div className="col-lg-7 col-md-6">
-        <div className="portfolio-content-wrapper-list">
+        <div className="portfolio-content-wrapper-list white-text">
           <h3 className="title split-collab" style={{ opacity: 1 }}>
               Zammy's Global Recognition
           </h3>
@@ -905,9 +905,9 @@ const Home = () => {
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
       <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
-          <h3 className="title split-collab" style={{ opacity: 1 }}>
+          <h2 className="title split-collab" style={{ opacity: 1 }}>
             SEO Strategy of Zammy Zaif
-          </h3>
+          </h2>
           <p className="disc">
           Without having very deep pockets and spending a lot of money, every firm can increase its sales and profits. Zammy demonstrates how to leverage SEO to enhance organic traffic, lead generation and conversion. He is the most trusted Google Ranking SEO Expert as recognised by Google itself who is capable of ranking your business on the first page first rank of Google search results. He is a devoted SEO professional with more than a decade of vast knowledge in this sector.
           </p>

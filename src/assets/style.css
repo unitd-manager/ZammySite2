@@ -24968,6 +24968,12 @@ form i {
   line-height: 150%;
   letter-spacing: -0.28px;
 }
+.white-text h3{
+  color: #fff;
+}
+.white-text p.disc {
+  color: #c7c7c7;
+}
 .rts-cta-area-start {
   padding-top: 3px;
   position: relative;
