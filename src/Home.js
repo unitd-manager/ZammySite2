@@ -37,37 +37,39 @@ import ball2 from "../src/assets/images/service/shape/02.png"
 import ball3 from "../src/assets/images/service/shape/03.png"
 import ball4 from "../src/assets/images/service/shape/04.png"
 import workingProcess from "../src/assets/images/service/digital-influencer-faq.webp"
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 const Home = () => {
   const [formData, setFormData] = useState({
-
+    name: "",
     email: "",
+    website:"",
     contactNumber: "",
-    message: "",
+    subject: "",
   });
-
+  
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  
 
-  // const sendMail = () => {
+  const sendMail = () => {
     
-  //   emailjs.send(
-  //     'service_yegrj7t',    
-  //     'template_ld45k49',   
-  //     formData,
-  //     'EPiO8dC8xRYmdvDsz'       
-  //   )
-  //   .then((response) => {
-  //       console.log("SUCCESS!", response.status, response.text);
-  //       alert("Email sent successfully!");
-  //     })
-  //     .catch((err) => {
-  //       console.error("FAILED...", err);
-  //       alert("Failed to send email.");
-  //     });
-  // };
+    emailjs.send(
+      'service_yegrj7t',    
+      'template_a8la14c',   
+      formData,
+      'EPiO8dC8xRYmdvDsz'       
+    )
+    .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("Email sent successfully!");
+      })
+      .catch((err) => {
+        console.error("FAILED...", err);
+        alert("Failed to send email.");
+      });
+  };
 
 
 
@@ -346,38 +348,39 @@ const Home = () => {
                 </div>
                 <div class="col-lg-6 col-md-10">
                     <form action="#" class="appoinment_form-1">
-                        {/* <div class="signle-input">
+                        <div class="signle-input">
                             <label for="name">Full name</label>
-                            <input type="text" id="name" placeholder="Your Name"/>
+                            <input type="text" id="name" placeholder="Your Name" name="name" value={formData.name} onChange={handleInputChange}/>
                             <i class="fa-regular fa-user"></i>
-                        </div> */}
+                        </div>
                          <div class="signle-input">
                             <label for="website">Website</label>
                             <input type="url" id="website" 
-                            placeholder="yourwebsite.com" value={formData.email} onChange={handleInputChange} />
+                            placeholder="yourwebsite.com" value={formData.website} name="website" onChange={handleInputChange} />
                             <i class="fa-light fa-globe"></i>
                         </div>
                         <div class="signle-input">
                             <label for="phone">Phone</label>
-                            <input type="phone" id="phone" placeholder="Your phone" value={formData.contactNumber} onChange={handleInputChange} />
+                            <input type="phone" id="phone" placeholder="Your phone" name="contactNumber" value={formData.contactNumber} onChange={handleInputChange} />
                             <i class="fa-regular fa-user"></i>
                         </div>
                         <div class="signle-input">
                             <label for="email">Email address</label>
-                            <input type="email" id="email" placeholder="Your email" value={formData.email} onChange={handleInputChange} />
+                            <input type="email" id="email" placeholder="Your email" value={formData.email} name="email" onChange={handleInputChange} />
                             <i class="fa-light fa-envelope"></i>
                         </div>
                         <div class="signle-input">
                             <label for="name">Subject</label>
                             <input type="textarea" id="name" 
                             placeholder=" Type in your subject" 
-                             value={formData.message} 
+                            name="subject"
+                             value={formData.subject} 
                              onChange={handleInputChange}
                              />
                             <i class="fa-regular fa-user"></i>
                         </div>
                         
-                        <button class="rts-btn btn-primary-2"  >Enquiry Now</button>
+                        <button class="rts-btn btn-primary-2"  onClick={sendMail}>Enquiry Now</button>
                     </form>
                 </div>
             </div>
