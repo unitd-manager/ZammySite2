@@ -45,15 +45,34 @@ const Header = () => {
                    Optimization
                   </a>
                   {/* Start Dropdown Menu */}
-                  {/* <ul className="fluxi-submenu list-unstyled menu-home">
-                    <li className="nav-item">
-                      <a className="nav-link page" href="service.html">
-                        Service
+                  <ul className="fluxi-submenu list-unstyled menu-home">
+                    <li className="nav-item sub-dropdown">
+                      <a href="#" className="nav-link sub-menu-link">
+                      Ranking Optimization
                       </a>
+                      <ul className="fluxi-submenu third-lvl base">
+                        <li>
+                          <Link
+                            
+                            to ="/website-seo-ranking-services"
+                            className="mobile-menu-link"
+                          >
+                            Website Ranking Services
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="mobile-menu-link"
+                            to="#"
+                          >
+                            GMB or GBP Ranking Services
+                          </Link>
+                        </li>
+                      </ul>
                     </li>
                     <li className="nav-item sub-dropdown">
                       <a href="#" className="nav-link sub-menu-link">
-                        Service Details
+                      Search Engine Optimization
                       </a>
                       <ul className="fluxi-submenu third-lvl base">
                         <li>
@@ -61,36 +80,12 @@ const Header = () => {
                             className="mobile-menu-link"
                             href="service-single.html"
                           >
-                            Paid Search Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="mobile-menu-link"
-                            href="email-marketing.html"
-                          >
-                            Email Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="mobile-menu-link"
-                            href="social-media-marketing.html"
-                          >
-                            Social Media Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="mobile-menu-link"
-                            href="influencer-marketing.html"
-                          >
-                            Influencer Marketing
+                            Google Ranking SEO Services
                           </a>
                         </li>
                       </ul>
                     </li>
-                  </ul> */}
+                  </ul>
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
