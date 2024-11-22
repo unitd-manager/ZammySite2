@@ -56,7 +56,7 @@ const Home = () => {
   const sendMail = () => {
     
     emailjs.send(
-      'service_yegrj7t',    
+      'service_l00gki5',    
       'template_a8la14c',   
       formData,
       'EPiO8dC8xRYmdvDsz'       
