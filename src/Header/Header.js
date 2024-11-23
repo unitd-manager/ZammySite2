@@ -76,12 +76,12 @@ const Header = () => {
                       </a>
                       <ul className="fluxi-submenu third-lvl base">
                         <li>
-                          <a
+                          <Link
                             className="mobile-menu-link"
-                            href="service-single.html"
+                            to="/google-ranking-services"
                           >
                             Google Ranking SEO Services
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
