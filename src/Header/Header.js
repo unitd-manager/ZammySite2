@@ -63,7 +63,7 @@ const Header = () => {
                         <li>
                           <Link
                             className="mobile-menu-link"
-                            to="#"
+                            to="/gmb-ranking-services"
                           >
                             GMB or GBP Ranking Services
                           </Link>
