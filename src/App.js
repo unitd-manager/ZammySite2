@@ -56,7 +56,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/website-seo-ranking-services" element={<WebsiteSeoRankingServices/>} />
           <Route path="/gmb-ranking-services" element={<GmbRankingServices/>} />
-          <Route path="/Google Ranking Services" element={<GoogleRankingServices/>} />
+          <Route path="/google-ranking-services" element={<GoogleRankingServices/>} />
 
          
           
