@@ -8,7 +8,7 @@ import Footer from  "./Header/Footer.js"
 import Contact from "./Contact";
 import WebsiteSeoRankingServices from "../src/screens/website-seo-ranking-services.js"
 import GmbRankingServices from "../src/screens/gmb-ranking-services.js"
-import GoogleRankingServices from "../src/screens/Google Ranking Services.js"
+import GoogleRankingServices from "../src/screens/google-ranking-services.js"
 
 import './App.css';
 import '../src/assets/css/plugins/fontawesome.min.css';
