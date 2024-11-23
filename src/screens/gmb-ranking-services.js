@@ -3,27 +3,20 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/main.css";
 import serviceShape01png from "../assets/images/service/shape/01.png";
-import serviceShape02png from "../assets/images/service/shape/02.png";
 import serviceShape03png from "../assets/images/service/shape/03.png";
 import serviceShape04png from "../assets/images/service/shape/04.png";
 import serviceShape06png from "../assets/images/service/shape/06.png";
-import aboutShape01png from "../assets/images/about/shape/01.png";
-import aboutShape02png from "../assets/images/about/shape/02.png";
 import WebsiteRankingServices from "../assets/images/WebsiteRankingServices/website-ranking.webp";
 import firstRankInGoogle from "../assets/images/WebsiteRankingServices/first-rank-in-google.webp";
 import whitehatSeoProcess from "../assets/images/WebsiteRankingServices/whitehat-seo-process.webp";
 import benefitsForGoogleFirstRank from "../assets/images/WebsiteRankingServices/benefits-for-google-first-rank.webp";
 import websiteRankNo1 from "../assets/images/WebsiteRankingServices/website-rank-no1.webp";
-import aboutBusinessMentorpng from "../assets/images/about/zammy-business-mentor.jpg";
-import aboutGreatPublicSpeakerpng from "../assets/images/about/zammy-zaif-public-speaker.jpg";
-import aboutOnlinePresencepng from "../assets/images/about/zammy-online-presence.png";
-import aboutSeoStrategypng from "../assets/images/about/seo-strategy.png";
 import ball1 from "../assets/images/service/shape/01.png";
 import ball2 from "../assets/images/service/shape/02.png";
 import ball3 from "../assets/images/service/shape/03.png";
 import ball4 from "../assets/images/service/shape/04.png";
 import ball11 from "../assets/images/service/shape/11.png";
-import ball12 from "../assets/images/service/shape/12.png";
+
 import emailjs from "emailjs-com";
 
 const Home = () => {
