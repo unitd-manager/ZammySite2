@@ -17,7 +17,7 @@ const Header = () => {
         <div className="col-lg-12">
           <div className="header-style-one-wrapper">
             <div className="logo-area">
-              <a href="index.html" className="logo">
+              <a href="/" className="logo">
                 <img
                   className="light"
                   src={logo1}
@@ -45,52 +45,47 @@ const Header = () => {
                    Optimization
                   </a>
                   {/* Start Dropdown Menu */}
-                  {/* <ul className="fluxi-submenu list-unstyled menu-home">
-                    <li className="nav-item">
-                      <a className="nav-link page" href="service.html">
-                        Service
-                      </a>
-                    </li>
+                  <ul className="fluxi-submenu list-unstyled menu-home">
                     <li className="nav-item sub-dropdown">
                       <a href="#" className="nav-link sub-menu-link">
-                        Service Details
+                      Ranking Optimization
                       </a>
                       <ul className="fluxi-submenu third-lvl base">
                         <li>
-                          <a
+                          <Link
+                            
+                            to ="/website-seo-ranking-services"
                             className="mobile-menu-link"
-                            href="service-single.html"
                           >
-                            Paid Search Marketing
-                          </a>
+                            Website Ranking Services
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             className="mobile-menu-link"
-                            href="email-marketing.html"
+                            to="/gmb-ranking-services"
                           >
-                            Email Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="mobile-menu-link"
-                            href="social-media-marketing.html"
-                          >
-                            Social Media Marketing
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="mobile-menu-link"
-                            href="influencer-marketing.html"
-                          >
-                            Influencer Marketing
-                          </a>
+                            GMB or GBP Ranking Services
+                          </Link>
                         </li>
                       </ul>
                     </li>
-                  </ul> */}
+                    <li className="nav-item sub-dropdown">
+                      <a href="#" className="nav-link sub-menu-link">
+                      Search Engine Optimization
+                      </a>
+                      <ul className="fluxi-submenu third-lvl base">
+                        <li>
+                          <Link
+                            className="mobile-menu-link"
+                            to="/google-ranking-services"
+                          >
+                            Google Ranking SEO Services
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
@@ -118,13 +113,10 @@ const Header = () => {
                   </a>
                 
                 </li>
-                <li className="menu-item">
-                  <a
-                    className="main-element fluxi-dropdown-main-element"
-                    href="contact.html"
-                  >
-                    Contact
-                  </a>
+                <li className="menu-item fluxi-has-dropdown">
+                <Link to="/Contact" className="fluxi-dropdown-main-element">
+                  Contact
+                </Link>
                 </li>
               </ul>
             </nav>

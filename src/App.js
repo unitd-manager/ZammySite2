@@ -7,6 +7,10 @@ import Service from "./pages/Services.js";
 import Services from "./pages/Service.js";
 import Header from "./Header/Header.js";
 import Footer from  "./Header/Footer.js"
+import Contact from "./Contact";
+import WebsiteSeoRankingServices from "../src/screens/website-seo-ranking-services.js"
+import GmbRankingServices from "../src/screens/gmb-ranking-services.js"
+import GoogleRankingServices from "../src/screens/google-ranking-services.js"
 
 import './App.css';
 import '../src/assets/css/plugins/fontawesome.min.css';
@@ -51,6 +55,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/website-seo-ranking-services" element={<WebsiteSeoRankingServices/>} />
+          <Route path="/gmb-ranking-services" element={<GmbRankingServices/>} />
+          <Route path="/google-ranking-services" element={<GoogleRankingServices/>} />
+
           <Route path="/Services" element={<Service />} />
           <Route path="/Service" element={<Services />} />
         </Routes>
