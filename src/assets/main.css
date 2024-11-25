@@ -99,5 +99,10 @@ form .rts-btn {
 .mySwiper .swiper-pagination-bullet {
   background: #333;
 }
+.my-carousel .slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Example custom styling */
+}
 
 

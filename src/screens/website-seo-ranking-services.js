@@ -335,18 +335,6 @@ const Home = () => {
               <div class="col-lg-6 col-md-10">
                 <form action="#" class="appoinment_form-1">
                   <div class="signle-input">
-                    <label for="name">Full name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      placeholder="Your Name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                    />
-                    <i class="fa-regular fa-user"></i>
-                  </div>
-                  <div class="signle-input">
                     <label for="website">Website</label>
                     <input
                       type="url"
