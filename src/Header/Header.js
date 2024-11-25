@@ -94,7 +94,7 @@ const Header = () => {
                   {/* End Dropdown Menu */}
                 </li>
                 <li className="menu-item fluxi-has-dropdown">
-                  <a href="#" className="fluxi-dropdown-main-element">
+                  <a href="#/Service" className="fluxi-dropdown-main-element">
                     Services
                   </a>
                   {/* Start Dropdown Menu */}

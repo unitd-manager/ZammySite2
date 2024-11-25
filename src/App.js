@@ -3,6 +3,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
+import Service from "./pages/Services.js";
+import Services from "./pages/Service.js";
 import Header from "./Header/Header.js";
 import Footer from  "./Header/Footer.js"
 
@@ -49,8 +51,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/About" element={<About />} />
-         
-          
+          <Route path="/Services" element={<Service />} />
+          <Route path="/Service" element={<Services />} />
         </Routes>
         <Footer />
       </HashRouter>
