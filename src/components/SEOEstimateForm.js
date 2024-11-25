@@ -1,140 +1,98 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './form.css';
 
-const SEOEstimateForm = () => {
-  // Initialize state for the form fields
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    service: 'Website SEO Services',
-    url: '',
-    subject: '',
-    message: '',
-  });
-
-  // Handle input change for all form fields
-  const updateContactFields = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  // Handle form submission
-  const onEquirySubmit = () => {
-    // Handle the form submission logic here
-    console.log('Form submitted with data:', formData);
-  };
-
-  // Handle email sending logic (if needed)
-  const sendMail = () => {
-    // Logic to send an email (e.g., using an API or SMTP server)
-    console.log('Sending mail...');
-  };
-
+const StylishForm = ({ updateContactFields, onEquirySubmit, sendMail }) => {
   return (
-    <section style={{ paddingTop: '50px' }} className="section bg-light py-5">
+    <section style={{ paddingTop: 10 }} className="section bg-light py-5">
       <div className="container">
-        <div className="row">
-          <div className="col-12 text-center mb-5">
-            <h2 className="section-title text-dark">Get Your Google SEO Estimate</h2>
-          </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-10 col-12">
+            <div className="text-center mb-4">
+              <h2 className="section-title">Get Your Google SEO Estimate</h2>
+            </div>
 
-          <div className="col-12">
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                onEquirySubmit();
-                sendMail();
-              }}
-              className="row g-4"
-            >
-              <div className="col-lg-4 col-md-6">
+            <form action="#" className="row">
+              {/* Name and Email Inputs (2 per column) */}
+              <div className="col-md-6 mb-4">
                 <input
                   onChange={updateContactFields}
                   type="text"
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   placeholder="Your Name*"
                   name="name"
-                  value={formData.name}
-                  required
                 />
               </div>
-
-              <div className="col-lg-4 col-md-6">
+              <div className="col-md-6 mb-4">
                 <input
                   onChange={updateContactFields}
                   type="email"
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   placeholder="Your Email*"
                   name="email"
-                  value={formData.email}
-                  required
                 />
               </div>
 
-              <div className="col-lg-4 col-md-6">
+              {/* Phone and Service Select Inputs (2 per column) */}
+              <div className="col-md-6 mb-4">
                 <input
                   onChange={updateContactFields}
                   type="text"
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   placeholder="Your Phone"
                   name="phone"
-                  value={formData.phone}
                 />
               </div>
-
-              <div className="col-lg-4 col-md-6">
+              <div className="col-md-6 mb-4">
                 <select
                   onChange={updateContactFields}
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   name="service"
-                  value={formData.service}
                 >
                   <option value="Website SEO Services">Website SEO Services</option>
                   <option value="GMB SEO Services">GMB SEO Services</option>
                 </select>
               </div>
 
-              <div className="col-lg-4 col-md-6">
+              {/* URL and Subject Inputs (2 per column) */}
+              <div className="col-md-6 mb-4">
                 <input
                   onChange={updateContactFields}
                   type="text"
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   placeholder="GBP or Website URL"
                   name="url"
-                  value={formData.url}
                 />
               </div>
-
-              <div className="col-lg-4 col-md-6">
+              <div className="col-md-6 mb-4">
                 <input
                   onChange={updateContactFields}
                   type="text"
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded-pill"
                   placeholder="Subject"
                   name="subject"
-                  value={formData.subject}
                 />
               </div>
 
-              <div className="col-12">
+              {/* Message Textarea */}
+              <div className="col-12 mb-4">
                 <textarea
                   onChange={updateContactFields}
-                  className="form-control custom-input"
+                  className="form-control form-control-lg shadow-sm rounded"
                   placeholder="Message*"
                   name="message"
-                  value={formData.message}
-                  required
-                ></textarea>
+                  rows="4"
+                />
               </div>
 
-              <div className="col-12 text-center">
+              {/* Submit Button */}
+              <div className="col-4 text-center">
                 <button
-                  type="submit"
-                  className="btn btn-primary custom-button"
+                  onClick={() => {
+                    onEquirySubmit();
+                    sendMail();
+                  }}
+                  type="button"
+                  className="btn btn-primary btn-lg rounded-pill px-5 py-3"
                 >
                   Submit Now
                 </button>
@@ -147,4 +105,4 @@ const SEOEstimateForm = () => {
   );
 };
 
-export default SEOEstimateForm;
+export default StylishForm;
