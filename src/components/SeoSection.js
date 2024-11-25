@@ -1,11 +1,32 @@
 import React from 'react';
-import Chart from 'react-apexcharts'; // Make sure you have installed the necessary chart package
+import Chart from 'react-apexcharts'; // Ensure you have installed react-apexcharts
 
 const optionsdoughnut = {
-  options: {
-    // Your chart options here
+  chart: {
+    type: 'donut',
   },
-  series: [25, 75], // Example data, adjust based on your needs
+  labels: ['SEO', 'GMB', 'Website Clicks', 'ROI'], // Labels for each segment
+  series: [40, 30, 20, 10], // Example data for each segment (adjust these values as needed)
+  colors: ['#FF4560', '#00E396', '#008FFB', '#775DD0'], // Customize colors for each segment
+  dataLabels: {
+    enabled: true,
+    style: {
+      fontSize: '14px',
+      fontWeight: 'bold',
+    },
+  },
+  legend: {
+    position: 'bottom',
+    horizontalAlign: 'center',
+    fontSize: '14px',
+  },
+  plotOptions: {
+    pie: {
+      donut: {
+        size: '70%', // Adjust donut size
+      },
+    },
+  },
 };
 
 const SeoSection = () => {
@@ -17,7 +38,7 @@ const SeoSection = () => {
             <div className="seo-results-thumb">
               {/* Render the doughnut chart */}
               <Chart
-                options={optionsdoughnut.options}
+                options={optionsdoughnut}
                 series={optionsdoughnut.series}
                 type="donut"
                 height={350}
@@ -27,9 +48,8 @@ const SeoSection = () => {
 
           <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mb-md-0">
             <header className="crumina-module crumina-heading mb-1">
-              {/* Heading section */}
               <div className="title-text-wrap">
-                <h3 className="heading-title element-anime-fadeInUp-js">Google Rank Services</h3>
+                <h2 className="heading-title element-anime-fadeInUp-js">Google Rank Services</h2>
               </div>
             </header>
             <p>
@@ -49,7 +69,7 @@ const SeoSection = () => {
                   className="crumina-icon mr-3"
                   src="assets/images/banner/icon7.svg"
                   alt="CTR"
-                  style={{ width: '40px', height: '40px' }} // Adjust the size as needed
+                  style={{ width: '40px', height: '40px' }}
                 />
                 <div className="h5 seo-results-item-info">0.09% CTR</div>
               </div>
@@ -60,7 +80,7 @@ const SeoSection = () => {
                   className="crumina-icon mr-3"
                   src="assets/images/banner/icon8.svg"
                   alt="CPA"
-                  style={{ width: '40px', height: '40px' }} // Adjust the size as needed
+                  style={{ width: '40px', height: '40px' }}
                 />
                 <div className="h5 seo-results-item-info">20% less CPA</div>
               </div>
@@ -71,7 +91,7 @@ const SeoSection = () => {
                   className="crumina-icon mr-3"
                   src="assets/images/banner/icon9.svg"
                   alt="ROI"
-                  style={{ width: '40px', height: '40px' }} // Adjust the size as needed
+                  style={{ width: '40px', height: '40px' }}
                 />
                 <div className="h5 seo-results-item-info">272% ROI</div>
               </div>
@@ -80,7 +100,7 @@ const SeoSection = () => {
               <ul className="list-inline">
                 <li className="list-inline-item mx-1 my-2">
                   <a href="#" className="btn btn-primary">
-                    {"Book an SEO Consultation"}
+                    Book an SEO Consultation
                   </a>
                 </li>
               </ul>

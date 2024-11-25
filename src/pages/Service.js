@@ -104,13 +104,19 @@ import mapseoimg from "../assets/images/17.png";
 import webseoimg from '../assets/images/website-seo-services.webp';
 import googleseoimg from '../assets/images/expert-google-search.webp';
 import ContentRightCard from '../components/ContentRightCard'
+import Stats from '../components/Stats'
+import Stats2 from '../components/Stats2'
 
 function Service() {
   return (
     <>
+    {/* <div style={{height:'40px'}}>
+
+    </div> */}
+    {/* <ServiceBanner/> */}
     <SEOConsultantBanner/>
-  {/* <ServiceBanner/> */}
-  <StatsSection percent1='98%' title1='Client Retention' percent2='16+' title2='Year of Service' percent3='60+' title3='Professionals' percent4='1280+' title4='Satisfied Clients'/>
+  <Stats percent1={98} title1='Client Retention' percent2={16} title2='Year of Service' percent3={60} title3='Professionals' percent4={1280} title4='Satisfied Clients'/>
+  {/* <StatsSection percent1='98%' title1='Client Retention' percent2='16+' title2='Year of Service' percent3='60+' title3='Professionals' percent4='1280+' title4='Satisfied Clients'/> */}
   <ServiceBlogArea heading='Website Seo Services - #1 Rank Track Records' card1Title='Garuda Tours & Travels' card1Img={GarudaToursTravels} card2Title='Newhaus Roofing' card2Img={NewhausRoofing} card3Title='Prima Properties' card3Img={primaProperties} />
 {/*   
   <ServiceCaseStudy/> */}
@@ -125,7 +131,7 @@ function Service() {
   desc='Zammy Zaif has been a leading Google SEO consultant with a wealth of experience in the field, having been active in SEO since 2008. From 2014, he has consistently achieved first-rank results for clients, demonstrating his expertise and commitment to delivering top-tier SEO performance. Recognized as a Global Google SEO Expert from 2018, Zammy Zaif offers unparalleled insights and strategies to elevate your brand’s presence on Google. Consult with him to leverage his extensive knowledge and drive significant growth for your business.'
   cimg={googleseoimg}
   />
-  <StatsSection percent1='25' title1='Ranking' percent2='400%' title2='Impression' percent3='20%' title3='Clicks' percent4='100%' title4='Traffic'/>
+  <Stats2 percent1={25} title1='Ranking' percent2={400} title2='Impression' percent3={20} title3='Clicks' percent4={100} title4='Traffic'/>
   <ServiceBlogArea heading='GMB Seo Services - #1 Rank Track Records' card1Title='RK Mahal' card1Img={Rk_mahal} card2Title='Ambica Gold Buyer' card2Img={ambicaGoldBuyer} card3Title='Bake N Enjoy' card3Img={bakenjoy} />
   <ContentRightCard 
   heading='Google Maps Rank Services'
@@ -140,8 +146,8 @@ function Service() {
 {/* 
   <ServicePricingArea/> */}
   <ServiceFaqArea/>
-  {/* <ServiceSubscribeArea/>
-  <ServiceProductArea /> */}
+  {/* <ServiceSubscribeArea/> */}
+  {/* <ServiceProductArea /> */}
 </>
 
   )
