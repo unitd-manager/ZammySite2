@@ -9,11 +9,11 @@ import serviceShape04png from "../assets/images/service/shape/04.png";
 import serviceShape06png from "../assets/images/service/shape/06.png";
 import aboutShape01png from "../assets/images/about/shape/01.png";
 import aboutShape02png from "../assets/images/about/shape/02.png";
-import googleBusinessProfile from "../assets/images/WebsiteRankingServices/google-business-profile.webp";
+import getMoreCalls from "../assets/images/WebsiteRankingServices/get-more-calls.gif";
 import gmbRankingExpert from "../assets/images/WebsiteRankingServices/gmb-ranking-expert.webp";
 import gmbLocalCitationBuildingService from "../assets/images/WebsiteRankingServices/gmb-local-citation-building-service.webp";
-import googleBusinessProfileOptimization from "../assets/images/WebsiteRankingServices/google-business-profile-optimization.webp";
-import websigoogleMyBusinessRankingServiceteRankNo1 from "../assets/images/WebsiteRankingServices/google-my-business-ranking-service.webp";
+import growWithGoogleBusinessProfile from "../assets/images/WebsiteRankingServices/grow-with-google-business-profile.gif";
+import googleNo1BusinessPride from "../assets/images/WebsiteRankingServices/google-no1-business-pride.svg";
 import aboutBusinessMentorpng from "../assets/images/about/zammy-business-mentor.jpg";
 import aboutGreatPublicSpeakerpng from "../assets/images/about/zammy-zaif-public-speaker.jpg";
 import aboutOnlinePresencepng from "../assets/images/about/zammy-online-presence.png";
@@ -67,87 +67,15 @@ const Home = () => {
                 {/* banner main inner contact areas start */}
                 <div className="banner-inner-area-contact-inner">
                   <h2 style={{fontWeight:'bold'}}>
-                  GMB Ranking Services
+                  Google Ranking Services
                   </h2>
-                  <Link to ="/Home" style={{color:'blue'}}>Home</Link>/<span >GMB Ranking Services</span>
+                  <Link to ="/Home" style={{color:'blue'}}>Home</Link>/<span >Google Ranking Services</span>
                 </div>
                 {/* banner main inner contact areas end */}
                 <div className="service--shape">
                   <img src={serviceShape01png} alt="service" className="five" />
                   <img src={serviceShape03png} alt="service" className="two" />
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="rts-product-area">
-          <div className="container">
-            <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-              <div className="col-lg-7 col-md-6">
-                <div className="portfolio-content-wrapper-list">
-                  <span className="pre skew-up" style={{ opacity: 1 }}>
-                  GMB Ranking Services
-                  </span>
-                  <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
-                       Business Profile Rank Optimization
-                      </div>
-                    </div>
-                  </h3>
-                  <p className="disc">
-                  Google Business Profile - GMB Ranking Optimization is a service offered by Zammy Zaif, 
-                  a renowned Google Business Profile expert. This service is designed to help businesses improve their online visibility and increase 
-                  their chances of attracting potential customers locally. With years of experience in the field,
-                  Zammy Zaif has developed an extensive understanding of 
-                  the Google Business Profile platform and can leverage this knowledge to optimize a business's profile to its fullest potential.{" "}
-                  </p>
-                  <p className="disc">
-                  Through the Google Business Profile Ranking Optimization service, Zammy Zaif assists businesses in creating 
-                  a well-optimized profile that accurately represents their products and services. This includes 
-                  optimizing the profile's information, images, and videos to enhance its search engine visibility. 
-                  Furthermore, he helps businesses improve their online reputation by managing their reviews,
-                  responding to customer inquiries, and creating engaging posts that attract potential customers
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-5 col-md-5">
-                <div className="large-thumbnail">
-                  <div className="thumbnail">
-                    <img
-                      src={gmbRankingExpert}
-                      width={450}
-                      alt="Achieving First Rank in Google"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="service--shape">
-                <img src={serviceShape04png} alt="service" className="five" />
-                <img src={serviceShape06png} alt="service" className="three" />
               </div>
             </div>
           </div>
@@ -159,7 +87,7 @@ const Home = () => {
                 <div className="large-thumbnail">
                   <div className="thumbnail">
                     <img
-                      src={googleBusinessProfile}
+                      src={getMoreCalls}
                       width={450}
                       alt="Website Ranking Services"
                     />
@@ -194,21 +122,17 @@ const Home = () => {
                           visibility: "inherit",
                         }}
                       >
-                        Dominate your Google Business Profile
+                     Get More Sales Calls
                       </div>
                     </div>
                   </h3>
                   <p className="disc">
-                  Maximize the impact of your Google Business Profile with our comprehensive optimization services. 
-                  Our team of specialists will enhance every aspect of your profile to help you attract more customers,
-                   boost your visibility in search results, and establish a positive online reputation.{" "}
-                  </p>
-                  <p className="disc">
-                  Through our strategic approach, we'll help your profile stand out from the competition. 
-                   Our experts will highlight your unique selling points, feature positive testimonials and craft engaging 
-                   posts that resonate with your target audience. 
-                  Take charge of your online presence and become an industry leader with a captivating and 
-                  conversion-oriented Google Business Profile.{" "}
+                  Our specialized SEO services are carefully designed to propel your online visibility with a multi-pronged approach. 
+                  We'll enhance your Google Business Profile to secure coveted first-rank placement, 
+                  meticulously optimize your website to dominate search results, 
+                  and develop cutting-edge strategies that leave your competition trailing behind. 
+                  By prioritizing a user-centric, keyword-rich experience, 
+                  we'll ensure an increase in high-quality organic traffic, driving more inquiries and those all-important sales calls.{" "}
                   </p>
                   <button className="rts-btn btn-primary">Get Quote</button>
                 </div>
@@ -407,99 +331,27 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="rts-product-area">
-          <div className="container">
-            <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-              <div className="col-lg-8 col-md-6">
-                <div className="portfolio-content-wrapper-list">
-                  <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
-                        GMB Ranking Optimization Service
-                      </div>
-                    </div>
-                  </h3>
-                  <p className="disc">
-                  Boost your ranking in local search results with our affordable optimization services. 
-                  Starting from just $350 per profile, we'll work tirelessly to enhance your visibility and attract more local customers.
-                  Our team of experts will analyze your Google Business profile and implement proven strategies to improve its performance.
-                  </p>
-                  <p className="disc">
-                  With our optimization techniques, we'll optimize your profile's information, images,
-                   and reviews to increase its relevance and credibility in local search rankings.
-                   We'll also focus on enhancing your online reputation through effective review management and engagement with customers.
-                  </p>
-                  <p className="disc">
-                  Invest in our cost-effective optimization services and watch your business climb the ranks in local search results.
-                   Don't miss out on valuable local customers – let us help you maximize your online presence and drive more traffic to your business.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-5">
-                <div className="large-thumbnail">
-                  <div className="thumbnail">
-                    <img
-                      src={googleBusinessProfileOptimization}
-                      width={450}
-                      alt="Benefits for Google's First Rank"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="service--shape">
-                <img src={serviceShape04png} alt="service" className="five" />
-                <img src={serviceShape06png} alt="service" className="three" />
-              </div>
-            </div>
-          </div>
-        </div>
-         
         <div class="providing-service-area-start-seven gradient-7-radious rts-section-gap">
           <div class="container">
             <div class="row g-6 align-items-center mt--20">
               <div class="col-lg-5">
                 <div class="image-area-service-1 area-3">
                   <a href="#" class="thumbnail-service-1">
-                    <img src={websigoogleMyBusinessRankingServiceteRankNo1} alt="White Hat SEO Process" />
+                    <img src={googleNo1BusinessPride} alt="White Hat SEO Process" />
                   </a>
                 </div>
               </div>
               <div class="col-lg-7 order-change">
                 <div className="portfolio-content-wrapper-list white-text">
                   <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  Google Business Profile Ranking Service
+                  Google's No.1 - Your Business Pride
                   </h3>
                   <p className="disc" style={{color:'white'}}>
-                  Elevate your Google My Business listing ranking with our specialized service. Our team of experts understands the significance of securing a
-                  top position in search results, and we're here to help you achieve that. 
-                  With our proven strategies and in-depth knowledge of Google's algorithms,
-                  we'll optimize your listing to enhance its visibility, attract organic traffic, and outshine your competitors.
-                  </p>
-                  <p className="disc" style={{color:'white'}}>
-                  Our comprehensive approach includes optimizing your business information, selecting relevant categories, managing reviews, implementing targeted keywords, and creating engaging content. By leveraging our Google My Business listing ranking service, you'll gain a competitive advantage, increase your online presence, and attract more customers to your business. Don't miss out on the opportunity to dominate local search results and experience substantial growth - entrust your Google My Business listing ranking to our expert team.
+                  Google's #1 ranking as a search engine directly benefits businesses because it drives immense traffic 
+                  to websites that appear at the top of search results. High visibility on Google translates to increased brand awareness,
+                   more potential customers finding your website, and ultimately a boost in lead generation and sales. 
+                   Essentially, strong Google search performance equates to an inherent competitive advantage and signifies success in the digital landscape, 
+                  making it a point of pride for any business.
                   </p>
                 </div>
               </div>
@@ -538,7 +390,72 @@ const Home = () => {
                           visibility: "inherit",
                         }}
                       >
-                        GMB Local Citation Building Service
+                        Grow Leads with Google Business Profile
+                      </div>
+                    </div>
+                  </h3>
+                  <p className="disc">
+                  Our team specializes in optimizing your Google Business Profile to maximize visibility and attract qualified leads in your local area.
+                   We'll ensure your profile is complete, accurate, and showcases positive customer reviews. Additionally, 
+                   we'll strategically use Google Posts, messaging features, and targeted Q&A responses to build trust and convert searchers into customers.
+                   Our service helps you dominate local search results and drive a consistent stream of warm leads directly to your business.
+                  </p>
+                  <button className="rts-btn btn-primary">Contact Us</button>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-5">
+                <div className="large-thumbnail">
+                  <div className="thumbnail">
+                    <img
+                      src={growWithGoogleBusinessProfile}
+                      width={450}
+                      alt="Benefits for Google's First Rank"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="service--shape">
+                <img src={serviceShape04png} alt="service" className="five" />
+                <img src={serviceShape06png} alt="service" className="three" />
+              </div>
+            </div>
+          </div>
+        </div>
+         
+       
+
+        <div className="rts-product-area">
+          <div className="container">
+            <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
+              <div className="col-lg-8 col-md-6">
+                <div className="portfolio-content-wrapper-list">
+                  <h3 className="title split-collab" style={{ opacity: 1 }}>
+                    {" "}
+                    <div
+                      style={{
+                        position: "relative",
+                        display: "inline-block",
+                        translate: "none",
+                        rotate: "none",
+                        scale: "none",
+                        transform: "translate(0px)",
+                        opacity: 1,
+                        visibility: "inherit",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "relative",
+                          display: "inline-block",
+                          translate: "none",
+                          rotate: "none",
+                          scale: "none",
+                          transform: "translate(0px)",
+                          opacity: 1,
+                          visibility: "inherit",
+                        }}
+                      >
+                        Boost Website Visibility - Accelerate Sales
                       </div>
                     </div>
                   </h3>
