@@ -1,27 +1,56 @@
-.section {
-    background-color: #f9f9f9;
-  }
-  
-  .section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  
-  .form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-  }
-  
+/* Ensuring proper styling for the input fields */
+.signle-input {
+  position: relative;
+  margin-bottom: 20px; /* Space between fields */
+}
+
+/* Styling for the input field */
+.signle-input input,
+.signle-input textarea {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Added padding to create space for the icon */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Icon styling */
+.signle-input i {
+  position: absolute;
+  right: 10px; /* Positioned on the right */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically centered */
+  font-size: 18px; /* Adjust icon size */
+  color: #555; /* Icon color */
+}
+
+/* For the message field (textarea) */
+.signle-input textarea {
+  height: 150px; /* Giving space for multiline input */
+}
+
+/* Add hover or focus effect for inputs */
+.signle-input input:focus,
+.signle-input textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Adjusting button styling */
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}

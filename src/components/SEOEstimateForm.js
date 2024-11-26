@@ -1,108 +1,158 @@
-import React from 'react';
-import './form.css';
+import React, { useState } from 'react';
 
-const StylishForm = ({ updateContactFields, onEquirySubmit, sendMail }) => {
+const AppointmentArea = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    website: '',
+    url: '',
+    email: '',
+    service: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   return (
-    <section style={{ paddingTop: 10 }} className="section bg-light py-5">
+    <div className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-10 col-12">
-            <div className="text-center mb-4">
-              <h2 className="section-title">Get Your Google SEO Estimate</h2>
+        <div className="row align-items-center justify-content-md-center">
+          <div className="col-lg-6 col-md-10">
+            <div className="appoinment-wrapper-one-left">
+              <div style={{ color: 'white', fontSize: 35, fontWeight: 'bold', marginBottom: 20 }}>
+              Get Your Google SEO Estimate
+              </div>
+              {/* <p className="disc">
+                We have helped 38 top brands in the world and 250+ local brands for the last 14 years.
+              </p> */}
+              {/* <div className="feature-area-wrapper">
+                <div className="single-feature">
+                  <div className="icon">
+                    {/* Insert SVG here */}
+                  {/* </div>
+                  <p>Strategy Call</p>
+                </div>
+                <div className="single-feature">
+                  <div className="icon"> */}
+                    {/* Insert SVG here */}
+                  {/* </div>
+                  <p>In-depth Audit</p>
+                </div>
+                <div className="single-feature">
+                  <div className="icon"> */}
+                    {/* Insert SVG here */}
+                  {/* </div>
+                  <p>Growth Roadmap</p>
+                </div>
+              </div> */} 
             </div>
+          </div>
 
-            <form action="#" className="row">
-              {/* Name and Email Inputs (2 per column) */}
-              <div className="col-md-6 mb-4">
+          <div className="col-lg-6 col-md-10">
+            <form action="#" className="appoinment_form-1">
+              <div className="signle-input">
+                <label htmlFor="name">name</label>
                 <input
-                  onChange={updateContactFields}
-                  type="text"
-                  className="form-control form-control-lg shadow-sm rounded-pill"
-                  placeholder="Your Name*"
+                  type="url"
+                  id="name"
+                  placeholder="yourname"
+                  value={formData.name}
                   name="name"
+                  onChange={handleInputChange}
                 />
+                <i className="fa-light fa-globe"></i>
               </div>
-              <div className="col-md-6 mb-4">
+              <div className="signle-input">
+                <label htmlFor="phone">Phone</label>
                 <input
-                  onChange={updateContactFields}
-                  type="email"
-                  className="form-control form-control-lg shadow-sm rounded-pill"
-                  placeholder="Your Email*"
-                  name="email"
-                />
-              </div>
-
-              {/* Phone and Service Select Inputs (2 per column) */}
-              <div className="col-md-6 mb-4">
-                <input
-                  onChange={updateContactFields}
-                  type="text"
-                  className="form-control form-control-lg shadow-sm rounded-pill"
-                  placeholder="Your Phone"
+                  type="tel"
+                  id="phone"
+                  placeholder="Your Phone Number"
+                  value={formData.phone}
                   name="phone"
+                  onChange={handleInputChange}
                 />
+                <i className="fa-light fa-phone"></i>
               </div>
-              <div className="col-md-6 mb-4">
-                <select
-                  onChange={updateContactFields}
-                  className="form-control form-control-lg shadow-sm rounded-pill"
+              <div className="signle-input">
+                <label htmlFor="email">email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="youremail"
+                  value={formData.email}
+                  name="email"
+                  onChange={handleInputChange}
+                />
+                <i className="fa-light fa-globe"></i>
+              </div>
+              
+              <div className="signle-input">
+                <label htmlFor="website">Website</label>
+                <input
+                  type="url"
+                  id="website"
+                  placeholder="yourwebsite.com"
+                  value={formData.website}
+                  name="website"
+                  onChange={handleInputChange}
+                />
+                <i className="fa-light fa-globe"></i>
+              </div>
+              <div className="signle-input">
+                <label htmlFor="service">service</label>
+                <input
+                  type="url"
+                  id="service"
+                  placeholder="service"
+                  value={formData.service}
                   name="service"
-                >
-                  <option value="Website SEO Services">Website SEO Services</option>
-                  <option value="GMB SEO Services">GMB SEO Services</option>
-                </select>
+                  onChange={handleInputChange}
+                />
+                <i className="fa-light fa-globe"></i>
               </div>
-
-              {/* URL and Subject Inputs (2 per column) */}
-              <div className="col-md-6 mb-4">
+              <div className="signle-input">
+                <label htmlFor="url">url</label>
                 <input
-                  onChange={updateContactFields}
-                  type="text"
-                  className="form-control form-control-lg shadow-sm rounded-pill"
-                  placeholder="GBP or Website URL"
+                  type="url"
+                  id="url"
+                  placeholder="url"
+                  value={formData.url}
                   name="url"
+                  onChange={handleInputChange}
                 />
+                <i className="fa-light fa-globe"></i>
               </div>
-              <div className="col-md-6 mb-4">
+              <div className="signle-input">
+                <label htmlFor="message">Message</label>
                 <input
-                  onChange={updateContactFields}
-                  type="text"
-                  className="form-control form-control-lg shadow-sm rounded-pill"
-                  placeholder="Subject"
-                  name="subject"
-                />
-              </div>
-
-              {/* Message Textarea */}
-              <div className="col-12 mb-4">
-                <textarea
-                  onChange={updateContactFields}
-                  className="form-control form-control-lg shadow-sm rounded"
-                  placeholder="Message*"
+                  type="url"
+                  id="message"
+                  placeholder="yourmessage.com"
+                  value={formData.message}
                   name="message"
-                  rows="4"
+                  onChange={handleInputChange}
                 />
+                <i className="fa-light fa-globe"></i>
               </div>
-
-              {/* Submit Button */}
-              <div className="col-4 text-center">
-                <button
-                  onClick={() => {
-                    onEquirySubmit();
-                    sendMail();
-                  }}
-                  type="button"
-                  className="btn btn-primary btn-lg rounded-pill px-5 py-3"
-                >
-                  Submit Now
+              <div className="signle-input">
+                <button type="submit" className="rts-btn btn-primary-2">
+                  Submit
                 </button>
+              
               </div>
             </form>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default StylishForm;
+export default AppointmentArea;
