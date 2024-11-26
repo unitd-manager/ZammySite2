@@ -61,7 +61,7 @@ const AppointmentArea = () => {
                 <input
                   type="url"
                   id="name"
-                  placeholder="yourname"
+                  placeholder="Your name"
                   value={formData.name}
                   name="name"
                   onChange={handleInputChange}
@@ -85,7 +85,7 @@ const AppointmentArea = () => {
                 <input
                   type="email"
                   id="email"
-                  placeholder="youremail"
+                  placeholder="email"
                   value={formData.email}
                   name="email"
                   onChange={handleInputChange}
@@ -134,7 +134,7 @@ const AppointmentArea = () => {
                 <input
                   type="url"
                   id="message"
-                  placeholder="yourmessage.com"
+                  placeholder="message"
                   value={formData.message}
                   name="message"
                   onChange={handleInputChange}
