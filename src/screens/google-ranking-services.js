@@ -217,84 +217,108 @@ const Home = () => {
       </div>
 
       <div
-        class="rts-cta-area-start area-3 rts-section-gapBottom"
-        style={{ marginTop: 100 }}
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="cta-main-wrapper-style-box">
-                <div>
-                  <span style={{ color: "blue", fontWeight: "bold" }}>
-                    Our First Rank Result Speak for us
-                  </span>
-                </div>
-                <h2 class="title">Expert in Google Ranking Services</h2>
-                <p>
-                  Google Ranking Services specializes in achieving the first
-                  rank on Google's SERP for clients locally & globally. We offer
-                  comprehensive services, including competitor analysis,
-                  strategic content creation, high-quality backlinks, GBP
-                  optimization & on-page technical optimization tailored to
-                  align with Google's algorithms. Our team of Google Rank
-                  Experts attracts the right audience for your business with our
-                  specialized SEO ranking services.
-                </p>
-                <div className="my-carousel">
-                  <Slider {...settings}>
-                    <div>
-                      <img src={realestateCoach} alt="realestateCoach" />
-                    </div>
-                    <div>
-                      <img src={dentru} alt="dentru" />
-                    </div>
-                    <div>
-                      <img src={royCleeves} alt="roy-cleeves" />
-                    </div>
-                    <div>
-                      <img src={dentruGurgaon} alt="dentru-gurgaon" />
-                    </div>
-                    <div>
-                      <img src={studio7rk} alt="studio-7rk" />
-                    </div>
-                    <div>
-                      <img
-                        src={propertyBuyersInLondonResult}
-                        alt="propertyBuyersInLondonResult"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src={googleBusinessRankingPerformance}
-                        alt="googleBusinessRankingPerformance"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src={shingleRoofingExpertsLosAngelesResult}
-                        alt="shingle-roofing-experts-los-angeles-result"
-                      />
-                    </div>
-                    <div>
-                      <img
-                        src={progressiveAcServicesNorthHollywood}
-                        alt="progressiveAcServicesNorthHollywood"
-                      />
-                    </div>
-                  </Slider>
-                </div>
-
-                <div class="shape-area">
-                  {/* <img src={ball1} alt="sahpe" class="one"/> */}
-                  <img src={ball11} alt="sahpe" class="two" />
-                  <img src={ball2} alt="sahpe" class="three" />
-                  {/* <img src={ball4} alt="sahpe" class="four"/> */}
-                </div>
+  className="rts-cta-area-start area-3 rts-section-gapBottom"
+  style={{ marginTop: 100 }}
+>
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
+        <div className="cta-main-wrapper-style-box">
+          <div>
+            <span style={{ color: "blue", fontWeight: "bold" }}>
+              Our First Rank Result Speak for us
+            </span>
+          </div>
+          <h2 className="title">Expert in Google Ranking Services</h2>
+          <p>
+            Google Ranking Services specializes in achieving the first rank on
+            Google's SERP for clients locally & globally. We offer comprehensive
+            services, including competitor analysis, strategic content creation,
+            high-quality backlinks, GBP optimization & on-page technical
+            optimization tailored to align with Google's algorithms. Our team
+            of Google Rank Experts attracts the right audience for your
+            business with our specialized SEO ranking services.
+          </p>
+          <div className="my-carousel">
+            <Slider {...settings}>
+              <div>
+                <img
+                  src={realestateCoach}
+                  alt="realestateCoach"
+                  style={{ padding: 20, marginBottom: 10 }}
+                />
               </div>
-            </div>
+              <div>
+                <img
+                  src={dentru}
+                  alt="dentru"
+                  style={{ padding: 20,}}
+                />
+              </div>
+              <div>
+                <img
+                  src={royCleeves}
+                  alt="roy-cleeves"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={dentruGurgaon}
+                  alt="dentru-gurgaon"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={studio7rk}
+                  alt="studio-7rk"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={propertyBuyersInLondonResult}
+                  alt="propertyBuyersInLondonResult"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={googleBusinessRankingPerformance}
+                  alt="googleBusinessRankingPerformance"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={shingleRoofingExpertsLosAngelesResult}
+                  alt="shingle-roofing-experts-los-angeles-result"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={progressiveAcServicesNorthHollywood}
+                  alt="progressiveAcServicesNorthHollywood"
+                  style={{ padding:20, }}
+                />
+              </div>
+            </Slider>
+          </div>
+
+          <div className="shape-area">
+            {/* <img src={ball1} alt="sahpe" class="one"/> */}
+            <img src={ball11} alt="shape" className="two" />
+            <img src={ball2} alt="shape" className="three" />
+            {/* <img src={ball4} alt="sahpe" class="four"/> */}
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
 
       <div
         class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
@@ -471,7 +495,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious">
+      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious" style={{marginRight:10}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -494,7 +518,7 @@ const Home = () => {
             {/* Pricing Plan 1 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place" style={{
-            height: "560px", // Limit height
+            height: "560px", padding: 20,  // Limit height
           }}>
                 <div className="head-pricing" >
                   <span className="plane_name">GBP Local SEO</span>
@@ -546,7 +570,7 @@ const Home = () => {
             {/* Pricing Plan 2 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px", // Limit height
+            height: "560px",padding: 20, 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">City Based SEO</span>
@@ -598,7 +622,7 @@ const Home = () => {
             {/* Pricing Plan 3 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px", // Limit height
+            height: "560px",padding: 20, 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">State Level SEO</span>
@@ -649,7 +673,7 @@ const Home = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px", // Limit height
+            height: "560px",padding: 20, 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">Country Level SEO</span>
@@ -701,7 +725,7 @@ const Home = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px", // Limit height
+            height: "560px", padding: 20, 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">Global SEO</span>
