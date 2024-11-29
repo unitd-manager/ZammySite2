@@ -87,7 +87,7 @@ function ServiceFaqArea() {
         <div className="faq-area-start">
           <div className="title-style-one-center">
             <span className="pre skew-up">Our FAQ</span>
-            <h2 className="title skew-up">Frequently asked questions</h2>
+            <h4 className="title skew-up">Frequently asked questions</h4>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@ function ServiceFaqArea() {
         <div className="accordion-faq-area-border-bottom-style">
           <div className="accordion" id="accordionExample">
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button"
                   type="button"
@@ -108,7 +108,7 @@ function ServiceFaqArea() {
                 >
                     Who is the world's best google ranking expert?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseOne"
                 className="accordion-collapse collapse show"
@@ -126,7 +126,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -137,7 +137,7 @@ function ServiceFaqArea() {
                 >
                   Who is a Google ranking expert?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"
@@ -155,7 +155,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingThree">
+              <h4 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -166,7 +166,7 @@ function ServiceFaqArea() {
                 >
                    Why do we need a Google Ranking Expert?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseThree"
                 className="accordion-collapse collapse"
@@ -184,7 +184,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -195,7 +195,7 @@ function ServiceFaqArea() {
                 >
                    What services do Google Ranking Experts provide?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseFour"
                 className="accordion-collapse collapse"
@@ -213,7 +213,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFive">
+              <h4 className="accordion-header" id="headingFive">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -224,7 +224,7 @@ function ServiceFaqArea() {
                 >
                    How long does it take to see results with Google Ranking Services?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseFive"
                 className="accordion-collapse collapse"
@@ -242,7 +242,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingSix">
+              <h4 className="accordion-header" id="headingSix">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -253,7 +253,7 @@ function ServiceFaqArea() {
                 >
                   How long will Global SEO Ranking take for general keywords?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseSix"
                 className="accordion-collapse collapse"
@@ -273,7 +273,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -284,7 +284,7 @@ function ServiceFaqArea() {
                 >
                  Can you guarantee first-rank results for all types of keywords?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"
@@ -302,7 +302,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -313,7 +313,7 @@ function ServiceFaqArea() {
                 >
                    What if my website doesn't get the promised results?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"
@@ -331,7 +331,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -342,7 +342,7 @@ function ServiceFaqArea() {
                 >
                    How do you decide the best SEO plan for my business?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"
@@ -360,7 +360,7 @@ function ServiceFaqArea() {
               </div>
             </div>
             <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -371,7 +371,7 @@ function ServiceFaqArea() {
                 >
                     What support do you provide after reaching top rankings?
                 </button>
-              </h2>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"

@@ -69,18 +69,18 @@ const SEOConsultantBanner = () => {
           <div className="banner-one-right-content-with-img text-center">
             <img src={seobannerimg} alt="banner_image" />
             <div className="short-image-area">
-              <img
+              {/* <img
                 src={bannershortshortimage01}
                 alt="banner"
                 className="img-1"
                 width={180}
-              />
-              <img
+              /> */}
+              {/* <img
                 src={bannershortshortimage02}
                 alt="banner"
                 className="img-2"
                 width={200}
-              />
+              /> */}
             </div>
           </div>
         </div>

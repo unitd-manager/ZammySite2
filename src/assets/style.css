@@ -9446,7 +9446,10 @@ img {
 }
 
 .rts-banner-area-one img{
-  max-width: 80%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 svg:not(:root) {

@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const AppointmentArea = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    website: '',
-    url: '',
-    email: '',
-    service: '',
-    message: '',
+    name: "",
+    phone: "",
+    website: "",
+    url: "",
+    email: "",
+    service: "",
+    message: "",
   });
 
   const handleInputChange = (e) => {
@@ -20,132 +20,178 @@ const AppointmentArea = () => {
   };
 
   return (
-    <div className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
+    <div
+      className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
+      style={{ marginTop: 150 }}
+    >
       <div className="container">
-        <div className="row align-items-center justify-content-md-center">
-          <div className="col-lg-6 col-md-10">
-            <div className="appoinment-wrapper-one-left">
-              <div style={{ color: 'white', fontSize: 35, fontWeight: 'bold', marginBottom: 20 }}>
+        <div className="row justify-content-center text-center">
+          <div className="col-12 mb-4">
+            <div
+              style={{
+                color: "white",
+                fontSize: 35,
+                fontWeight: "bold",
+                marginBottom: 20,
+              }}
+            >
               Get Your Google SEO Estimate
-              </div>
-              {/* <p className="disc">
-                We have helped 38 top brands in the world and 250+ local brands for the last 14 years.
-              </p> */}
-              {/* <div className="feature-area-wrapper">
-                <div className="single-feature">
-                  <div className="icon">
-                    {/* Insert SVG here */}
-                  {/* </div>
-                  <p>Strategy Call</p>
-                </div>
-                <div className="single-feature">
-                  <div className="icon"> */}
-                    {/* Insert SVG here */}
-                  {/* </div>
-                  <p>In-depth Audit</p>
-                </div>
-                <div className="single-feature">
-                  <div className="icon"> */}
-                    {/* Insert SVG here */}
-                  {/* </div>
-                  <p>Growth Roadmap</p>
-                </div>
-              </div> */} 
             </div>
           </div>
-
-          <div className="col-lg-6 col-md-10">
+        </div>
+        <div className="row">
+          <div className="col-lg-12">
             <form action="#" className="appoinment_form-1">
-              <div className="signle-input">
-                <label htmlFor="name">name</label>
-                <input
-                  type="url"
-                  id="name"
-                  placeholder="Your name"
-                  value={formData.name}
-                  name="name"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              <div className="signle-input">
-                <label htmlFor="phone">Phone</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  placeholder="Your Phone Number"
-                  value={formData.phone}
-                  name="phone"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-phone"></i>
-              </div>
-              <div className="signle-input">
-                <label htmlFor="email">email</label>
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="email"
-                  value={formData.email}
-                  name="email"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              
-              <div className="signle-input">
-                <label htmlFor="website">Website</label>
-                <input
-                  type="url"
-                  id="website"
-                  placeholder="yourwebsite.com"
-                  value={formData.website}
-                  name="website"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              <div className="signle-input">
-                <label htmlFor="service">service</label>
-                <input
-                  type="url"
-                  id="service"
-                  placeholder="service"
-                  value={formData.service}
-                  name="service"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              <div className="signle-input">
-                <label htmlFor="url">url</label>
-                <input
-                  type="url"
-                  id="url"
-                  placeholder="url"
-                  value={formData.url}
-                  name="url"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              <div className="signle-input">
-                <label htmlFor="message">Message</label>
-                <input
-                  type="url"
-                  id="message"
-                  placeholder="message"
-                  value={formData.message}
-                  name="message"
-                  onChange={handleInputChange}
-                />
-                <i className="fa-light fa-globe"></i>
-              </div>
-              <div className="signle-input">
-                <button type="submit" className="rts-btn btn-primary-2">
-                  Submit
-                </button>
-              
+              <div className="row g-3">
+                {/* Name Input */}
+                {/* <div className="col-md-6">
+                  <label htmlFor="name">Name</label>
+                  <div className="input-group">
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Your name"
+                      value={formData.name}
+                      name="name"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-user"></i>
+                    </span>
+                  </div>
+                </div> */}
+                <div className="col-md-6">
+                  <label htmlFor="phone">Name</label>
+                  <div className="input-group">
+                    <input
+                      type="email"
+                      id="name"
+                      placeholder="Your Name"
+                      value={formData.name}
+                      name="name"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Phone Input */}
+                <div className="col-md-6">
+                  <label htmlFor="phone">Phone</label>
+                  <div className="input-group">
+                    <input
+                      type="tel"
+                      id="phone"
+                      placeholder="Your Phone Number"
+                      value={formData.phone}
+                      name="phone"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-phone"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Email Input */}
+                <div className="col-md-6">
+                  <label htmlFor="email">Email</label>
+                  <div className="input-group">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Your Email"
+                      value={formData.email}
+                      name="email"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Website Input */}
+                <div className="col-md-6">
+                  <label htmlFor="website">Website</label>
+                  <div className="input-group">
+                    <input
+                      type="url"
+                      id="website"
+                      placeholder="yourwebsite.com"
+                      value={formData.website}
+                      name="website"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-globe"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Service Input */}
+                <div className="col-md-6">
+                  <label htmlFor="service">Service</label>
+                  <div className="input-group">
+                    <input
+                      type="url"
+                      id="service"
+                      placeholder="Service"
+                      value={formData.service}
+                      name="service"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-briefcase"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* URL Input */}
+                <div className="col-md-6">
+                  <label htmlFor="url">URL</label>
+                  <div className="input-group">
+                    <input
+                      type="url"
+                      id="url"
+                      placeholder="URL"
+                      value={formData.url}
+                      name="url"
+                      onChange={handleInputChange}
+                      className="form-control"
+                    />
+                    <span className="input-group-text">
+                      <i className="fa fa-link"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Message Input */}
+                <div className="col-12">
+                  <label htmlFor="message">Message</label>
+                  <div className="input-group">
+                    <textarea
+                      id="message"
+                      placeholder="Message"
+                      value={formData.message}
+                      name="message"
+                      onChange={handleInputChange}
+                      className="form-control"
+                      rows="4"
+                    ></textarea>
+                    <span className="input-group-text">
+                      <i className="fa fa-comment"></i>
+                    </span>
+                  </div>
+                </div>
+                {/* Submit Button */}
+                <div className="col-12">
+                  <button type="submit" className="rts-btn btn-primary-2">
+                    Submit
+                  </button>
+                </div>
               </div>
             </form>
           </div>

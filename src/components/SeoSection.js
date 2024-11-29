@@ -31,7 +31,7 @@ const optionsdoughnut = {
 
 const SeoSection = () => {
   return (
-    <section style={{ paddingTop: 200 }} className="section">
+    <section style={{paddingTop: 50, paddingBottom: 75 }} className="section">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 mb-7 mb-md-0">

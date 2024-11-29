@@ -82,83 +82,33 @@ import googleseoimg from '../assets/images/expert-google-search.webp';
 //import gmpseoimg from "../assets/images/17-local-details.svg";
 //import grsimg from "../assets/images/icon7.svg"
 
-function ContentLeftCard({heading,desc,cimg}) {
+function ContentLeftCard({ heading, desc, cimg }) {
   return (
     <div className="rts-product-area">
-  <div className="container">
-   
-    <div className="row service-relative align-items-center section-separator-top-bg-white single-product-list  pt--125 pb--125">
-      <div className="col-lg-5 col-md-6">
-        <div className="portfolio-content-wrapper-list">
-          {/* <h3 className="pre-title">02.</h3> */}
-          <h2 className="title">
-         {heading}
-          </h2>
-          <p className="disc">
-         {desc}
-          </p>
-          {/* <div className="product-service-wrapper"> */}
-            {/* single service */}
-            {/* <div className="single-service">
-              <i className="fa-light fa-check" />
-              <p>Market research</p>
-            </div> */}
-            {/* single service end */}
-            {/* single service */}
-            {/* <div className="single-service">
-              <i className="fa-light fa-check" />
-              <p>Brand strategy</p>
-            </div> */}
-            {/* single service end */}
-            {/* single service */}
-            {/* <div className="single-service">
-              <i className="fa-light fa-check" />
-              <p>Name, tagline and messaging</p>
-            </div> */}
-            {/* single service end */}
-            {/* single service */}
-            {/* <div className="single-service">
-              <i className="fa-light fa-check" />
-              <p>Logo and identity design</p>
-            </div> */}
-            {/* single service end */}
-            {/* single service */}
-            {/* <div className="single-service">
-              <i className="fa-light fa-check" />
-              <p>Graphic and Illustration</p>
-            </div> */}
-            {/* single service end */}
-          {/* </div> */}
+      <div className="container">
+        <div className="row align-items-center section-separator-top-bg-white single-product-list pt--125 pb--125">
+          {/* Content Section */}
+          <div className="col-lg-5 col-md-6 d-flex flex-column align-items-center text-center text-md-start">
+            <div className="portfolio-content-wrapper-list">
+              <h2 className="title">{heading}</h2>
+              <p className="disc">{desc}</p>
+            </div>
+          </div>
+          {/* Image Section */}
+          <div className="col-lg-6 col-md-6 offset-lg-1 d-flex justify-content-center">
+            <a href="#" className="thumbnail">
+              <img src={cimg} width={505} height={616} alt="product" />
+            </a>
+          </div>
+          {/* Decorative Shapes */}
+          <div className="service--shape">
+            <img src={ball4} alt="service" className="three" />
+            <img src={ball6} alt="service" className="four" />
+          </div>
         </div>
       </div>
-      <div className="col-lg-6 col-md-6 offset-lg-1">
-        <a href="#" className="thumbnail">
-          <img
-            src={cimg}
-            width={505}
-            height={616}
-            alt="product"
-          />
-        </a>
-      </div>
-      <div className="service--shape">
-        <img
-          src={ball4}
-          alt="service"
-          className="three"
-        />
-        <img
-          src={ball6}
-          alt="service"
-          className="four"
-        />
-      </div>
     </div>
-    
-  </div>
-</div>
-
-  )
+  );
 }
 
-export default ContentLeftCard
+export default ContentLeftCard;
