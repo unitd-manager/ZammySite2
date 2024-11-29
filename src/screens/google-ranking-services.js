@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Slider from 'react-slick';
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../assets/main.css";
@@ -124,9 +124,6 @@ const Home = () => {
     ],
   };
 
-  
-  
-
   return (
     <>
       {/* rts banner area start */}
@@ -219,61 +216,109 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="rts-cta-area-start area-3 rts-section-gapBottom" style={{marginTop :100}}>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cta-main-wrapper-style-box">
-                    <div>
-                      
-                          <span style={{color:'blue',fontWeight:'bold'}}>Our First Rank Result Speak for us</span>
-                      </div>      
-                        <h2 class="title">Expert in Google Ranking Services</h2>
-                        <p>Google Ranking Services specializes in achieving the first rank on Google's SERP for clients locally & globally. We offer comprehensive services, including competitor analysis, strategic content creation, high-quality backlinks, GBP optimization & on-page technical optimization tailored to align with Google's algorithms. Our team of Google Rank Experts attracts the right audience for your business with our specialized SEO ranking services.</p>
-                        <div className="my-carousel">
-      <Slider {...settings}>
-        <div>
-          <img src={realestateCoach} alt="realestateCoach" />
+      <div
+  className="rts-cta-area-start area-3 rts-section-gapBottom"
+  style={{ marginTop: 100 }}
+>
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
+        <div className="cta-main-wrapper-style-box">
+          <div>
+            <span style={{ color: "blue", fontWeight: "bold" }}>
+              Our First Rank Result Speak for us
+            </span>
+          </div>
+          <h2 className="title">Expert in Google Ranking Services</h2>
+          <p>
+            Google Ranking Services specializes in achieving the first rank on
+            Google's SERP for clients locally & globally. We offer comprehensive
+            services, including competitor analysis, strategic content creation,
+            high-quality backlinks, GBP optimization & on-page technical
+            optimization tailored to align with Google's algorithms. Our team
+            of Google Rank Experts attracts the right audience for your
+            business with our specialized SEO ranking services.
+          </p>
+          <div className="my-carousel">
+            <Slider {...settings}>
+              <div>
+                <img
+                  src={realestateCoach}
+                  alt="realestateCoach"
+                  style={{ padding: 20, marginBottom: 10 }}
+                />
+              </div>
+              <div>
+                <img
+                  src={dentru}
+                  alt="dentru"
+                  style={{ padding: 20,}}
+                />
+              </div>
+              <div>
+                <img
+                  src={royCleeves}
+                  alt="roy-cleeves"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={dentruGurgaon}
+                  alt="dentru-gurgaon"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={studio7rk}
+                  alt="studio-7rk"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={propertyBuyersInLondonResult}
+                  alt="propertyBuyersInLondonResult"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={googleBusinessRankingPerformance}
+                  alt="googleBusinessRankingPerformance"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={shingleRoofingExpertsLosAngelesResult}
+                  alt="shingle-roofing-experts-los-angeles-result"
+                  style={{ padding: 20, }}
+                />
+              </div>
+              <div>
+                <img
+                  src={progressiveAcServicesNorthHollywood}
+                  alt="progressiveAcServicesNorthHollywood"
+                  style={{ padding:20, }}
+                />
+              </div>
+            </Slider>
+          </div>
+
+          <div className="shape-area">
+            {/* <img src={ball1} alt="sahpe" class="one"/> */}
+            <img src={ball11} alt="shape" className="two" />
+            <img src={ball2} alt="shape" className="three" />
+            {/* <img src={ball4} alt="sahpe" class="four"/> */}
+          </div>
         </div>
-        <div>
-          <img src={dentru} alt="dentru" />
-        </div>
-        <div>
-          <img src={royCleeves} alt="roy-cleeves" />
-        </div>
-        <div>
-          <img src={dentruGurgaon} alt="dentru-gurgaon" />
-        </div>
-        <div>
-          <img src={studio7rk} alt="studio-7rk" />
-        </div>
-        <div>
-          <img src={propertyBuyersInLondonResult} alt="propertyBuyersInLondonResult" />
-        </div>
-        <div>
-          <img src={googleBusinessRankingPerformance} alt="googleBusinessRankingPerformance" />
-        </div>
-        <div>
-          <img src={shingleRoofingExpertsLosAngelesResult} alt="shingle-roofing-experts-los-angeles-result" />
-        </div>
-        <div>
-          <img src={progressiveAcServicesNorthHollywood} alt="progressiveAcServicesNorthHollywood" />
-        </div>
-      </Slider>
+      </div>
     </div>
-                        
-                        <div class="shape-area">
-                          
-                            {/* <img src={ball1} alt="sahpe" class="one"/> */}
-                            <img src={ball11} alt="sahpe" class="two"/>
-                            <img src={ball2} alt="sahpe" class="three"/>
-                            {/* <img src={ball4} alt="sahpe" class="four"/> */}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
+</div>
+
 
       <div
         class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
@@ -450,217 +495,287 @@ const Home = () => {
         </div>
       </div>
 
-
-      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="title-style-one-center">
-              <span className="pre skew-up">Local to Global Ranking SEO Services</span>
-              <h2 className="title skew-up">Cost of SEO Rank Services</h2>
-              <p class="disc">
+      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious" style={{marginRight:10}}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="title-style-one-center">
+                <span className="pre skew-up">
+                  Local to Global Ranking SEO Services
+                </span>
+                <h2 className="title skew-up">Cost of SEO Rank Services</h2>
+                <p class="disc">
                   {" "}
-                  Specializing in Google Ranking Services to elevate your online presence and drive organic traffic to your website.
+                  Specializing in Google Ranking Services to elevate your online
+                  presence and drive organic traffic to your website.
                 </p>
-            </div>
-          </div>
-        </div>
-        <Slider {...settingsprice}> {/* Wrap pricing cards with Slider component */}
-          {/* Pricing Plan 1 */}
-          <div className="col-lg-2 col-md-6 col-sm-10">
-            <div className="single-pricing-area-two professional-place">
-              <div className="head-pricing">
-                <span className="plane_name">Free plan</span>
-                <div className="doller-area">
-                  <h2 className="title">$0</h2>
-                  <span className="time">/ per month</span>
-                </div>
-                <p>Grow your business with ease.</p>
-              </div>
-              <div className="body">
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Social media advertising</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Report analytics</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Keyword research</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Content strategy</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Premium consulting</p>
-                </div>
-              </div>
-              <div className="footer">
-                <a href="#" className="rts-btn btn-primary-2">Sign up now</a>
-                <p>No credit card required.</p>
               </div>
             </div>
           </div>
-          {/* Pricing Plan 2 */}
-          <div className="col-lg-2 col-md-6 col-sm-10">
-            <div className="single-pricing-area-two professional-place">
-              <div className="head-pricing">
-                <span className="plane_name">Professional</span>
-                <div className="doller-area">
-                  <h2 className="title">$99</h2>
-                  <span className="time">/ per month</span>
+          <Slider {...settingsprice}>
+            {" "}
+            {/* Wrap pricing cards with Slider component */}
+            {/* Pricing Plan 1 */}
+            <div className="col-lg-2 col-md-6 col-sm-10">
+              <div className="single-pricing-area-two professional-place" style={{
+            height: "560px", padding: 20,  // Limit height
+          }}>
+                <div className="head-pricing" >
+                  <span className="plane_name">GBP Local SEO</span>
+                  <div className="doller-area">
+                    <h3 className="title">$750</h3>
+                    <span className="time">Start From</span>
+                  </div>
                 </div>
-                <p>Grow your business with ease.</p>
-              </div>
-              <div className="body">
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Social media advertising</p>
+                <div className="body" style={{ fontSize: "14px" }}>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>45 Days TimeFrame</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>5-10 Miles of Area Radious</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>5 Major Category Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>5 Business Related Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1 Google Business Profile</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>website Ranking</p>
+                  </div>
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Report analytics</p>
+                <div
+                  className="footer"
+                  style={{
+                    marginTop: "10px", // Reduce space between the body and footer
+                    textAlign: "center",
+                  }}
+                >
+                  <a href="#" className="rts-btn btn-primary-2">
+                    Contact Now
+                  </a>
+                  {/* <p>No credit card required.</p> */}
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Keyword research</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Content strategy</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Premium consulting</p>
-                </div>
-              </div>
-              <div className="footer">
-                <a href="#" className="rts-btn btn-primary-2">Try for Free</a>
-                <p>$999 billed annually. Save $189.</p>
               </div>
             </div>
-          </div>
-          {/* Pricing Plan 3 */}
-          <div className="col-lg-2 col-md-6 col-sm-10">
-            <div className="single-pricing-area-two professional-place">
-              <div className="head-pricing">
-                <span className="plane_name">Enterprise</span>
-                <div className="doller-area">
-                  <h2 className="title">$149</h2>
-                  <span className="time">/ per month</span>
+            {/* Pricing Plan 2 */}
+            <div className="col-lg-2 col-md-6 col-sm-10">
+              <div className="single-pricing-area-two professional-place"  style={{
+            height: "560px",padding: 20, 
+          }}>
+                <div className="head-pricing">
+                  <span className="plane_name">City Based SEO</span>
+                  <div className="doller-area">
+                    <h3 className="title">$999</h3>
+                    <span className="time">/Month</span>
+                  </div>
                 </div>
-                <p>Grow your business with ease.</p>
-              </div>
-              <div className="body">
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Social media advertising</p>
+                <div className="body" style={{ fontSize: "14px" }}>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>3-6 Months TimeFrame</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>A Particular City or District</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Rank for 25 Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st page Rank for 45 Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1 Google Business Profile</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>300 HQ White Hat Backlinks</p>
+                  </div>
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Report analytics</p>
+                <div
+                  className="footer"
+                  style={{
+                    marginTop: "10px", // Reduce space between the body and footer
+                    textAlign: "center",
+                  }}
+                >
+                  <a href="#" className="rts-btn btn-primary-2">
+                    Contact Now
+                  </a>
+                  {/* <p>No credit card required.</p> */}
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Keyword research</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Content strategy</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Premium consulting</p>
-                </div>
-              </div>
-              <div className="footer">
-                <a href="#" className="rts-btn btn-primary-2">Let’s talk</a>
-                <p>$999 billed annually. Save $189.</p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-2 col-md-6 col-sm-10">
-            <div className="single-pricing-area-two professional-place">
-              <div className="head-pricing">
-                <span className="plane_name">Professional</span>
-                <div className="doller-area">
-                  <h2 className="title">$99</h2>
-                  <span className="time">/ per month</span>
+            {/* Pricing Plan 3 */}
+            <div className="col-lg-2 col-md-6 col-sm-10">
+              <div className="single-pricing-area-two professional-place"  style={{
+            height: "560px",padding: 20, 
+          }}>
+                <div className="head-pricing">
+                  <span className="plane_name">State Level SEO</span>
+                  <div className="doller-area">
+                    <h3 className="title">$1350</h3>
+                    <span className="time">/Month</span>
+                  </div>
                 </div>
-                <p>Grow your business with ease.</p>
-              </div>
-              <div className="body">
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Social media advertising</p>
+                <div className="body" style={{ fontSize: "14px" }}>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>6-9 Months TimeFrame</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>State Level 1st Rank</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Rank for 25 Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Page Rank for 125 key</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1-5 Google Business Profile</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>500 HQ White Hat Backlinks</p>
+                  </div>
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Report analytics</p>
+                <div
+                  className="footer"
+                  style={{
+                    marginTop: "10px", // Reduce space between the body and footer
+                    textAlign: "center",
+                  }}
+                >
+                  <a href="#" className="rts-btn btn-primary-2">
+                    Contact Now
+                  </a>
+                  {/* <p>No credit card required.</p> */}
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Keyword research</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Content strategy</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Premium consulting</p>
-                </div>
-              </div>
-              <div className="footer">
-                <a href="#" className="rts-btn btn-primary-2">Try for Free</a>
-                <p>$999 billed annually. Save $189.</p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-2 col-md-6 col-sm-10">
-            <div className="single-pricing-area-two professional-place">
-              <div className="head-pricing">
-                <span className="plane_name">Professional</span>
-                <div className="doller-area">
-                  <h2 className="title">$99</h2>
-                  <span className="time">/ per month</span>
+            <div className="col-lg-2 col-md-6 col-sm-10">
+              <div className="single-pricing-area-two professional-place"  style={{
+            height: "560px",padding: 20, 
+          }}>
+                <div className="head-pricing">
+                  <span className="plane_name">Country Level SEO</span>
+
+                  <div className="doller-area">
+                    <h3 className="title">$1700</h3>
+                    <span className="time">/Month</span>
+                  </div>
                 </div>
-                <p>Grow your business with ease.</p>
-              </div>
-              <div className="body">
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Social media advertising</p>
+                <div className="body" style={{ fontSize: "14px" }}>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>9-12 Months TimeFrame</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>Country Level 1st Rank</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Rank for 50 Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Page Rank for 75 key</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1-10 Google Business Profile</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>750 HQ White Hat Backlinks</p>
+                  </div>
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Report analytics</p>
+                <div
+                  className="footer"
+                  style={{
+                    marginTop: "10px", // Reduce space between the body and footer
+                    textAlign: "center",
+                  }}
+                >
+                  <a href="#" className="rts-btn btn-primary-2">
+                    Contact Now
+                  </a>
+                  {/* <p>No credit card required.</p> */}
                 </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Keyword research</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Content strategy</p>
-                </div>
-                <div className="single-check">
-                  <i className="fa-regular fa-check"></i>
-                  <p>Premium consulting</p>
-                </div>
-              </div>
-              <div className="footer">
-                <a href="#" className="rts-btn btn-primary-2">Try for Free</a>
-                <p>$999 billed annually. Save $189.</p>
               </div>
             </div>
-          </div>
-        </Slider>
-        {/* <div className="row">
+            <div className="col-lg-2 col-md-6 col-sm-10">
+              <div className="single-pricing-area-two professional-place"  style={{
+            height: "560px", padding: 20, 
+          }}>
+                <div className="head-pricing">
+                  <span className="plane_name">Global SEO</span>
+                  <div className="doller-area">
+                    <h3 className="title">$1500</h3>
+                    <span className="time">/Month</span>
+                  </div>
+                </div>
+                <div className="body" style={{ fontSize: "14px" }}>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>12-24 Months TimeFrame</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>Global Level 1st Rank</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Rank for 75 Keywords</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1st Page Rank for 125 key</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>Snippet Featured Result</p>
+                  </div>
+                  <div className="single-check" style={{ marginBottom: "8px" }}>
+                    <i className="fa-regular fa-check"></i>
+                    <p>1500 HQ White Hat Backlinks</p>
+                  </div>
+                </div>
+                <div
+                  className="footer"
+                  style={{
+                    marginTop: "10px", // Reduce space between the body and footer
+                    textAlign: "center",
+                  }}
+                >
+                  <a href="#" className="rts-btn btn-primary-2">
+                    Contact Now
+                  </a>
+                  {/* <p>No credit card required.</p> */}
+                </div>
+              </div>
+            </div>
+          </Slider>
+          {/* <div className="row">
           <div className="col-lg-12">
             <div className="button-text-bottom-area-pricing text-center">
               <p>Prices exclude any applicable taxes.</p>
@@ -670,15 +785,13 @@ const Home = () => {
             </div>
           </div>
         </div> */}
+        </div>
+        <div className="shape-area">
+          <img src={ball12} alt="shape" className="one" />
+          <img src={ball13} alt="shape" className="two" />
+          <img src={ball14} alt="shape" className="three" />
+        </div>
       </div>
-      <div className="shape-area">
-        <img src={ball12} alt="shape" className="one" />
-        <img src={ball13} alt="shape" className="two" />
-        <img src={ball14} alt="shape" className="three" />
-      </div>
-    </div>
-
-    
 
       <div class="providing-service-area-start-seven1 gradient-7-radious rts-section-gap">
         <div class="container">
@@ -1422,8 +1535,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-     
     </>
   );
 };

@@ -41,7 +41,6 @@ import emailjs from "emailjs-com";
 
 const Home = () => {
   const [formData, setFormData] = useState({
-    name: "",
     email: "",
     website:"",
     contactNumber: "",

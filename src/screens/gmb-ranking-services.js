@@ -292,43 +292,43 @@ const Home = () => {
                 <div className="my-carousel">
                   <Slider {...settings}>
                     <div>
-                      <img src={realestateCoach} alt="realestateCoach" />
+                      <img src={realestateCoach} alt="realestateCoach" style={{ padding: 20, }} />
                     </div>
                     <div>
-                      <img src={dentru} alt="dentru" />
+                      <img src={dentru} alt="dentru"  style={{ padding: 20, }}/>
                     </div>
                     <div>
-                      <img src={royCleeves} alt="roy-cleeves" />
+                      <img src={royCleeves} alt="roy-cleeves" style={{ padding: 20, }} />
                     </div>
                     <div>
-                      <img src={dentruGurgaon} alt="dentru-gurgaon" />
+                      <img src={dentruGurgaon} alt="dentru-gurgaon"  style={{ padding: 20, }}/>
                     </div>
                     <div>
-                      <img src={studio7rk} alt="studio-7rk" />
+                      <img src={studio7rk} alt="studio-7rk" style={{ padding: 20, }} />
                     </div>
                     <div>
                       <img
                         src={propertyBuyersInLondonResult}
                         alt="propertyBuyersInLondonResult"
-                      />
+                        style={{ padding: 20, }}/>
                     </div>
                     <div>
                       <img
                         src={googleBusinessRankingPerformance}
                         alt="googleBusinessRankingPerformance"
-                      />
+                        style={{ padding: 20, }}   />
                     </div>
                     <div>
                       <img
                         src={shingleRoofingExpertsLosAngelesResult}
                         alt="shingle-roofing-experts-los-angeles-result"
-                      />
+                        style={{ padding: 20, }}  />
                     </div>
                     <div>
                       <img
                         src={progressiveAcServicesNorthHollywood}
                         alt="progressiveAcServicesNorthHollywood"
-                      />
+                       style={{ padding: 20, }}/>
                     </div>
                   </Slider>
                 </div>
