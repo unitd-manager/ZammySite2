@@ -91,7 +91,7 @@ const Home = () => {
               <br />
               Successful.
             </h1>
-            <p className="disc">
+            <p className="">
               Get organic traffic and high rankings with multi-team
               collaboration that will help you optimize on-page and off-page
               SEO.
@@ -297,13 +297,13 @@ const Home = () => {
     </div>
 
     
-<div class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
+    <div class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
         <div class="container">
             <div class="row align-items-center justify-content-md-center">
-                <div class="col-lg-6 col-md-10">
+                <div class="col-lg-6 col-md-10 pr--50 pr_md--0 pr_sm--0">
                 
                     <div class="appoinment-wrapper-one-left">
-                        <div style={{color:'white', fontSize:35,fontWeight:'bold',marginBottom:20}}> Looking for More
+                        <div style={{color:'white', fontSize:30,fontWeight:'bold',marginBottom:20}}> Looking for More
                         Traffic & Leads?</div>
                         <p class="disc"> We have helped 38 top brands in the world and 250+ local brands for the last 14 years.</p>
                         <div class="feature-area-wrapper">
@@ -683,7 +683,7 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Seo Ranking Expert</h3>
-                          <p>
+                          <p className="disc">
                             Zammy Zaif is an certified Google ranking SEO expert
                             with over a decade of experience in the digital
                             marketing industry. He specializes in Google search
@@ -724,7 +724,7 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Optimized Content Writing</h3>
-                          <p>
+                          <p className="disc">
                             With over a decade of experience, Zammy has mastered
                             the art of words by working with a wide range of
                             clients worldwide and specializing in offering
@@ -733,7 +733,7 @@ const Home = () => {
                             custom writing solutions for SOPs, articles, blogs
                             and website content.
                           </p>
-                          <p>
+                          <p className="disc">
                             With thorough research and strategic use of
                             appropriate keywords targeting the relevant
                             audience, he creates unique and informative
@@ -767,7 +767,7 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Rank Your Website #1</h3>
-                          <p>
+                          <p className="disc">
                           Bams Technologies specializes in providing Google 1st rank SEO services for websites within 90-180 days, increasing organic traffic by 50% and CTR by 20%. With a skilled team that strictly adheres to all Google protocols to ensure website security, the best user experience, and unique content to enhance brand awareness, while achieving rankings on top pages. By effectively targeting the right audience using the AIDA strategy, conducting comprehensive keyword research and implementing strategic link building.
                           </p>
                           <button className="rts-btn btn-primary">
@@ -797,10 +797,10 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Website Auditing</h3>
-                          <p>
+                          <p className="disc">
                           We are the followers of Google UI UX Standards with a creative team of website designers and developers. Our Team provide professional website audit services that ensure 100% client satisfaction, with clear understanding of customer requirements and business owner's mindset.
                           </p>
-                          <p>
+                          <p className="disc">
                           With our experience, we have conducted audits worldwide for various types of websites from e-commerce platforms to service-oriented websites. A website audit involves analyzing page performance before making any significant search engine optimization (SEO) changes or website redesigns to achieve more traffic and sales.
                           </p>
                           <button className="rts-btn btn-primary">
@@ -830,10 +830,10 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>SEO Ranking Services</h3>
-                          <p>
+                          <p className="disc">
                           As an authorized Google SEO partner, we utilize effective SEO strategies that strictly adhere to all Google algorithms and Google Webmaster standards. Bams Technologies offers the best SEO expert services for the Google search engine.
                           </p>
-                          <p>
+                          <p className="disc">
                           With our expertise, we have positively contributed website rankings on the Google search engine for the clients from all over the globe. Working with a skilled Google SEO expert, you can elevate your website’s rankings to higher levels, resulting in increased visitors and potential sales. Through our Google SEO services, grow your organization digitally above all the other competitors in the field of SEO.
                           </p>
                           <button className="rts-btn btn-primary">
@@ -861,7 +861,7 @@ const Home = () => {
                       <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Get No.1 Rank in GMB</h3>
-                          <p>
+                          <p className="disc">
                           To achieve a first rank position on Google Maps, expert knowledge of GMB SEO strategies is required. Our team strictly follows Google guidelines, optimizes for the right audience, increases organic traffic, generates high-quality backlinks, and monitors spam networks to avoid penalties. Regular updates to your Google Business profile also engage customers and drive revenue. Our clients usually rank first on Google Maps within 45 days. Trust our team of GMB experts to help you achieve your goals for Google Business Profile Optimization.
                           </p>
                         

@@ -18007,7 +18007,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 
 .single-pricing-area-start {
-  padding: 32px;
+  padding: 25px;
   background: var(--pricing-single-bg);
   border-radius: 16px;
   border: 1px solid var(--color-border);
@@ -18028,8 +18028,8 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 80px;
-  height: 80px;
+  min-width: 60px;
+  height: 60px;
   border-radius: 50%;
   background: #DFDBF9;
   transition: 0.3s;
@@ -18050,6 +18050,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 .single-pricing-area-start .pricing-body p.disc {
   margin-bottom: 30px;
   transition: 0.3s;
+  text-align: left;
 }
 .single-pricing-area-start .pricing-body a.rts-btn {
   display: block;
@@ -18098,6 +18099,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .single-pricing-area-start:hover .pricing-body p.disc {
   color: #FFFFFF;
+  text-align: left;
 }
 .single-pricing-area-start:hover .pricing-body .check-content-wrapper .single-check-area i {
   color: #fff;
@@ -18320,7 +18322,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 }
 .single-pricing-marketing.active .top-badge span {
   background: linear-gradient(90deg, #FFCF55 -2.75%, #FF6354 90.8%);
-  background-clip: text;
+  background-clip: text;  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: right;
@@ -18435,7 +18437,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
   line-height: 45px;
 }
 .service-content-style-one p.disc {
-  max-width: 75%;
+  max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .service-content-style-one p.disc {
@@ -21023,7 +21025,7 @@ form i {
 .custom-nav-link {
   background-color: transparent; /* Default background color */
   color: #604ce0; /* Default text color */
-  padding: 10px 20px; /* Padding for the tab */
+  padding: 10px 12px; /* Padding for the tab */
   margin-right: 10px; /* Space between tabs */
 }
 
@@ -25105,3 +25107,6 @@ form i {
   margin-bottom: 20px;
 }
 
+.justify-content-right {
+  justify-content: right !important;
+}

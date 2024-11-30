@@ -8,7 +8,7 @@ const Stats = ({percent1, title1, percent2, title2, percent3,title3,percent4,tit
   }, []);
 
   return (
-    <div className="rts-counterup-area mb--40">
+    <div className="rts-counterup-area mb--40 mt--40">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

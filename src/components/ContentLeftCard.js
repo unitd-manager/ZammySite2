@@ -84,18 +84,18 @@ import googleseoimg from '../assets/images/expert-google-search.webp';
 
 function ContentLeftCard({ heading, desc, cimg }) {
   return (
-    <div className="rts-product-area">
+    <div className="rts-product-area section-bg">
       <div className="container">
-        <div className="row align-items-center section-separator-top-bg-white single-product-list pt--125 pb--125">
+        <div className="row align-items-center single-product-list pt--80 pb--80">
           {/* Content Section */}
-          <div className="col-lg-5 col-md-6 d-flex flex-column align-items-center text-center text-md-start">
+          <div className="col-lg-6 col-md-6 d-flex flex-column align-items-center text-center text-md-start">
             <div className="portfolio-content-wrapper-list">
               <h2 className="title">{heading}</h2>
               <p className="disc">{desc}</p>
             </div>
           </div>
           {/* Image Section */}
-          <div className="col-lg-6 col-md-6 offset-lg-1 d-flex justify-content-center">
+          <div className="col-lg-6 col-md-6 d-flex justify-content-right">
             <a href="#" className="thumbnail">
               <img src={cimg} width={505} height={616} alt="product" />
             </a>

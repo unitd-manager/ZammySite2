@@ -86,7 +86,7 @@ function ContentRightCard({heading,desc,cimg}) {
   return (
     <div className="rts-product-area">
   <div className="container">
-    <div className="row service-relative align-items-center section-separator-top-bg-white single-product-list  pt--125 pb--125">
+    <div className="row service-relative align-items-center section-separator-top-bg-white single-product-list  pt--100 pb--100">
       <div className="col-lg-6 col-md-6">
         <a href="#" className="thumbnail">
           <img
@@ -97,7 +97,7 @@ function ContentRightCard({heading,desc,cimg}) {
           />
         </a>
       </div>
-      <div className="col-lg-5 col-md-6 offset-lg-1">
+      <div className="col-lg-6 col-md-6">
         <div className="portfolio-content-wrapper-list">
           {/* <h3 className="pre-title">01.</h3> */}
           <h2 className="title">

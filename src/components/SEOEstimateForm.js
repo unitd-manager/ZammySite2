@@ -20,10 +20,7 @@ const AppointmentArea = () => {
   };
 
   return (
-    <div
-      className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
-      style={{ marginTop: 150 }}
-    >
+    <div className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40 mt--80 mb--80">
       <div className="container">
         <div className="row justify-content-center text-center">
           <div className="col-12 mb-4">

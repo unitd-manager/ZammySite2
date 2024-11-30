@@ -31,7 +31,7 @@ const optionsdoughnut = {
 
 const SeoSection = () => {
   return (
-    <section style={{paddingTop: 50, paddingBottom: 75 }} className="section">
+    <section style={{paddingTop: 50, paddingBottom: 75 }} className="section section-bg">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 mb-7 mb-md-0">
@@ -41,22 +41,22 @@ const SeoSection = () => {
                 options={optionsdoughnut}
                 series={optionsdoughnut.series}
                 type="donut"
-                height={350}
+                height={400}
               />
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mb-md-0">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mb-md-0 pr--30 pr_md--0 pr_sm--0">
             <header className="crumina-module crumina-heading mb-1">
               <div className="title-text-wrap">
-                <h2 className="heading-title element-anime-fadeInUp-js">Google Rank Services</h2>
+                <h3 className="heading-title element-anime-fadeInUp-js">Google Rank Services</h3>
               </div>
             </header>
-            <p>
+            <p className="disc">
               SEO services often focus on achieving first-page results, but if you’re already on the first page and still not receiving leads and inquiries due to not being at the top, you’ve come to the right place.
             </p>
 
-            <p className="mb-0 text-l-justify">
+            <p className="disc">
               After a thorough consultation regarding your SEO requirements, we offer specialized SEO Ranking Services designed to help your website secure the top position, particularly the first rank, in Google Search Results, ensuring maximum visibility and lead generation.
             </p>
           </div>

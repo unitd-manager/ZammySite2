@@ -574,7 +574,7 @@ const Home = () => {
 <div className="rts-product-area section-bg">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pr--50 pr_md--0 pr_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -662,7 +662,7 @@ const Home = () => {
           No one has ever achieved success in a single go, they must have had many failed attempts before actually reaching their goals. Zammy’s case is just the same. He is a true inspiration for people who have failed in their lives.</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -748,7 +748,7 @@ const Home = () => {
           Zammy finds this mind map very beneficial and has not only applied this strategy personally but has also helped many other people from small, mid-sized to large businessmen. He pitched his unique success mantra to all the ones who were failing in their businesses and has helped many businessmen who were on the verge of closing down.</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -778,7 +778,7 @@ const Home = () => {
 <div className="rts-product-area section-bg">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pr--50 pr_md--0 pr_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -832,7 +832,7 @@ const Home = () => {
           He has also been taking SEO lessons that he learned along the way. Many enthusiasts who seek opportunities and aspirants who wish to start a career in SEO have joined the course to learn from Zammyand they all call him “Master in SEO.”</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -862,7 +862,7 @@ const Home = () => {
 <div className="rts-product-area section-bg">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pr--50 pr_md--0 pr_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -918,7 +918,7 @@ const Home = () => {
           Zammy Zaif keeps a keen eye on every little detail and tiny aspect of search engine optimization with his extensive learning expertise. He is always up to date with the latest Google ranking factors and algorithms. He will go to any extent to achieve the desired organic result. Zammy Zaif is unquestionably a man of action, as evidenced by the end outcome. So Everyone expects that in this 2022 Zammy will be the world's leading seo Expert.</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img

@@ -54,7 +54,7 @@ const SEOConsultantBanner = () => {
     <div className="box-one-bottom" />
     <div className="container pt--80 pt_sm--40">
       <div className="row align-items-center">
-        <div className="col-lg-5 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
+        <div className="col-lg-6 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
           <div className="banner-one-content-left">
             <h1 className="title split-collab">
             Google SEO Consultant
@@ -65,7 +65,7 @@ const SEOConsultantBanner = () => {
              </p>
           </div>
         </div>
-        <div className="col-lg-7 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
+        <div className="col-lg-6 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
           <div className="banner-one-right-content-with-img text-center">
             <img src={seobannerimg} alt="banner_image" />
             <div className="short-image-area">
