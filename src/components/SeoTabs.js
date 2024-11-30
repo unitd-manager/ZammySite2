@@ -2,7 +2,7 @@ import React from 'react';
 
 const SeoTabs = () => {
   return (
-    <section style={{ paddingTop: 100 }} className="section">
+    <section style={{ paddingTop: 80 }} className="section section-bg pb--80">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -86,14 +86,14 @@ const SeoTabs = () => {
                   aria-labelledby="google-map-seo-tab"
                 >
                   <div className="row align-items-center">
-                    <div className="col-lg-8 mb-3">
+                    <div className="col-lg-9 mb-3 pr--20">
                       <h3>Local SEO Ranking</h3>
-                      <p>
+                      <p className="disc">
                         Maximize your reach with our GBP Local SEO services. According to recent reports, GBP is the most popular platform, responsible for driving 80% of local targeted traffic to neighborhood businesses. Specializing in optimizing your Google Business Profile with GPS settings, we assure your business ranks high in local searches. Our targeted GBP Local SEO strategies focus on building your local brand by driving traffic and attracting new customers to your physical location or service area. With proven expertise, we help you stand out in local search results, generating more convertible leads for increasing revenue.
                       </p>
-                      <a href="#" className="btn btn-blueaqua custom-button">Book an SEO Consultation</a>
+                      <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                       <div className="card text-center border-0 shadow">
                         <div className="card-body">
                           <div className="p-3 custom-bg text-white">
@@ -137,14 +137,14 @@ const SeoTabs = () => {
                   aria-labelledby="city-based-seo-tab"
                 >
                   <div className="row align-items-center">
-                    <div className="col-lg-8 mb-3">
+                    <div className="col-lg-9 mb-3 pr--20">
                       <h3>City Based SEO Rankings</h3>
-                      <p>
+                      <p className="disc">
                         Our City Based SEO Ranking service is designed to deliver results within a 3-6 month timeframe, focusing on a specific city or district. We restructure your website according to Google's latest guidelines and create original, plagiarism-free content customized for your business. By the end of the third month, you will start seeing results on the first page of search engines. We aim to achieve 1st Rank for 25 keywords and 1st page Rank for 75 keywords. During this 6 month period, we will also manage and optimize one Google Business Profile and build 300 high-quality, white-hat backlinks.
                       </p>
-                      <a href="#" className="btn btn-blueaqua custom-button">Book an SEO Consultation</a>
+                      <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                       <div className="card text-center border-0 shadow">
                         <div className="card-body">
                           <div className="p-3 custom-bg">
@@ -188,14 +188,14 @@ const SeoTabs = () => {
                   aria-labelledby="state-level-seo-tab"
                 >
                   <div className="row align-items-center">
-                    <div className="col-lg-8 mb-3">
+                    <div className="col-lg-9 mb-3 pr--20">
                       <h3>State Ranking SEO</h3>
-                      <p>
-                        Our State Level SEO Ranking service is designed to deliver results within a 6-9 month timeframe. Understanding the project requirements, we initially focus on optimizing your website for your specific city by redesigning it according to the Google's guidelines. By updating original content which includes service-oriented keywords to promote your local business, we will help your website rank for 25 keywords. As part of the SEO strategy, we will also manage one Google Business Profile and build 300 quality backlinks.
+                      <p className="disc">
+                      Our State Level SEO Ranking service is designed to deliver results within a 6-9 month timeframe. Understanding the project requirements, we initially focus on optimizing your website for your specific city by redesigning it according to the Google's guidelines. By updating original content which includes service-oriented keywords to promote your business organically. By the end of the 3rd month, you will begin to see your website appearing on the first page of search results. Within 6 months, we assure achieving the 1st rank for 25 keywords and 1st-page rankings for 75 keywords at the city level. In the following 3 months, we target an additional 25 major keywords for 1st Rank and 25 keywords for 1st-page rankings at the state level. Our services also include managing and optimizing up to 5 Google Business Profiles and creating 500 high-quality white-hat backlinks within this 9-month period.
                       </p>
-                      <a href="#" className="btn btn-blueaqua custom-button">Book an SEO Consultation</a>
+                      <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                       <div className="card text-center border-0 shadow">
                         <div className="card-body">
                           <div className="p-3 custom-bg">
@@ -236,14 +236,14 @@ const SeoTabs = () => {
                   aria-labelledby="country-level-seo-tab"
                 >
                   <div className="row align-items-center">
-                    <div className="col-lg-8 mb-3">
-                      <h3>Country Level SEO</h3>
-                      <p>
-                        Focused on national coverage, the Country Level SEO plan is designed to get your business noticed across an entire country. By optimizing for national keywords and local listings, we work on getting you top rankings across different states and territories. We aim to provide full national optimization within 12-18 months. Our service includes 1 Google Business Profile, 600 high-quality backlinks, and thorough on-page and off-page optimizations.
+                    <div className="col-lg-9 mb-3 pr--20">
+                      <h3>National Seo Ranking</h3>
+                      <p className="disc">
+                      We offer a 9-12 month national SEO ranking service. Starting the process by concentrating on your local area to establish a solid foundation. Your website will be redesigned to meet Google's standards and filled with original, informative content. Demonstrating our expertise, you will see initial improvements in local search rankings within first 3 months. In six months, we will aim to rank your business first for 25 local keywords and on the first page for 75 keywords. Over the next six months, we will expand our efforts to achieve top rankings for 25 keywords at the state level and another 25 nationally. Throughout the process, we will also manage up to 10 Google Business Profiles while building 750 high-quality backlinks.
                       </p>
-                      <a href="#" className="btn btn-blueaqua custom-button">Book an SEO Consultation</a>
+                      <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                       <div className="card text-center border-0 shadow">
                         <div className="card-body">
                           <div className="p-3 custom-bg">
@@ -281,14 +281,14 @@ const SeoTabs = () => {
                   aria-labelledby="global-seo-tab"
                 >
                   <div className="row align-items-center">
-                    <div className="col-lg-8 mb-3">
-                      <h3>Global SEO</h3>
-                      <p>
-                        The Global SEO package targets international audiences, aiming to position your business at the top of global search rankings. We focus on multiple international markets by localizing content for various regions and optimizing for international search engines. This service includes global keywords, backlinks, and optimization strategies across multiple countries.
+                    <div className="col-lg-9 mb-3 pr--20">
+                      <h3>Global SEO Ranking</h3>
+                      <p className="disc">
+                      Our Global Level 1st Rank SEO Services for general keywords is a comprehensive program with a timeframe of 12-24 months. This service targets getting the 1st rank for 75 keywords and secure a spot on the 1st page for 125 keywords, effectively increasing your global online reach. We also focus on obtaining Snippet Featured Results to highlight your content prominently in search results. We will also build 1500 high-quality white hat backlinks to strengthen your website’s authority and ranking. This strategic approach ensures a strong and sustainable improvement in your global search engine performance.
                       </p>
-                      <a href="#" className="btn btn-blueaqua custom-button">Book an SEO Consultation</a>
+                      <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3">
                       <div className="card text-center border-0 shadow">
                         <div className="card-body">
                           <div className="p-3 custom-bg">

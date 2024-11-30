@@ -98,11 +98,10 @@ const Home = () => {
             <div className="col-lg-12">
               {/* banner main inner contact areas start */}
               <div className="banner-inner-area-contact-inner">
-                <h2 style={{ fontWeight: "bold" }}>GMB Ranking Services</h2>
-                <Link to="/Home" style={{ color: "blue" }}>
-                  Home
-                </Link>
-                /<span>GMB Ranking Services</span>
+                <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
+                    GMB Ranking Services
+                </h1>
+                <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp; <span>GMB Ranking Services</span>
               </div>
               {/* banner main inner contact areas end */}
               <div className="service--shape">
@@ -175,7 +174,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
               <div className="large-thumbnail">
                 <div className="thumbnail">
                   <img
@@ -196,7 +195,7 @@ const Home = () => {
       <div className="rts-product-area section-bg">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-4 col-md-4 pr--50 pr_md--0 pr_sm--0">
               <div className="large-thumbnail">
                 <div className="thumbnail">
                   <img
@@ -207,7 +206,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-6">
+            <div className="col-lg-8 col-md-8">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
                   {" "}
@@ -255,7 +254,6 @@ const Home = () => {
                   with a captivating and conversion-oriented Google Business
                   Profile.{" "}
                 </p>
-                <button className="rts-btn btn-primary">Get Quote</button>
               </div>
             </div>
             <div className="service--shape">
@@ -274,11 +272,11 @@ const Home = () => {
             <div class="col-lg-12">
               <div class="cta-main-wrapper-style-box">
                 <div>
-                  <span style={{ color: "blue", fontWeight: "bold" }}>
+                  <span style={{ color: "#614ce1", fontWeight: "bold" }}>
                     Our First Rank Result Speak for us
                   </span>
                 </div>
-                <h3 class="title">1st Rank Result in 45 Days</h3>
+                <h2 class="title">1st Rank Result in 45 Days</h2>
                 <p>
                   Google Ranking Services specializes in achieving the first
                   rank on Google's SERP for clients locally & globally. We offer
@@ -346,16 +344,15 @@ const Home = () => {
       </div>
       <div
         class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
-        style={{ marginTop: 150 }}
       >
         <div class="container">
           <div class="row align-items-center justify-content-md-center">
-            <div class="col-lg-6 col-md-10">
+            <div class="col-lg-6 col-md-10 pr--50 pr_md--0 pr_sm--0">
               <div class="appoinment-wrapper-one-left">
                 <div
                   style={{
                     color: "white",
-                    fontSize: 35,
+                    fontSize: 30,
                     fontWeight: "bold",
                     marginBottom: 20,
                   }}
@@ -578,7 +575,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-5">
+            <div className="col-lg-4 col-md-5 ">
               <div className="large-thumbnail">
                 <div className="thumbnail">
                   <img
@@ -597,17 +594,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="our-service-area rts-section-gapBottom pt--60">
+      <div class="our-service-area rts-section-gapBottom pt--60 section-bg">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="title-wrapper-between">
-                <div class="title-style-one-left">
-                  <h2 class="title skew-up">
-                    How Our GMB & GBP Optimization Service Works
-                  </h2>
-                </div>
-              </div>
+              <div className="title-style-one-center">
+                <h2 className="title skew-up" style={{ opacity: 1 }}>
+                      How Our GMB & GBP Optimization Service Works
+                </h2>
+              </div>  
             </div>
           </div>
           <div class="row g-48 mt--10 ">
@@ -764,23 +759,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div class="row mt--90">
-            <div class="col-lg-12">
-              <a
-                href="service.html"
-                class="rts-btn btn-primary-4-border arrow-rotate"
-              >
-                View all services <i class="fa-light fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
       <div class="providing-service-area-start-seven gradient-7-radious rts-section-gap">
         <div class="container">
           <div class="row g-6 align-items-center mt--20">
-            <div class="col-lg-5">
+            <div class="col-lg-4 pr--50 pr_md--0 pr_sm--0">
               <div class="image-area-service-1 area-3">
                 <a href="#" class="thumbnail-service-1">
                   <img
@@ -790,7 +775,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div class="col-lg-7 order-change">
+            <div class="col-lg-8 order-change">
               <div className="portfolio-content-wrapper-list white-text">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
                   Google Business Profile Ranking Service
@@ -824,7 +809,7 @@ const Home = () => {
       <div className="rts-product-area">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-            <div className="col-lg-8 col-md-6">
+            <div className="col-lg-8 col-md-6 pr--50 pr_md--0 pr_sm--0">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
                   {" "}
@@ -900,41 +885,6 @@ const Home = () => {
         </div>
       </div>
 
-      <div
-        class="rts-cta-area-start area-3 rts-section-gapBottom"
-        style={{ marginTop: 100 }}
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="cta-main-wrapper-style-box">
-                <div>
-                  <span style={{ color: "blue", fontWeight: "bold" }}>
-                    Zammy Zaif
-                  </span>
-                </div>
-                <h2 class="title">Contact Us Today</h2>
-                <p class="disc">
-                  If you want to improve your website's ranking and grow your
-                  business, contact us today. Our team of SEO experts will be
-                  happy to assist you and answer any queries you may have. We
-                  look forward to helping
-                </p>
-                <a href="contact.html" class="rts-btn btn-primary-3">
-                  Contact Now
-                </a>
-
-                <div class="shape-area">
-                  <img src={ball1} alt="sahpe" class="one" />
-                  <img src={ball11} alt="sahpe" class="two" />
-                  <img src={ball2} alt="sahpe" class="three" />
-                  <img src={ball4} alt="sahpe" class="four" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="rts-working-porcess-area-two ptb--45 bg-dark-border-radious-sd">
         <div class="container-1058">
           <div class="row">

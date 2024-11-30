@@ -1,5 +1,8 @@
 import React from 'react';
 import Chart from 'react-apexcharts'; // Ensure you have installed react-apexcharts
+import icon7 from '../../src/assets/images/banner/icon7.svg'
+import icon8 from '../../src/assets/images/banner/icon8.svg'
+import icon9 from '../../src/assets/images/banner/icon9.svg'
 
 const optionsdoughnut = {
   chart: {
@@ -63,45 +66,43 @@ const SeoSection = () => {
 
           <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
             <div className="seo-results mb-3">
-              <div className="seo-results-item d-flex align-items-center mb-2">
+              <div className="seo-results-item d-flex align-items-center mb--20">
                 <img
                   loading="lazy"
                   className="crumina-icon mr-3"
-                  src="assets/images/banner/icon7.svg"
+                  src={ icon7 }
                   alt="CTR"
-                  style={{ width: '40px', height: '40px' }}
+                  style={{ width: '60px', height: '60px' }}
                 />
-                <div className="h5 seo-results-item-info">0.09% CTR</div>
+                <div className="h6 seo-results-item-info mt--15 ml--20">0.09% CTR</div>
               </div>
 
-              <div className="seo-results-item d-flex align-items-center mb-2">
+              <div className="seo-results-item d-flex align-items-center mb--20">
                 <img
                   loading="lazy"
                   className="crumina-icon mr-3"
-                  src="assets/images/banner/icon8.svg"
+                  src={ icon8 }
                   alt="CPA"
-                  style={{ width: '40px', height: '40px' }}
+                  style={{ width: '60px', height: '60px' }}
                 />
-                <div className="h5 seo-results-item-info">20% less CPA</div>
+                <div className="h6 seo-results-item-info mt--15 ml--20">20% less CPA</div>
               </div>
 
               <div className="seo-results-item d-flex align-items-center">
                 <img
                   loading="lazy"
                   className="crumina-icon mr-3"
-                  src="assets/images/banner/icon9.svg"
+                  src={ icon9 }
                   alt="ROI"
-                  style={{ width: '40px', height: '40px' }}
+                  style={{ width: '60px', height: '60px' }}
                 />
-                <div className="h5 seo-results-item-info">272% ROI</div>
+                <div className="h6 seo-results-item-info mt--15 ml--20">272% ROI</div>
               </div>
             </div>
             <div className="universal-btn-wrapper element-anime-opacity-js">
               <ul className="list-inline">
                 <li className="list-inline-item mx-1 my-2">
-                  <a href="#" className="btn btn-primary">
-                    Book an SEO Consultation
-                  </a>
+                  <button className="rts-btn btn-primary">Book an SEO Consultation</button>
                 </li>
               </ul>
             </div>

@@ -7,6 +7,7 @@ import ball1 from "../src/assets/images/service/shape/01.png";
 import ball2 from "../src/assets/images/service/shape/02.png";
 import ball3 from "../src/assets/images/service/shape/03.png";
 import ball4 from "../src/assets/images/service/shape/04.png";
+import { Link } from "react-router-dom";
 
 const ContactBanner = () => {
   const [formData, setFormData] = useState({
@@ -49,17 +50,14 @@ const ContactBanner = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="banner-inner-area-contact-inner">
-                <h1 className="title skew-up-2" style={{ opacity: 1 }}>
-                  Contact - Us
+                <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
+                      Contact
+                  <br />
+                  <span>
+                        Zammy Zaif
+                  </span>
                 </h1>
-                <span
-                  style={{
-                    color: "blue",
-                    textAlign: "center",
-                  }}
-                >
-                  Zammy Zaif
-                </span>
+                <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp; <span>Contact Zammy Zaif</span>
               </div>
             </div>
           </div>
@@ -75,39 +73,27 @@ const ContactBanner = () => {
      {/* Working Process Section */}
     
 <div 
-  className="rts-working-process-area-two"
-  style={{
-    padding: "40px 0", 
-    background: "linear-gradient(135deg, #D9E4F5 0%, #F7E7CE 100%)", // Soft blue to peach gradient
-    borderRadius: "8px", 
-    marginTop: "20px", 
-    marginBottom: "30px", 
-    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)", 
-  }}
+  className="rts-working-process-area-two gradient-7-radious mt--50 pt--80 pb--80"
 >
   <div className="container">
-    <div className="row align-items-center justify-content-md-center">
-      <div className="col-lg-6 col-md-10">
-        <h2
-          className="title split-collab"
-          style={{
-        
-            textAlign: "center",
-           
-          }}
+    <div className="row align-items-center justify-content-md-center bg-color-tertiary">
+      <div className="col-lg-7 col-md-10">
+        <h2 className="title split-collab"
+          style={{ textAlign: "center", }}
         >
           Get In Touch
         </h2>
         <p
-          style={{
-            
+          style={{            
             textAlign: "center",
+            color:"#fff",
+            fontWeight:"bold",
           }}
         >
           For any inquiries or collaborations, please fill out the form below or email us at{" "}
           <a
             href="mailto:info@bamstechnologies.org"
-            style={{ color: "#007bff", textDecoration: "underline" }} 
+            style={{ color: "#fff", textDecoration: "underline" }} 
           >
             info@bamstechnologies.org
           </a>.
@@ -153,7 +139,7 @@ const ContactBanner = () => {
           <h3 style={{ fontSize: "20px", fontWeight: "600", color: "#333" }}>
             Tirunelveli | Erode | Trivandrum
           </h3>
-          <p style={{ color: "#555", fontSize: "16px" }}>Online Support</p>
+          <p style={{ color: "#555", fontSize: "16px" }}>Locations</p>
         </div>
       </div>
 
@@ -192,6 +178,7 @@ const ContactBanner = () => {
               info@bamstechnologies.org
             </a>
           </p>
+          <p style={{ color: "#777", fontSize: "14px" }}>Online Support</p>
         </div>
       </div>
 
@@ -277,11 +264,11 @@ const ContactBanner = () => {
 </div>
 
       {/* Contact Form */}
-      <div className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 150 }}>
+      <div className="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40" style={{ marginTop: 80 }}>
   <div className="row justify-content-center">
     <div className="col-12 text-center">
-      <h2 style={{ color: "white" }}>Have You Any Questions?</h2>
-      <h3 style={{ color: "white" }}>HOW CAN WE HELP YOU</h3>
+      <h3 style={{ color: "white" }}>Have You Any Questions?</h3>
+      <h6 style={{ color: "white" }}>Please contact us using the form and we’ll get back to you as soon as possible.</h6>
     </div>
     <div className="col-12 d-flex justify-content-center">
       <form

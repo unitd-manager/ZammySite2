@@ -7,21 +7,20 @@ import result from '../assets/images/result.webp';
 
 const SuperchargeSEO = () => {
   return (
-    <section style={{ paddingTop: 80 }} className="section5 bg-light">
-      <Row>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 text-center mb-5">
-              <header className="crumina-module crumina-heading">
-                <div className="title-text-wrap">
-                  <h3 className="heading-title element-anime-fadeInUp-js">
-                    Supercharge SEO Ranks in 4 Steps
-                  </h3>
-                </div>
-              </header>
-            </div>
+    <section style={{ paddingTop: 80 }} className="section5 pb--50">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 col-md-12 col-sm-12 text-center mb-5">
+            <header className="crumina-module crumina-heading">
+              <div className="title-text-wrap">
+                <h3 className="heading-title element-anime-fadeInUp-js">
+                  Supercharge SEO Ranks in 4 Steps
+                </h3>
+              </div>
+            </header>
           </div>
         </div>
+        <div className="row">
         <div className="col-lg-3">
           <ul className="list-unstyled">
             <li
@@ -30,7 +29,7 @@ const SuperchargeSEO = () => {
               data-aos-delay="100"
             >
               <div className="pl-3" style={{ textAlign: 'center' }}>
-                <img src={search} alt="Search" width="50%" height="50%" />
+                <img src={search} alt="Search" width="30%"  />
                 <h6 className="text-dark mb-4" style={{ marginTop: '10px' }}>
                   Search
                 </h6>
@@ -55,8 +54,8 @@ const SuperchargeSEO = () => {
                 <img
                   src={contactimage}
                   alt="Contact"
-                  width="50%"
-                  height="50%"
+                  width="30%"
+                  
                 />
                 <h6 className="text-dark mb-4" style={{ marginTop: '10px' }}>
                   Contact
@@ -84,8 +83,8 @@ const SuperchargeSEO = () => {
                 <img
                   src={optimize}
                   alt="Optimize"
-                  width="50%"
-                  height="50%"
+                  width="30%"
+                  
                 />
                 <h6 className="text-dark mb-4" style={{ marginTop: '10px' }}>
                   Optimize
@@ -113,8 +112,8 @@ const SuperchargeSEO = () => {
                 <img
                   src={result}
                   alt="Result"
-                  width="50%"
-                  height="50%"
+                  width="30%"
+                  
                 />
                 <h6 className="text-dark mb-4" style={{ marginTop: '10px' }}>
                   Result
@@ -130,7 +129,8 @@ const SuperchargeSEO = () => {
             </li>
           </ul>
         </div>
-      </Row>
+        </div>
+      </div>
     </section>
   );
 };

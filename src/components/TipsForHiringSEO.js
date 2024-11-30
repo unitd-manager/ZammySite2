@@ -19,20 +19,20 @@ const TipsForHiringSEO = () => {
       text: "Effective communication is crucial for a successful SEO partnership. The consultant should be able to explain complex SEO concepts clearly.",
     },
     {
-      title: "Discuss Transparency and Reporting",
-      text: "Inquire about the consultant's reporting methods. They should provide regular updates on progress, including key metrics.",
+      title: "Transparency and Reporting",
+      text: "Transparently inquire about the consultant's SEO reporting methods, from regular updates on key metrics and performance indicators.",
     },
     {
       title: "Set Clear Expectations",
-      text: "Establish clear expectations regarding timelines, deliverables, and budget. Discuss your desired ROI and how the consultant plans to achieve it.",
+      text: "Set clear expectations regarding timelines, deliverables, and budget. Discuss your desired ROI and consultant plans to measure success.",
     },
     {
       title: "Consider Long-Term Partnership",
       text: "SEO is an ongoing process. Look for a consultant who views your business as a long-term partner rather than a one-time client.",
     },
     {
-      title: "Check for Ethical Practices",
-      text: "Ensure the consultant adheres to white-hat SEO techniques. Avoid those who promise quick results through black-hat tactics.",
+      title: "Verify Ethical Practices",
+      text: "Choose a consultant who uses white-hat SEO techniques. Avoid those, who promises results with black-hat tactics, as these harm website.",
     },
     {
       title: "Get Recommendations",
@@ -41,7 +41,7 @@ const TipsForHiringSEO = () => {
   ];
 
   return (
-    <section style={{ paddingTop: 30 }} className="section5 bg-light">
+    <section style={{ paddingTop: 30 }} className="section5 mt--80 mb--80">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 text-center mb-1">
@@ -60,7 +60,7 @@ const TipsForHiringSEO = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
               <div className="info-box card7 border-0 shadow1-sm h-100">
                 <div className="card-body">
-                  <h5 className="info-box-title text-primary">{tip.title}</h5>
+                  <h6 className="info-box-title mb--10">{tip.title}</h6>
                   <p className="info-box-text text-muted">{tip.text}</p>
                 </div>
               </div>

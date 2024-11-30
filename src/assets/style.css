@@ -23409,7 +23409,7 @@ form i {
   text-align: center;
   position: relative;
   z-index: 2;
-  padding: 35px;
+  padding: 35px 60px;
 }
 @media screen and (max-width: 576px) {
   .cta-main-wrapper-style-box {

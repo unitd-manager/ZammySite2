@@ -80,7 +80,7 @@ import faqshape4 from "../assets/images/faq/shape/04.png"
 
 function ServiceFaqArea() {
   return (
-    <div className="rts-faq-area-full-container style-three pt--160 pb--80">
+    <div className="rts-faq-area-full-container style-three pt--100 pb--80 section-bg">
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
