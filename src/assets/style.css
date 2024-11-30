@@ -675,6 +675,10 @@ ol ul {
   color: #fff;
 }
 
+p.disc {
+  text-align: justify;
+}
+
 @media only screen and (max-width: 1199px) {
   h1 {
     font-size: 64px;
@@ -15651,7 +15655,7 @@ header.heder-two .sub-dropdown .submenu.third-lvl.base {
 
 /* elements */
 .container {
-  max-width: 1290px;
+  max-width: 1190px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19873,7 +19877,7 @@ form i {
 .accordion-area-4 .accordion-item:last-child {
   border: none;
 }
-.accordion-area-4 .accordion-item button {
+.accordion-item button {
   font-size: 17px;
   font-style: normal;
   font-weight: 800;
@@ -19881,9 +19885,7 @@ form i {
   letter-spacing: -0.4px;
   background: transparent !important;
 }
-.accordion-area-4 .accordion-item button::after {
-  counter-increment: section;
-  content: counter(section, decimal-leading-zero);
+.accordion-item button::after {
   background-image: none;
   transform: none;
   color: #BCBFDB;
@@ -19900,7 +19902,7 @@ form i {
     right: -10px;
   }
 }
-.accordion-area-4 .accordion-item button svg {
+.accordion-item button svg {
   margin-right: 24px;
 }
 @media (max-width: 450px) {
@@ -23872,7 +23874,7 @@ form i {
   color: var(--color-primary);
 }
 .single-product-list .portfolio-content-wrapper-list p.disc {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .anim-image-parallax-2 {

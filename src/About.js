@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 // import '../assets/css/style.css'
 // import '../assets/css/fontawesome.min.css'
 // import '../assets/css/slick.min.css'
@@ -103,13 +103,14 @@ const Home = () => {
       <div className="col-lg-12">
         {/* banner main inner contact areas start */}
         <div className="banner-inner-area-contact-inner">
-          <h1 className="title skew-up-2" style={{ opacity: 1 }}>
+          <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
                 About
             <br />
             <span>
                   Zammy Zaif
             </span>
           </h1>
+          <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp; <span>About Zammy Zaif</span>
         </div>
         {/* banner main inner contact areas end */}
         <div className="service--shape">
@@ -167,9 +168,9 @@ const Home = () => {
       </div>
     </div>
     <div className="row mt--50">
-      <div className="col-lg-6 pr--100 pr_md--0 pr_sm--0">
-        <div className="accordion-area-4">
-          <div className="accordion" id="accordionExample">
+      <div className="col-lg-5 pr--50 pr_md--0 pr_sm--0">
+        <div className="sidebar">
+          <div>
             <div className="accordion-item">
               <h4 className="accordion-header" id="headingOne">
                 <button
@@ -412,11 +413,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-7">
         <div className="">
-          <p className="">Zammy Zaif is an best google SEO Expert from India residing in <a className="zama" href="https://g.page/r/CXeRrxmikuPtEBM/review" target="_blank">Tirunelveli</a>, Tamilnadu who has had phenomenal success with SEO, especially placing first on Google for a competitive term like <b>"Google Ranking Expert."</b></p>
-          <p className="">He achieved this world-class position in a short period of time since he is a dedicated SEO specialist and also because of his amazing hard work and smart work. When Google PageRank first appeared on the scene, Zammy Zaif began his profession in SEO around the same time. He rapidly understood that Search Engine Optimization will play a significant role in his professional future.</p>
-          <p className="">His huge achievement came only after experiencing a lot of suffering and hardship. People used to call Zammy a "<b>Computer Genius</b>" when he was a kid. He had about 15 cousins in his house because he belonged to a joint family. When all of his cousins just learned how to play games on the computer, little Zammy performed more than that. He used to modify the computer password that his uncle had set in order to prevent the youngsters from using it. He was the naughty one in his family, changing the password every time his uncle uncovered it.</p>
+          <p className="disc">Zammy Zaif is an best google SEO Expert from India residing in <a className="zama" href="https://g.page/r/CXeRrxmikuPtEBM/review" target="_blank">Tirunelveli</a>, Tamilnadu who has had phenomenal success with SEO, especially placing first on Google for a competitive term like <b>"Google Ranking Expert."</b></p>
+          <p className="disc">He achieved this world-class position in a short period of time since he is a dedicated SEO specialist and also because of his amazing hard work and smart work. When Google PageRank first appeared on the scene, Zammy Zaif began his profession in SEO around the same time. He rapidly understood that Search Engine Optimization will play a significant role in his professional future.</p>
+          <p className="disc">His huge achievement came only after experiencing a lot of suffering and hardship. People used to call Zammy a "<b>Computer Genius</b>" when he was a kid. He had about 15 cousins in his house because he belonged to a joint family. When all of his cousins just learned how to play games on the computer, little Zammy performed more than that. He used to modify the computer password that his uncle had set in order to prevent the youngsters from using it. He was the naughty one in his family, changing the password every time his uncle uncovered it.</p>
         </div>
       </div>
       <div className="service--shape">
@@ -433,7 +434,7 @@ const Home = () => {
 <div className="rts-product-area section-bg">
   <div className="container">
     <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pr--50 pr_md--0 pr_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
@@ -543,7 +544,7 @@ const Home = () => {
           Following the contract from Dubai, he returned to India and formally established his own company, Bams Technologies. With a handful of employees in Tirunelveli in January 2015, began to work for many companies and did several independent projects in different countries, including web designing, web development and SEO. In Oman, he assisted a prominent firm in ranking #1 for the term "Hydraulic Spare - OMAN," which is still the case. He completed multiple projects in Myanmar and several other projects in the United States, including Customer Relationship Management (CRM) and Content Management System (CMS) software services.</p>
         </div>
       </div>
-      <div className="col-lg-5 col-md-5">
+      <div className="col-lg-5 col-md-5 pl--50 pl_md--0 pl_sm--0">
         <div className="large-thumbnail">
           <div className="thumbnail">
             <img
