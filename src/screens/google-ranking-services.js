@@ -133,7 +133,7 @@ const Home = () => {
             <div className="col-lg-12">
               {/* banner main inner contact areas start */}
               <div className="banner-inner-area-contact-inner">
-                <h2 style={{ fontWeight: "bold" }}>Google Ranking Services</h2>
+                <h1 className="title skew-up-2" style={{ opacity: 1 }}>Google Ranking Services</h1>
                 <Link to="/Home" style={{ color: "blue" }}>
                   Home
                 </Link>
