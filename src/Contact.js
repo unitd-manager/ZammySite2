@@ -57,7 +57,7 @@ const ContactBanner = () => {
                         Zammy Zaif
                   </span>
                 </h1>
-                <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp; <span>Contact Zammy Zaif</span>
+                <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; <span>Contact Zammy Zaif</span>
               </div>
             </div>
           </div>

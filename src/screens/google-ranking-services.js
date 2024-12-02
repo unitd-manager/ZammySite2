@@ -133,11 +133,11 @@ const Home = () => {
             <div className="col-lg-12">
               {/* banner main inner contact areas start */}
               <div className="banner-inner-area-contact-inner">
-                <h1 className="title skew-up-2" style={{ opacity: 1 }}>Google Ranking Services</h1>
+                <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>Google Ranking Services</h1>
                 <Link to="/Home" style={{ color: "blue" }}>
                   Home
                 </Link>
-                /<span>Google Ranking Services</span>
+                &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<span>Google Ranking Services</span>
               </div>
               {/* banner main inner contact areas end */}
               <div className="service--shape">
@@ -151,7 +151,7 @@ const Home = () => {
       <div className="rts-product-area section-bg" style={{ marginTop: 75 }}>
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-5 col-md-5 pr--50 pr_md--0 pr_sm--0">
               <div className="large-thumbnail">
                 <div className="thumbnail">
                   <img
@@ -322,16 +322,15 @@ const Home = () => {
 
       <div
         class="rts-appoinment-area bg-dark-border-radious-2 pb--40 pt--40"
-        style={{ marginTop: 150 }}
       >
         <div class="container">
           <div class="row align-items-center justify-content-md-center">
-            <div class="col-lg-6 col-md-10">
+            <div class="col-lg-6 col-md-10 pr--50 pr_md--0 pr_sm--0">
               <div class="appoinment-wrapper-one-left">
                 <div
                   style={{
                     color: "white",
-                    fontSize: 35,
+                    fontSize: 30,
                     fontWeight: "bold",
                     marginBottom: 20,
                   }}
@@ -495,7 +494,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious" style={{marginRight:10}}>
+      <div className="rtws-pricing-area-start-two rts-section-gap bg-light-border-radious pt--120 mb--80">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -504,7 +503,7 @@ const Home = () => {
                   Local to Global Ranking SEO Services
                 </span>
                 <h2 className="title skew-up">Cost of SEO Rank Services</h2>
-                <p class="disc">
+                <p class="disc text-center">
                   {" "}
                   Specializing in Google Ranking Services to elevate your online
                   presence and drive organic traffic to your website.
@@ -518,7 +517,7 @@ const Home = () => {
             {/* Pricing Plan 1 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place" style={{
-            height: "560px", padding: 20,  // Limit height
+            height: "560px", padding: 20, marginRight:20 , marginBottom:20 // Limit height
           }}>
                 <div className="head-pricing" >
                   <span className="plane_name">GBP Local SEO</span>
@@ -570,7 +569,7 @@ const Home = () => {
             {/* Pricing Plan 2 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px",padding: 20, 
+            height: "560px",padding: 20, marginRight:20
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">City Based SEO</span>
@@ -622,7 +621,7 @@ const Home = () => {
             {/* Pricing Plan 3 */}
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px",padding: 20, 
+            height: "560px",padding: 20, marginRight:20 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">State Level SEO</span>
@@ -673,7 +672,7 @@ const Home = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px",padding: 20, 
+            height: "560px",padding: 20, marginRight:20 
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">Country Level SEO</span>
@@ -725,7 +724,7 @@ const Home = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-10">
               <div className="single-pricing-area-two professional-place"  style={{
-            height: "560px", padding: 20, 
+            height: "560px", padding: 20, marginRight:20
           }}>
                 <div className="head-pricing">
                   <span className="plane_name">Global SEO</span>
@@ -833,7 +832,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rts-product-area" style={{ marginTop: 75 }}>
+      <div className="rts-product-area">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
             <div className="col-lg-8 col-md-6">
@@ -908,7 +907,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rts-product-area">
+      <div className="rts-product-area section-bg">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
             <div className="col-lg-4 col-md-5">
@@ -988,7 +987,7 @@ const Home = () => {
       </div>
 
       <div
-        class="rts-appoinment-area bg-dark-border-radious-2 pb--120 pt--120"
+        class="rts-appoinment-area bg-dark-border-radious-2 pb--100 pt--100"
         style={{ marginTop: 100 }}
       >
         <div class="container">
@@ -1081,7 +1080,7 @@ const Home = () => {
             </div>
         </div>
     </div> */}
-      <div className="rts-product-area" style={{ marginTop: 75 }}>
+      <div className="rts-product-area">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
             <div className="col-lg-4 col-md-5">
@@ -1158,7 +1157,6 @@ const Home = () => {
 
       <div
         class="providing-service-area-start-seven1 gradient-7-radious rts-section-gap"
-        style={{ marginTop: 75 }}
       >
         <div class="container">
           <div class="row g-6 align-items-center mt--20">
@@ -1290,41 +1288,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="rts-product-area">
+      <div className="rts-product-area section-bg">
         <div className="container">
           <div className="row service-relative align-items-center single-product-list pt--125 pb--125 pb_md--80 pb_sm--30 pt_md--80 pt_sm--50">
             <div className="col-lg-8 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <span className="pre">ZAMMY ZAIF</span>
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Win Google Algorithm & Win Competition
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Winning Google's algorithm and emerging victorious in
@@ -1341,7 +1312,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-5">
+            <div className="col-lg-4 col-md-5 pl--50 pl_md--0 pl_sm--0">
               <div className="large-thumbnail">
                 <div className="thumbnail">
                   <img
@@ -1495,37 +1466,6 @@ const Home = () => {
                         authority in their industry, building essential trust
                         and credibility for long-term success beyond just
                         increased traffic.{" "}
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item show">
-                    <div class="accordion-header" id="headingFour">
-                      <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
-                        aria-expanded="false"
-                        aria-controls="collapseFour"
-                      >
-                        How can Google ranking services help businesses get more
-                        potential customers?
-                      </button>
-                    </div>
-                    <div
-                      id="collapseFour"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExamples"
-                    >
-                      <div class="accordion-body">
-                        Google ranking services help businesses attract more
-                        potential customers by optimizing their online presence
-                        to appear at the top of search results. This heightened
-                        visibility increases organic traffic, enhances brand
-                        credibility, and fosters trust among users, ultimately
-                        leading to more clicks, conversions, and revenue for the
-                        business.{" "}
                       </div>
                     </div>
                   </div>

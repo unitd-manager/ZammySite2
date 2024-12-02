@@ -69,7 +69,7 @@ const Home = () => {
                   <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
                     Website Ranking Services
                   </h1>
-                  <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp; <span>Website Ranking Services</span>
+                  <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; <span>Website Ranking Services</span>
                   </div>
                 {/* banner main inner contact areas end */}
                 <div className="service--shape">

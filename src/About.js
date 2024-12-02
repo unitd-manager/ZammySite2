@@ -110,7 +110,7 @@ const Home = () => {
                   Zammy Zaif
             </span>
           </h1>
-          <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>About Zammy Zaif</span>
+          <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; <span>About Zammy Zaif</span>
         </div>
         {/* banner main inner contact areas end */}
         <div className="service--shape">
