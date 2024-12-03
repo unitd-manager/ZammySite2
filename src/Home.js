@@ -84,7 +84,7 @@ const Home = () => {
     <div className="box-one-bottom" />
     <div className="container pt--80 pt_sm--40">
       <div className="row align-items-center">
-        <div className="col-lg-5 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
+        <div className="col-lg-6 order-xl-1 order-lg-1 order-md-6 order-sm-2 order-2 mt_md--100 mt_sm--100">
           <div className="banner-one-content-left">
             <h1 className="title split-collab">
               Make your <br /> <span>SEO Campaign </span>
@@ -98,7 +98,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-7 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
+        <div className="col-lg-6 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 d-flex justify-content-end justify-content-md-center justify-content-sm-center">
           <div className="banner-one-right-content-with-img text-center">
             <img src={bannerImage1} alt="banner_image" />
             <div className="short-image-area">
@@ -159,7 +159,7 @@ const Home = () => {
         </div>
       </div>
       <div className="row g-48 mt--10">
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 mt--10">
           {/* single pricing area start */}
           <div className="single-pricing-area-start">
             {/* pricing -top artea start */}
@@ -194,7 +194,7 @@ const Home = () => {
           </div>
           {/* single pricing area end */}
         </div>
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 mt--10">
           {/* single pricing area start */}
           <div className="single-pricing-area-start active">
             {/* pricing -top artea start */}
@@ -230,7 +230,7 @@ const Home = () => {
           </div>
           {/* single pricing area end */}
         </div>
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 mt--10">
           {/* single pricing area start */}
           <div className="single-pricing-area-start active">
             {/* pricing -top artea start */}
@@ -265,7 +265,7 @@ const Home = () => {
           </div>
           {/* single pricing area end */}
         </div>
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 mt--10">
           {/* single pricing area start */}
           <div className="single-pricing-area-start">
             {/* pricing -top artea start */}
@@ -531,7 +531,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="row mt--70">
+      <div className="row mt--20">
         <div className="col-lg-12">
           <div className="about-large-image-bg"></div>
         </div>

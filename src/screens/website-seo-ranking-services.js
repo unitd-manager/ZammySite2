@@ -97,34 +97,7 @@ const Home = () => {
               <div className="col-lg-6 col-md-6">
                 <div className="portfolio-content-wrapper-list">
                   <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
                         Boost your Website Ranking
-                      </div>
-                    </div>
                   </h3>
                   <p className="disc">
                     In today's competition, having a strong online presence in
@@ -157,34 +130,7 @@ const Home = () => {
                     Our Goal for Each Project
                   </span>
                   <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
                         Achieving First Rank in Google
-                      </div>
-                    </div>
                   </h3>
                   <p className="disc">
                     Our google SEO expert team is dedicated to achieving the
@@ -450,34 +396,7 @@ const Home = () => {
               <div className="col-lg-8 col-md-6 ">
                 <div className="portfolio-content-wrapper-list">
                   <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
                         Benefits of Achieving Google's 1st Rank
-                      </div>
-                    </div>
                   </h3>
                   <p className="disc">
                     By achieving Google's 1st rank for your website, you will

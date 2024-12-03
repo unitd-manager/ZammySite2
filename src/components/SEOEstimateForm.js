@@ -27,7 +27,7 @@ const AppointmentArea = () => {
             <div
               style={{
                 color: "white",
-                fontSize: 35,
+                fontSize: 30,
                 fontWeight: "bold",
                 marginBottom: 20,
               }}

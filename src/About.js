@@ -104,11 +104,7 @@ const Home = () => {
         {/* banner main inner contact areas start */}
         <div className="banner-inner-area-contact-inner">
           <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
-                About
-            <br />
-            <span>
-                  Zammy Zaif
-            </span>
+                About <span>Zammy Zaif</span>
           </h1>
           <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; <span>About Zammy Zaif</span>
         </div>
@@ -167,7 +163,7 @@ const Home = () => {
       </div>
       </div>
     </div>
-    <div className="row mt--50">
+    <div className="row mt--20">
       <div className="col-lg-5 pr--50 pr_md--0 pr_sm--0">
         <div className="sidebar">
           <div>
@@ -448,34 +444,7 @@ const Home = () => {
       <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
           <h3 className="title split-collab" style={{ opacity: 1 }}>
-            {" "}
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
                 Zammy Zaif in his Early Childhood
-              </div>
-            </div>
           </h3>
           <p className="disc">
           He started using a computer at the age of nine and it was then that he aspired to become a computer engineer. Young Zammy reasoned that because a computer is an electronic machine, obtaining a Diploma in Electronics and Communication Engineering would help him reach his goal and he enrolled in a college for the same.
@@ -508,34 +477,7 @@ const Home = () => {
       <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
           <h3 className="title split-collab" style={{ opacity: 1 }}>
-            {" "}
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
                 Overseas Life of Zammy
-              </div>
-            </div>
           </h3>
           <p className="disc">
           In the year 2008, Zammy, a fresher, launched Hopes Infosys to provide hardware and networking services. Later, he started blogging and learned the concepts of web design and SEO. Due to his financial difficulties and family condition, he began to work for other companies in foreign countries. At first, he relocated to Dubai for a company and began his overseas life there. Meanwhile, he learned more about search engine optimization, blogging, content writing, email marketing and internet marketing over time.
@@ -624,34 +566,7 @@ const Home = () => {
       <div className="col-lg-7 col-md-6">
         <div className="portfolio-content-wrapper-list">
           <h3 className="title split-collab" style={{ opacity: 1 }}>
-            {" "}
-            <div
-              style={{
-                position: "relative",
-                display: "inline-block",
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                transform: "translate(0px)",
-                opacity: 1,
-                visibility: "inherit"
-              }}
-            >
-              <div
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  translate: "none",
-                  rotate: "none",
-                  scale: "none",
-                  transform: "translate(0px)",
-                  opacity: 1,
-                  visibility: "inherit"
-                }}
-              >
                 Dream, Struggle, Perseverance
-              </div>
-            </div>
           </h3>
           <p className="disc">
           BAMS stands for "Business Administration and Management Services," respectively.

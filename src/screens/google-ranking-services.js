@@ -165,34 +165,7 @@ const Home = () => {
             <div className="col-lg-7 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Get More Sales Calls
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Our specialized SEO services are carefully designed to propel
@@ -841,34 +814,7 @@ const Home = () => {
                   GBP is Your Key to Attract Local Audience
                 </span>
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Grow Leads with Google Business Profile
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Our team specializes in optimizing your Google Business
@@ -925,34 +871,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Boost Website Visibility - Accelerate Sales
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   The visibility of a website is one of the most important
@@ -996,34 +915,7 @@ const Home = () => {
               <div class="col-lg-8 order-change">
                 <div className="portfolio-content-wrapper-list white-text">
                   <h3 className="title split-collab" style={{ opacity: 1 }}>
-                    {" "}
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
-                      <div
-                        style={{
-                          position: "relative",
-                          display: "inline-block",
-                          translate: "none",
-                          rotate: "none",
-                          scale: "none",
-                          transform: "translate(0px)",
-                          opacity: 1,
-                          visibility: "inherit",
-                        }}
-                      >
                         Dominating Google Search Rankings
-                      </div>
-                    </div>
                   </h3>
                   <p className="disc">
                     Search engine ranking indicates where a website or URL
@@ -1098,34 +990,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Website 1st Rank Search Result
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Benefit from our seasoned SEO experts who are committed to
@@ -1217,34 +1082,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Specialised SEO Ranking Services
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   <b>Local Search:</b>

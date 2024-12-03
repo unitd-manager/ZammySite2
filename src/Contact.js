@@ -51,11 +51,7 @@ const ContactBanner = () => {
             <div className="col-lg-12">
               <div className="banner-inner-area-contact-inner">
                 <h1 className="title skew-up-2 mb--40" style={{ opacity: 1 }}>
-                      Contact
-                  <br />
-                  <span>
-                        Zammy Zaif
-                  </span>
+                      Contact <span>Zammy Zaif</span>
                 </h1>
                 <Link to ="/Home" style={{color:'blue'}}>Home</Link> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; <span>Contact Zammy Zaif</span>
               </div>

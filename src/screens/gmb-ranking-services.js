@@ -121,34 +121,7 @@ const Home = () => {
                   GMB Ranking Services
                 </span>
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Business Profile Rank Optimization
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Google Business Profile - GMB Ranking Optimization is a
@@ -209,34 +182,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-8">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       Dominate your Google Business Profile
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Maximize the impact of your Google Business Profile with our
@@ -522,34 +468,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-6">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       GMB Ranking Optimization Service
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Boost your ranking in local search results with our affordable
@@ -812,34 +731,7 @@ const Home = () => {
             <div className="col-lg-8 col-md-6 pr--50 pr_md--0 pr_sm--0">
               <div className="portfolio-content-wrapper-list">
                 <h3 className="title split-collab" style={{ opacity: 1 }}>
-                  {" "}
-                  <div
-                    style={{
-                      position: "relative",
-                      display: "inline-block",
-                      translate: "none",
-                      rotate: "none",
-                      scale: "none",
-                      transform: "translate(0px)",
-                      opacity: 1,
-                      visibility: "inherit",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        display: "inline-block",
-                        translate: "none",
-                        rotate: "none",
-                        scale: "none",
-                        transform: "translate(0px)",
-                        opacity: 1,
-                        visibility: "inherit",
-                      }}
-                    >
                       GMB Local Citation Building Service
-                    </div>
-                  </div>
                 </h3>
                 <p className="disc">
                   Take advantage of our GMB Local Citation Building Service to
