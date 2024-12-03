@@ -51,6 +51,17 @@ const Home = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   
+  const [activeTab, setActiveTab] = useState("1");
+
+
+  const tabs = [
+    { id: "1", label: "SEO Ranking Expert" },
+    { id: "2", label: "SEO Writing Services" },
+    { id: "3", label: "Website Ranking Service" },
+    { id: "4", label: "Website Auditing" },
+    { id: "5", label: "SEO Ranking Service" },
+    { id: "6", label: "GMB Ranking Service" },
+  ];
 
   const sendMail = () => {
     
@@ -577,110 +588,33 @@ const Home = () => {
      
     </div>
   </div>
-  <section style={{ paddingTop: 50, marginBottom :100 }} className="section">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="starter-template">
-                  {/* Navigation Tabs */}
-                  <ul className="nav nav-tabs" id="seoTab" role="tablist">
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link active"
-                        id="google-map-seo-tab"
-                        data-toggle="tab"
-                        href="#google-map-seo"
-                        role="tab"
-                        aria-controls="google-map-seo"
-                        aria-selected="true"
-                        
-                      >
-                        {/* <i className="fa fa-map"></i>  */}
-                        SEO Ranking Expert
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link"
-                        id="city-based-seo-tab"
-                        data-toggle="tab"
-                        href="#city-based-seo"
-                        role="tab"
-                        aria-controls="city-based-seo"
-                        aria-selected="false"
-                      >
-                        {/* <i className="fa fa-city"></i> */}
-                        SEO Writing Services
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link"
-                        id="state-level-seo-tab"
-                        data-toggle="tab"
-                        href="#state-level-seo"
-                        role="tab"
-                        aria-controls="state-level-seo"
-                        aria-selected="false"
-                      >
-                        {/* <i className="fa fa-map-signs"></i> */}
-                         Website Ranking Service
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link"
-                        id="country-level-seo-tab"
-                        data-toggle="tab"
-                        href="#country-level-seo"
-                        role="tab"
-                        aria-controls="country-level-seo"
-                        aria-selected="false"
-                      >
-                        {/* <i className="fa fa-globe"></i> */}
-                        Website Auditing
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link"
-                        id="global-seo-tab"
-                        data-toggle="tab"
-                        href="#global-seo"
-                        role="tab"
-                        aria-controls="global-seo"
-                        aria-selected="false"
-                      >
-                        {/* <i className="fa fa-universal-access"></i> */}
-                        SEO Ranking Service
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link custom-nav-link"
-                        id="rank-in-gsm-tab"
-                        data-toggle="tab"
-                        href="#rank-in-gsm"
-                        role="tab"
-                        aria-controls="rank-in-gsm"
-                        aria-selected="false"
-                      >
-                        {/* <i className="fa fa-universal-access"></i> */}
-                         GMB Ranking Service
-                      </a>
-                    </li>
-                  </ul>
-
-                  {/* Tab Content */}
-                  <div className="tab-content pt-4" id="seoTabContent">
-                    {/* Google Map SEO Tab */}
-                    <div
-                      className="tab-pane fade show active"
-                      id="google-map-seo"
-                      role="tabpanel"
-                      aria-labelledby="google-map-seo-tab"
+ 
+        <section style={{ paddingTop: 50, marginBottom: 100 }} className="section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="starter-template">
+              {/* Navigation Tabs */}
+              <ul className="nav nav-tabs" role="tablist">
+                {tabs.map((tab) => (
+                  <li key={tab.id} className="nav-item">
+                    <button
+                      className={`nav-link custom-nav-link ${
+                        activeTab === tab.id ? "active" : ""
+                      }`}
+                      onClick={() => setActiveTab(tab.id)}
                     >
-                      <div className="row align-items-center">
+                      {tab.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+
+              {/* Tab Content */}
+              <div className="tab-content pt-4">
+                {activeTab === "1" && (
+                  <div className="tab-pane active">
+                    <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Seo Ranking Expert</h3>
                           <p className="disc">
@@ -712,16 +646,11 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    {/* City Based SEO Tab */}
-                    <div
-                      className="tab-pane fade"
-                      id="city-based-seo"
-                      role="tabpanel"
-                      aria-labelledby="city-based-seo-tab"
-                    >
-                      <div className="row align-items-center">
+                  </div>
+                )}
+                {activeTab === "2" && (
+                  <div className="tab-pane active">
+                    <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Optimized Content Writing</h3>
                           <p className="disc">
@@ -755,16 +684,12 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    {/* State Level SEO Tab */}
-                    <div
-                      className="tab-pane fade"
-                      id="state-level-seo"
-                      role="tabpanel"
-                      aria-labelledby="state-level-seo-tab"
-                    >
-                      <div className="row align-items-center">
+                  </div>
+                )}
+                {/* Additional tab contents */}
+                {activeTab === "3" && (
+                  <div className="tab-pane active ">
+                    <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Rank Your Website #1</h3>
                           <p className="disc">
@@ -785,16 +710,11 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    {/* Country Level SEO Tab */}
-                    <div
-                      className="tab-pane fade"
-                      id="country-level-seo"
-                      role="tabpanel"
-                      aria-labelledby="country-level-seo-tab"
-                    >
-                      <div className="row align-items-center">
+                  </div>
+                )}
+                {activeTab === "4" && (
+                  <div className="tab-pane active">
+                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Website Auditing</h3>
                           <p className="disc">
@@ -818,16 +738,11 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    {/* Global SEO Tab */}
-                    <div
-                      className="tab-pane fade"
-                      id="global-seo"
-                      role="tabpanel"
-                      aria-labelledby="global-seo-tab"
-                    >
-                      <div className="row align-items-center">
+                  </div>
+                )}
+                {activeTab === "5" && (
+                  <div className="tab-pane active">
+                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>SEO Ranking Services</h3>
                           <p className="disc">
@@ -851,14 +766,11 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div
-                      className="tab-pane fade"
-                      id="rank-in-gsm"
-                      role="tabpanel"
-                      aria-labelledby="rank-in-gsm-tab"
-                    >
-                      <div className="row align-items-center">
+                  </div>
+                )}
+                {activeTab === "6" && (
+                  <div className="tab-pane active">
+                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-3">
                           <h3>Get No.1 Rank in GMB</h3>
                           <p className="disc">
@@ -881,13 +793,14 @@ const Home = () => {
                     
                         </div>
                       </div>
-                    </div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
   {/* rts about area end */}
   {/* rts counter up area start */}
   <div className="rts-counterup-area mb--40">
