@@ -950,7 +950,7 @@ const Home = () => {
         </div>
       </div>
       <div className="row g-48 mt--0">
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one">
             <a href="blog-details.html" className="thumbnail">
@@ -970,7 +970,7 @@ const Home = () => {
           </div>
           {/* single blog area end */}
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one">
             <a href="blog-details.html" className="thumbnail">
@@ -990,7 +990,7 @@ const Home = () => {
           </div>
           {/* single blog area end */}
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one">
             <a href="blog-details.html" className="thumbnail">

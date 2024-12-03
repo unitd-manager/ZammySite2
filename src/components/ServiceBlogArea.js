@@ -86,7 +86,7 @@ function ServiceBlogArea({heading,card1Title,card1Img,card2Title,card2Img,card3T
         </div>
       </div>
       <div className="row g-48 justify-content-md-start justify-content-sm-center mt--0">
-        <div className="col-lg-4 col-md-6 col-sm-10">
+        <div className="col-lg-4 col-md-6 col-sm-10 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one eight-area text-center">
             <a href="blog-details.html" className="thumbnail">
@@ -109,7 +109,7 @@ function ServiceBlogArea({heading,card1Title,card1Img,card2Title,card2Img,card3T
           </div>
           {/* single blog area end */}
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-10">
+        <div className="col-lg-4 col-md-6 col-sm-10 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one eight-area">
             <a href="blog-details.html" className="thumbnail">
@@ -132,7 +132,7 @@ function ServiceBlogArea({heading,card1Title,card1Img,card2Title,card2Img,card3T
           </div>
           {/* single blog area end */}
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-10">
+        <div className="col-lg-4 col-md-6 col-sm-10 mt--10">
           {/* single blog area start */}
           <div className="single-blog-area-style-one eight-area">
             <a href="blog-details.html" className="thumbnail">
